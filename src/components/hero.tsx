@@ -6,7 +6,7 @@ export function Hero() {
       <div className="flex">
         <div className="ml-5">
           <div>
-            <img src="src/assets/ipr-logo.png" className="h-12" />
+            <img src="src/assets/ipr-logo-web.png" className="h-12" />
           </div>
         </div>
         <div className="flex pt-3 gap-8 ml-[74vh] text-nowrap">
