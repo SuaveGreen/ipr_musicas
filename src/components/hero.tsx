@@ -1,4 +1,5 @@
 import { Save } from './saveMusic';
+import iprLogo from '../assets/ipr-logo.png';
 
 export function Hero() {
   return (
@@ -6,7 +7,7 @@ export function Hero() {
       <div className="flex">
         <div className="ml-5">
           <div>
-            <img src="src/assets/ipr-logo-web.png" className="h-12" />
+            <img src={iprLogo} className="h-12" title='Logo IPR' />
           </div>
         </div>
         <div className="flex pt-3 gap-8 ml-[74vh] text-nowrap">

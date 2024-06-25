@@ -5,7 +5,7 @@ import { X } from 'lucide-react'
 export function Save() {
   return (
     <Dialog.Root>
-      <Dialog.Trigger className="">
+      <Dialog.Trigger className="hover:scale-105 duration-300">
         <span className=''>
           Musicas
         </span>

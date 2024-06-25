@@ -5,7 +5,14 @@ export default {
     "./src/**/*.tsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        bounceR: {
+          '50%, 100%': { transform: 'translatex(-25%)' },
+          '100%': { transform: 'none' },
+        }
+      },
+    },
   },
   plugins: [],
 }

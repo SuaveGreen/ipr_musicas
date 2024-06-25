@@ -65,7 +65,8 @@ const ListaPaginada: React.FC = () => {
 
             <div className="mt-4 flex justify-center border-t-[1px] pt-5">
                 <ChevronsLeft
-                    className={`mt-[7px] ${
+                    className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
+                            hover:animate-pulse duration-300 ${
                         currentPage - 5 <= 0
                             ? 'invisible '
                             : 'visible'
@@ -73,7 +74,8 @@ const ListaPaginada: React.FC = () => {
                     onClick={() => goToPage(currentPage - 5)}
                 />
                 <ChevronLeft
-                    className={`mt-[7px] ${
+                    className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
+                            hover:animate-pulse duration-300 ${
                         currentPage === + 1
                             ? 'invisible '
                             : 'visible'
@@ -84,7 +86,9 @@ const ListaPaginada: React.FC = () => {
                         <span
                             key={index}
                             onClick={() => goToPage(index + 1)}
-                            className={`mx-1 px-2 py-1 text-lg ${
+                            className={`mx-1 px-2 py-1 text-lg hover:scale-125 
+                                    hover:cursor-pointer 
+                                    duration-300 ${
                                 currentPage === index + 1
                                     ? 'text-blue-600 '
                                     : 'text-gray-200 '
@@ -94,7 +98,8 @@ const ListaPaginada: React.FC = () => {
                         </span>
                 ))}
                 <ChevronRight
-                    className={`mt-[7px] ${
+                    className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
+                            hover:animate-pulse duration-300 ${
                         currentPage === totalPages
                             ? 'invisible '
                             : 'visible'
@@ -102,7 +107,8 @@ const ListaPaginada: React.FC = () => {
                     onClick={() => goToPage(currentPage + 1)}
                 />
                 <ChevronsRight
-                    className={`mt-[7px] ${
+                    className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
+                            hover:animate-pulse duration-300 ${
                         currentPage + 4 >= totalPages
                             ? 'invisible '
                             : 'visible'

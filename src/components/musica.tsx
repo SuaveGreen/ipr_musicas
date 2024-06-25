@@ -40,16 +40,19 @@ export function Musica(props: Musica) {
       <div className='grid grid-cols-3 py-[19px] text-nowrap text-left"'>
         <div className="pl-5">
           <a href={props.linkYoutube} target='_blank'>
-            <Play className='size-4' />
+            <Play className='size-4 hover:scale-125 hover:cursor-pointer 
+              hover:animate-pulse duration-300'/>
           </a>
         </div>
         <div className="pl-[6px]">
           <a href={cifraclub} target='_blank'>
-            <FileMusic className='size-5'/>
+            <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer 
+              hover:animate-pulse duration-300'/>
           </a>
         </div>
         <div className="pl-2">
-          <Save className='size-5' />
+          <Save className='size-5 hover:scale-125 hover:cursor-pointer 
+            hover:animate-pulse duration-300' />
         </div>
       </div>
     </div>
