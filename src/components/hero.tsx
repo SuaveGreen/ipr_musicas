@@ -4,23 +4,23 @@ import iprLogo from '../assets/ipr-logo.png';
 export function Hero() {
 
   return (
-    <div className="flex">
+    <div className="flex w-full">
       <div className="flex">
         <div className="ml-5">
           <div>
             <img src={iprLogo} className="h-12" title='Logo IPR' />
           </div>
         </div>
-        <div className="flex pt-3 gap-8 ml-[118vh] text-nowrap">
+        <div className="flex pt-3 gap-8 ml-[130vh] text-nowrap">
           <div>
               <Save />
           </div>
           {/* <div>
             teste um
           </div> */}
-          <div className="pr-0">
+          {/* <div className="pr-0">
             teste 2
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
