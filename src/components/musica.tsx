@@ -23,7 +23,7 @@ export function Musica(props: Musica) {
   const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`
 
   return(
-    <div className='grid grid-cols-2 gap-52 text-nowrap text-left'>
+    <div className='grid grid-cols-2 mt-3 gap-52 text-nowrap text-left'>
       <div className=" grid grid-cols-3 gap-40 space-x-[-30px]  py-[19px] text-nowrap text-left">
         <div className="pl-10 w-16">
           {props.id}

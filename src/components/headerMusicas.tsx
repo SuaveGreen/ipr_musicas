@@ -10,6 +10,12 @@ export function HeroMusica() {
       <div>
         <p>Cantor</p>
       </div>
+      <div className='ml-[73px]' >
+            <input type="search" name="" id="search-input" className="rounded-lg 
+            outline-none text-white px-3 w-60 bg-transparent border-[1px]"
+            placeholder='Digite o nome da Música' 
+            />
+        </div>
     </div>
   )
 }
