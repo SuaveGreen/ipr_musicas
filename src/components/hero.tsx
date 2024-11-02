@@ -1,4 +1,4 @@
-import { Save } from './saveMusic';
+import { SaveMusic } from './saveMusic';
 import iprLogo from '../assets/ipr-logo.png';
 
 export function Hero() {
@@ -13,7 +13,7 @@ export function Hero() {
         </div>
         <div className="flex pt-3 gap-8 ml-[130vh] text-nowrap">
           <div>
-              <Save />
+              <SaveMusic />
           </div>
           {/* <div>
             teste um

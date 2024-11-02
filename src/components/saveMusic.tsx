@@ -1,14 +1,26 @@
 import * as Dialog from '@radix-ui/react-dialog'
+import { useMusicContext } from "./musicContext";
 
 import { X } from 'lucide-react'
 
-export function Save() {
+export function SaveMusic() {
+
+  const { musicList, removeMusic, clearList } = useMusicContext();
+
+  const shareOnWhatsApp = () => {
+    const message = musicList.map(music => `${music.id} - ${music.musica} - ${music.cantor}`).join("\n");
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <Dialog.Root>
       <Dialog.Trigger className="hover:scale-105 duration-300">
-        <span className=''>
-          Musicas
-        </span>
+        <Dialog.Title>
+          <span className=''>
+            Musicas 
+          </span>
+        </Dialog.Title>
       </Dialog.Trigger>
 
       <Dialog.Portal>
@@ -25,6 +37,19 @@ export function Save() {
                   </span>
               </div>
             </form>
+
+            <ul>
+              {musicList.map(music => (
+                <li key={music.id} className="mb-2 flex justify-between items-center">
+                  {music.musica}
+                  <button onClick={() => removeMusic(music.id)} className="bg-red-500 text-white p-1 ml-2">Remover</button>
+                </li>
+              ))}
+            </ul>
+
+              <button onClick={clearList} className="bg-red-500 text-white p-2 mt-4">Limpar Lista</button>
+              <button onClick={shareOnWhatsApp} className="bg-green-500 text-white p-2"> zap zap </button>
+
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
