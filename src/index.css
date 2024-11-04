@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+[data-aos-out="fade-up"] {
+  opacity: 0;
+  transform: translate3d(0, -20px, 0);
+  transition-property: opacity, transform;
+  transition-duration: 0.3s;
+}
+
+.toast-exit-active {
+  opacity: 0;
+  transform: translate3d(0, -20px, 0);
+  transition: opacity 0.3s, transform 0.3s;
+}

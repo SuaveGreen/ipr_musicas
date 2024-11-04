@@ -1,57 +1,76 @@
-import * as Dialog from '@radix-ui/react-dialog'
+import * as Dialog from '@radix-ui/react-dialog';
 import { useMusicContext } from "./musicContext";
 
-import { X } from 'lucide-react'
+import { X, Trash2, SendHorizontal, ListX } from 'lucide-react'
 
 export function SaveMusic() {
 
   const { musicList, removeMusic, clearList } = useMusicContext();
 
   const shareOnWhatsApp = () => {
-    const message = musicList.map(music => `${music.id} - ${music.musica} - ${music.cantor}`).join("\n");
+    const message = musicList.map(music => `${music.id} . ${music.musica} - ${music.cantor}`).join("\n");
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
   return (
     <Dialog.Root>
-      <Dialog.Trigger className="hover:scale-105 duration-300">
+    <Dialog.Trigger className="hover:scale-105 duration-300">
         <Dialog.Title>
-          <span className=''>
-            Musicas 
-          </span>
+            <span className=''>
+                Musicas 
+            </span>
         </Dialog.Title>
-      </Dialog.Trigger>
+    </Dialog.Trigger>
 
-      <Dialog.Portal>
+    <Dialog.Portal>
         <Dialog.Overlay className='inset-0 fixed bg-black/50' />
-        <Dialog.Content className='fixed overflow-hidden inset-0 md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:max-w-[640px] w-full md:h-[60vh] bg-[#181f2c] md:rounded-md flex flex-col outline-none'>
+        <Dialog.Content className='fixed inset-0 md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 
+          md:-translate-y-1/2 md:max-w-[640px] w-full md:h-[60vh] bg-[#181f2c] md:rounded-md 
+          flex flex-col outline-none'>
             <Dialog.Close className='absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100'>
-              <X className='m-3'/>
-            </Dialog.Close>
+                <X className='m-3'/>
+            </Dialog.Close> 
 
-            <form className='flex-1 flex flex-col'>
-              <div className="flex flex-1 flex-col gap-3 p-5">
-                  <span className='text-lg text-slate-300'>
-                    Músicas salvas
-                  </span>
-              </div>
+            <form className=''>
+                <div className="flex flex-1 flex-col gap-3 p-5">
+                    <span className='text-lg text-slate-300'>
+                        Músicas salvas
+                    </span>
+                </div>
             </form>
 
-            <ul>
-              {musicList.map(music => (
-                <li key={music.id} className="mb-2 flex justify-between items-center">
-                  {music.musica}
-                  <button onClick={() => removeMusic(music.id)} className="bg-red-500 text-white p-1 ml-2">Remover</button>
-                </li>
-              ))}
-            </ul>
-
-              <button onClick={clearList} className="bg-red-500 text-white p-2 mt-4">Limpar Lista</button>
-              <button onClick={shareOnWhatsApp} className="bg-green-500 text-white p-2"> zap zap </button>
-
+            <div className='overflow-y-auto scrollbar scrollbar-thumb-gray-800 h-full justify-between'>
+                {musicList.map(music => (
+                    <div key={music.id} className="px-12 py-5 flex items-center justify-between">
+                        {music.id}. {music.musica}  |  {music.cantor}
+                        <button onClick={() => removeMusic(music.id)} className="text-red-500 p-1 ml-2">
+                            <Trash2/>
+                        </button>
+                    </div>
+                ))}
+            </div>
+            <div className='flex p-5 pb-8 items-center justify-around'>
+                <div>
+                    <button onClick={clearList} 
+                        className="border-[1px] border-red-600 text-red-600 rounded-lg 
+                        w-36 flex items-center justify-center hover:scale-105 hover:text-gray-300
+                        hover:bg-red-600 hover:border-transparent duration-300">
+                        <ListX/>
+                    </button>
+                </div>
+                <div>
+                    <button onClick={shareOnWhatsApp} 
+                        className="border-[1px] border-green-700 text-green-600 
+                        rounded-lg w-36 flex items-center justify-center hover:scale-105 
+                        hover:text-gray-300 hover:bg-green-700 hover:border-transparent duration-300"> 
+                        <SendHorizontal/>
+                    </button>
+                </div>
+            </div>
         </Dialog.Content>
-      </Dialog.Portal>
-    </Dialog.Root>
+    </Dialog.Portal>
+</Dialog.Root>
+
   )
 }

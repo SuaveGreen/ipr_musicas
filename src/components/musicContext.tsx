@@ -9,7 +9,7 @@ interface Music {
 
 interface MusicContextProps {
   musicList: Music[];
-  addMusic: (music: Music) => void;
+  addMusic: (music: Music) => boolean;
   removeMusic: (id: number) => void;
   clearList: () => void;
 }
@@ -19,8 +19,12 @@ const MusicContext = createContext<MusicContextProps | null>(null);
 const MusicProvider = ({ children }: { children: ReactNode }) => {
   const [musicList, setMusicList] = useState<Music[]>([]);
 
-  const addMusic = (music: Music) => {
-    setMusicList([...musicList, music]);
+  const addMusic = (music: Music): boolean => {
+    const exists = musicList.some(m => m.id === music.id);
+    if (!exists) {
+      setMusicList([...musicList, music]);
+    }
+    return exists;
   };
 
   const removeMusic = (id: number) => {

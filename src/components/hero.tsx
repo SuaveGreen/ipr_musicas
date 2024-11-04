@@ -2,25 +2,14 @@ import { SaveMusic } from './saveMusic';
 import iprLogo from '../assets/ipr-logo.png';
 
 export function Hero() {
-
   return (
-    <div className="flex w-full">
-      <div className="flex">
+    <div className="flex flex-wrap w-full items-center">
+      <div className="flex justify-between w-full">
         <div className="ml-5">
-          <div>
-            <img src={iprLogo} className="h-12" title='Logo IPR' />
-          </div>
+          <img src={iprLogo} className="h-12" title='Logo IPR' />
         </div>
-        <div className="flex pt-3 gap-8 ml-[130vh] text-nowrap">
-          <div>
-              <SaveMusic />
-          </div>
-          {/* <div>
-            teste um
-          </div> */}
-          {/* <div className="pr-0">
-            teste 2
-          </div> */}
+        <div className="flex pt-3 gap-8 ml-auto text-nowrap">
+          <SaveMusic />
         </div>
       </div>
     </div>
