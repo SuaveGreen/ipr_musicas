@@ -4,14 +4,12 @@ import { ChevronLeft, ChevronRight, ChevronsRight, ChevronsLeft, Frown, ArrowDow
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@radix-ui/react-dropdown-menu';
 
 interface MusicaItem {
-    id: number;
-    musica: string;
-    cantor: string;
-    linkYoutube: string;
+  id: number;
+  musica: string;
+  cantor: string;
+  linkYoutube: string;
 }
 
-// Adicione sua lista de músicas aqui
-// Exemplo: { id: 1, musica: 'Nome da Música', cantor: 'Nome do Cantor', linkYoutube: 'URL do YouTube' },
 const items: MusicaItem[] = [
     {id: 1, musica: 'Nos Braços do Pai', cantor: 'Diante do Trono', linkYoutube: 'https://www.youtube.com/watch?v=ysm27zozt9k'},
     {id: 2, musica: 'Ao Único', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=ljUhhNeVrCU'},
@@ -74,193 +72,206 @@ const items: MusicaItem[] = [
     { id: 59, musica: 'Raridade', cantor: 'Anderson Freire', linkYoutube: 'https://www.youtube.com/watch?v=5M6jNY4LIu4' },
     { id: 60, musica: 'Não Vou Desistir', cantor: 'Wilian Nascimento', linkYoutube: 'https://www.youtube.com/watch?v=CltjqF1aLmg' },
     { id: 61, musica: 'Te Amarei, Senhor', cantor: 'Padre Zezinho', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 62, musica: 'A Batalha é do Senhor', cantor: 'Toque No Altar', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 63, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 64, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 65, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 66, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 67, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 68, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 69, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 70, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 71, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 72, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 73, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 74, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 75, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 76, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 77, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 78, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 79, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 80, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 81, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 82, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 83, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 84, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 85, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 86, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 87, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 88, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 89, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 90, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 91, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 92, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 93, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
-{ id: 94, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 62, musica: 'A Batalha é do Senhor', cantor: 'Toque No Altar', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 63, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 64, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 65, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 66, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 67, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 68, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 69, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 70, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 71, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 72, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 73, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 74, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 75, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 76, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 77, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 78, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 79, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 80, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 81, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 82, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 83, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 84, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 85, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 86, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 87, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 88, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 89, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 90, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 91, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 92, musica: 'Oração pela Vida', cantor: 'Ana Nóbrega', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 93, musica: 'Deus do Impossível', cantor: 'Régis Danese', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
+    { id: 94, musica: 'Meu Grande Amor', cantor: 'Aline Barros', linkYoutube: 'https://www.youtube.com/watch?v=5nIhttHt0uk' },
 ];
 
 const ITEMS_PER_PAGE = 10;
 
 const ListaPaginada: React.FC = () => {
-    const [currentPage, setCurrentPage] = useState(1);
-    const [searchMusic, setSearchMusic] = useState('');
-    const [sortOrder, setSortOrder] = useState<'id' | 'alphabetical'>('id');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [searchMusic, setSearchMusic] = useState('');
+  const [sortOrder, setSortOrder] = useState<'id' | 'alphabetical'>('id');
 
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-    const endIndex = startIndex + ITEMS_PER_PAGE;
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
 
-    const totalPages = Math.ceil(items.length / ITEMS_PER_PAGE);
+  const totalPages = Math.ceil(items.length / ITEMS_PER_PAGE);
 
-    const goToPage = (page: number) => {
-        setCurrentPage(page);
-    };
+  const goToPage = (page: number) => {
+    setCurrentPage(page);
+  };
 
-    const filteredItems = items.filter((item) => {
-        const lowerSearchTerm = searchMusic.toLowerCase();
-        return (
-        item.musica.toLowerCase().includes(lowerSearchTerm) ||
-        item.cantor.toLowerCase().includes(lowerSearchTerm) ||
-        item.id.toString().includes(lowerSearchTerm)
-        );
-    });
-
-    const sortedItems = [...filteredItems].sort((a, b) => {
-        if (sortOrder === 'id') {
-        return a.id - b.id;
-        } else if (sortOrder === 'alphabetical') {
-        return a.musica.localeCompare(b.musica);
-        }
-        return 0;
-    });
-
-    const foundItem = items.find((item) =>
-        item.musica.toLowerCase() === searchMusic.toLowerCase() ||
-        item.cantor.toLowerCase() === searchMusic.toLowerCase() ||
-        item.id.toString() === searchMusic
-    );
-
-    const currentItems = sortedItems.slice(startIndex, endIndex);
-
+  const removePunctuationAndAccents = (str: string) => {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
+  };
+  
+  const filteredItems = items.filter((item) => {
+    const lowerSearchTerm = removePunctuationAndAccents(searchMusic.toLowerCase());
     return (
-        <div className='pb-20'>
-    <div className="flex flex-wrap justify-around border-b-[1px] space-y-5 pl-5">
-        <div className="w-full sm:w-auto text-center">
-            <p>Número</p>
-        </div>
-        <div className="w-full sm:w-auto text-center pr-4">
-            <p>Música</p>
-        </div>
-        <div className="w-full sm:w-auto text-center">
-            <p>Cantor</p>
-        </div>
-        <div className="w-full sm:w-auto text-center ml-0 sm:ml-[73px]">
-            <input type="search" id="search-input" className="rounded-lg outline-none bg-transparent px-3 w-60 border-[1px]"
-                placeholder='Digite o nome da Música'
-                value={searchMusic}
-                onChange={(e) => setSearchMusic(e.target.value)}
-            />
-        </div>
-        <div className="w-full sm:w-auto text-center">
-            <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                    <button className="flex rounded-lg outline-none bg-transparent px-3 border-[1px] text-center">
-                        Ordenar por <ArrowDownUp className='size-3 mt-1.5 ml-2' />
-                    </button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent sideOffset={5} className="bg-blue-200 rounded-md shadow-lg">
-                    <DropdownMenuItem className='bg-[#181f2c] p-1.5 border-b-[1px]' onSelect={() => setSortOrder('id')}>
-                        <ListOrdered />
-                        Ordenar por Número
-                    </DropdownMenuItem>
-                    <DropdownMenuItem className='bg-[#181f2c] p-1.5' onSelect={() => setSortOrder('alphabetical')}>
-                        <AArrowUp />
-                        Ordenar por Alfabética
-                    </DropdownMenuItem>
-                </DropdownMenuContent>
-            </DropdownMenu>
-        </div>
-    </div>
-
-    {foundItem ? (
-        currentItems.some((item) => item.id === foundItem.id) ? (
-            currentItems.map((item) => (
-                <Musica key={item.id} {...item} />
-            ))
-        ) : (
-            <Musica key={foundItem.id} {...foundItem} />
-        )
-    ) : (
-        sortedItems.length === 0 ? (
-            <div className='text-center py-28 border-b-[1px]'>
-                <p className='text-lg'>A música não existe, ou você digitou errado.</p>
-                <Frown className='ml-[78vh] mt-8' />
-            </div>
-        ) : (
-            currentItems.map((item) => (
-                <Musica key={item.id} {...item} />
-            ))
-        )
-    )}
-
-    {currentItems.length > 0 && (
-        <div className="mt-4 flex justify-center border-t-[1px] pt-5">
-            <ChevronsLeft
-                className={`mt-[7px] hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300 ${
-                    currentPage - 5 <= 0 ? 'invisible' : 'visible'
-                }`}
-                onClick={() => goToPage(currentPage - 5)}
-            />
-            <ChevronLeft
-                className={`mt-[7px] hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300 ${
-                    currentPage === 1 ? 'invisible' : 'visible'
-                }`}
-                onClick={() => goToPage(currentPage - 1)}
-            />
-            {Array.from({ length: totalPages }, (_, index) => {
-                const pageIndex = index + 1;
-                if (pageIndex < currentPage - 2 || pageIndex > currentPage + 2) {
-                    return null;
-                }
-                return (
-                    <span
-                        key={index}
-                        onClick={() => goToPage(pageIndex)}
-                        className={`mx-1 px-2 py-1 text-lg hover:scale-125 hover:cursor-pointer duration-300 ${
-                            currentPage === pageIndex ? 'text-white animate-pulse' : 'text-gray-600'
-                        }`}
-                    >
-                        {pageIndex}
-                    </span>
-                );
-            })}
-            <ChevronRight
-                className={`mt-[7px] hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300 ${
-                    currentPage === totalPages ? 'invisible' : 'visible'
-                }`}
-                onClick={() => goToPage(currentPage + 1)}
-            />
-            <ChevronsRight
-                className={`mt-[7px] hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300 ${
-                    currentPage + 4 >= totalPages ? 'invisible' : 'visible'
-                }`}
-                onClick={() => goToPage(currentPage + 5)}
-            />
-        </div>
-    )}
-</div>
-
+      removePunctuationAndAccents(item.musica.toLowerCase()).includes(lowerSearchTerm) ||
+      removePunctuationAndAccents(item.cantor.toLowerCase()).includes(lowerSearchTerm) ||
+      item.id.toString().includes(lowerSearchTerm)
     );
-    
+  });
+  
+  const foundItem = items.find((item) =>
+    removePunctuationAndAccents(item.musica.toLowerCase()) === removePunctuationAndAccents(searchMusic.toLowerCase()) ||
+    removePunctuationAndAccents(item.cantor.toLowerCase()) === removePunctuationAndAccents(searchMusic.toLowerCase()) ||
+    item.id.toString() === searchMusic
+  );
+  
+  
+  
+const sortedItems = [...filteredItems].sort((a, b) => {
+  if (sortOrder === 'id') {
+    return a.id - b.id;
+  } else if (sortOrder === 'alphabetical') {
+    return a.musica.localeCompare(b.musica);
+  }
+  return 0;
+});
+
+  const currentItems = sortedItems.slice(startIndex, endIndex);
+
+  return (
+    <div className='pb-20'>
+      <div className="flex flex-wrap justify-between border-b-[1px] space-y-5 pl-5">
+        {/* Número, Música e Cantor invisíveis apenas em dispositivos móveis */}
+        <div className="hidden md:block w-full sm:w-auto text-center">
+          <p>Número</p>
+        </div>
+        <div className="hidden md:block w-full sm:w-auto text-center pr-4">
+          <p>Música</p>
+        </div>
+        <div className="hidden md:block w-full sm:w-auto text-center">
+          <p>Cantor</p>
+        </div>
+        <div className="w-full sm:w-auto text-center">
+          <input 
+            type="search" 
+            id="search-input" 
+            className="rounded-lg outline-none bg-transparent px-2 md:px-3 w-40 md:w-60 border-[1px]" 
+            placeholder='Digite o nome da Música'
+            value={searchMusic}
+            onChange={(e) => setSearchMusic(e.target.value)}
+          />
+        </div>
+        <div className="w-full sm:w-auto text-center">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="flex rounded-lg outline-none bg-transparent px-3 border-[1px] text-center md:block">
+                <span className="hidden md:inline">Ordenar por</span> <ArrowDownUp className='size-3 mt-1.5 ml-2' />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent sideOffset={5} className="bg-blue-200 rounded-md shadow-lg">
+              <DropdownMenuItem className='bg-[#181f2c] p-1.5 border-b-[1px]' onSelect={() => setSortOrder('id')}>
+                <ListOrdered />
+                Ordenar por Número
+              </DropdownMenuItem>
+              <DropdownMenuItem className='bg-[#181f2c] p-1.5' onSelect={() => setSortOrder('alphabetical')}>
+                <AArrowUp />
+                Ordenar por Alfabética
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
+      </div>
+
+      {foundItem ? (
+        currentItems.some((item) => item.id === foundItem.id) ? (
+          currentItems.map((item) => (
+            <Musica key={item.id} {...item} />
+          ))
+        ) : (
+          <Musica key={foundItem.id} {...foundItem} />
+        )
+      ) : (
+        sortedItems.length === 0 ? (
+          <div className='text-center py-28 border-b-[1px]'>
+            <p className='text-lg'>A música não existe, ou você digitou errado.</p>
+            <Frown className='ml-[78vh] mt-8' />
+          </div>
+        ) : (
+          currentItems.map((item) => (
+            <Musica key={item.id} {...item} />
+          ))
+        )
+      )}
+
+      {currentItems.length > 0 && (
+        <div className="mt-4 flex justify-center border-t-[1px] pt-5">
+          <ChevronsLeft
+            className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
+                hover:animate-pulse duration-300 ${
+              currentPage - 5 <= 0 ? 'invisible' : 'visible'
+            }`}
+            onClick={() => goToPage(currentPage - 5)}
+          />
+          <ChevronLeft
+            className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
+                hover:animate-pulse duration-300 ${
+              currentPage === 1 ? 'invisible' : 'visible'
+            }`}
+            onClick={() => goToPage(currentPage - 1)}
+          />
+          {Array.from({ length: totalPages }, (_, index) => {
+            const pageIndex = index + 1;
+            if (pageIndex < currentPage - 2 || pageIndex > currentPage + 2) {
+              return null;
+            }
+            return (
+              <span
+                key={index}
+                onClick={() => goToPage(pageIndex)}
+                className={`mx-1 px-2 py-1 text-lg hover:scale-125 hover:cursor-pointer duration-300 ${
+                  currentPage === pageIndex ? 'text-white animate-pulse' : 'text-gray-600'
+                }`}
+              >
+                {pageIndex}
+              </span>
+            );
+          })}
+          <ChevronRight
+            className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
+                hover:animate-pulse duration-300 ${
+              currentPage === totalPages ? 'invisible' : 'visible'
+            }`}
+            onClick={() => goToPage(currentPage + 1)}
+          />
+          <ChevronsRight
+            className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
+                hover:animate-pulse duration-300 ${
+              currentPage + 4 >= totalPages ? 'invisible' : 'visible'
+            }`}
+            onClick={() => goToPage(currentPage + 5)}
+          />
+        </div>
+      )}
+    </div>
+  );
+
 };
 
 export default ListaPaginada;
