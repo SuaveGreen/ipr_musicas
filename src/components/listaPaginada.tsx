@@ -14,23 +14,23 @@ const items: MusicaItem[] = [
 
 {id: 1, musica: 'Tá decidido', cantor: 'Damares', linkYoutube: ' '},
 
-{id: 2, musica: 'Quero tanto agradecer', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 2, musica: 'Quero tanto agradecer', cantor: '', linkYoutube: ' '},
 
 {id: 3, musica: 'Deus do Impossível', cantor: 'Diante do Trono', linkYoutube: ' '},
 
 {id: 4, musica: 'Perdão e graça', cantor: 'Fernandinho', linkYoutube: ' '},
 
-{id: 5, musica: 'Quanto amor', cantor: 'MUSIC NOT FOUND', linkYoutube: ' '},
+{id: 5, musica: 'Quanto amor', cantor: '', linkYoutube: ' '},
 
-{id: 6, musica: 'Oh! Por que duvidar', cantor: 'Voz da Verdade', linkYoutube: ' '},
+{id: 6, musica: 'Oh! Por que duvidar?', cantor: 'Hinário Aleluia', linkYoutube: ' '},
 
-{id: 7, musica: 'Chove, chove, chuva', cantor: 'MUSIC NOT FOUND', linkYoutube: ' '},
+{id: 7, musica: 'Chove, chove, chuva', cantor: '', linkYoutube: ' '},
 
 {id: 8, musica: 'Jesus meu guia é', cantor: 'Novo Tom', linkYoutube: ' '},
 
 {id: 9, musica: 'Descansarei', cantor: 'André Valadão', linkYoutube: ' '},
 
-{id: 10, musica: 'Tenho fome', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 10, musica: 'Tenho fome', cantor: '', linkYoutube: ' '},
 
 {id: 11, musica: 'Eu te quero Senhor', cantor: 'David Quinlan', linkYoutube: ' '},
 
@@ -38,25 +38,25 @@ const items: MusicaItem[] = [
 
 {id: 13, musica: 'Deus enviou', cantor: 'Daniela Araújo', linkYoutube: ' '},
 
-{id: 14, musica: 'Diante de Ti', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 14, musica: 'Diante de Ti', cantor: '', linkYoutube: ' '},
 
 {id: 15, musica: 'Rendição', cantor: 'Livres para Adorar', linkYoutube: ' '},
 
-{id: 16, musica: 'Eu Te louvarei meu bom Jesus', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 16, musica: 'Eu Te louvarei meu bom Jesus', cantor: '', linkYoutube: ' '},
 
-{id: 17, musica: 'Bom estarmos aqui', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 17, musica: 'Bom estarmos aqui', cantor: '', linkYoutube: ' '},
 
 {id: 18, musica: 'Dê-nos mãos limpas', cantor: 'Rosa de Saron', linkYoutube: ' '},
 
-{id: 19, musica: 'Senho Te quero', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 19, musica: 'Senho Te quero', cantor: '', linkYoutube: ' '},
 
 {id: 20, musica: 'Poder para salvar', cantor: 'Hillsong United', linkYoutube: ' '},
 
-{id: 21, musica: 'Lança sobre mim', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 21, musica: 'Lança sobre mim', cantor: '', linkYoutube: ' '},
 
 {id: 22, musica: 'A cura', cantor: 'Cassiane', linkYoutube: ' '},
 
-{id: 23, musica: 'O som da chuva', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 23, musica: 'O som da chuva', cantor: '', linkYoutube: ' '},
 
 {id: 24, musica: 'Vem esta é a hora', cantor: 'Vineyard Music', linkYoutube: ' '},
 
@@ -66,19 +66,19 @@ const items: MusicaItem[] = [
 
 {id: 27, musica: 'Pelo Senhor', cantor: 'Asaph Borba', linkYoutube: ' '},
 
-{id: 28, musica: 'Adoração', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 28, musica: 'Adoração', cantor: '', linkYoutube: ' '},
 
-{id: 29, musica: 'Louve e exalte ao Senhor', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 29, musica: 'Louve e exalte ao Senhor', cantor: '', linkYoutube: ' '},
 
 {id: 30, musica: 'Vento do Espírito', cantor: 'Liz Lanne', linkYoutube: ' '},
 
-{id: 31, musica: 'Deixe-me tocar', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 31, musica: 'Deixe-me tocar', cantor: '', linkYoutube: ' '},
 
 {id: 32, musica: 'Meu coração', cantor: 'Ana Paula Valadão', linkYoutube: ' '},
 
-{id: 33, musica: 'Vem cear', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 33, musica: 'Vem cear', cantor: '', linkYoutube: ' '},
 
-{id: 34, musica: 'Os guerreiros', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 34, musica: 'Os guerreiros', cantor: '', linkYoutube: ' '},
 
 {id: 35, musica: 'Te dou meu coração', cantor: 'Hillsong United', linkYoutube: ' '},
 
@@ -86,11 +86,11 @@ const items: MusicaItem[] = [
 
 {id: 37, musica: 'Te louvarei', cantor: 'Diante do Trono', linkYoutube: ' '},
 
-{id: 38, musica: 'Eu quero descer', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 38, musica: 'Eu quero descer', cantor: '', linkYoutube: ' '},
 
-{id: 39, musica: 'Me leva onde eu possa ouvir Tua voz', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 39, musica: 'Me leva onde eu possa ouvir Tua voz', cantor: '', linkYoutube: ' '},
 
-{id: 40, musica: 'A luz do Teu rosto', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 40, musica: 'A luz do Teu rosto', cantor: '', linkYoutube: ' '},
 
 {id: 41, musica: 'Exaltai', cantor: 'Diante do Trono', linkYoutube: ' '},
 
@@ -98,19 +98,19 @@ const items: MusicaItem[] = [
 
 {id: 43, musica: 'Não morrerei', cantor: 'Fernandinho', linkYoutube: ' '},
 
-{id: 44, musica: 'Te amo ó Deus', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 44, musica: 'Te amo ó Deus', cantor: '', linkYoutube: ' '},
 
 {id: 45, musica: 'Eu navegarei', cantor: 'Aline Barros', linkYoutube: ' '},
 
-{id: 46, musica: 'Terremoto', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 46, musica: 'Terremoto', cantor: '', linkYoutube: ' '},
 
 {id: 47, musica: 'Te amo tanto', cantor: 'Fernanda Brum', linkYoutube: ' '},
 
-{id: 48, musica: 'Ainda que a figueira', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 48, musica: 'Ainda que a figueira', cantor: '', linkYoutube: ' '},
 
 {id: 49, musica: 'Vem espírito de Deus', cantor: 'André Valadão', linkYoutube: ' '},
 
-{id: 50, musica: 'Como é precioso irmão', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
+{id: 50, musica: 'Como é precioso irmão', cantor: '', linkYoutube: ' '},
 
 {id: 51, musica: 'Nasci pra Vencer', cantor: ' ', linkYoutube: ' '},
 
@@ -346,7 +346,7 @@ const items: MusicaItem[] = [
 
 {id: 167, musica: 'Renova-me', cantor: ' Voz da verdade ', linkYoutube: ' '},
 
-{id: 168, musica: 'MUSIC NOT FOUND', cantor: ' ', linkYoutube: ' '},
+{id: 168, musica: 'MÚSICA NOT FOUND', cantor: ' ', linkYoutube: ' '},
 
 {id: 169, musica: 'Ousado amor', cantor: ' ', linkYoutube: ' '},
 
@@ -489,9 +489,12 @@ const ListaPaginada: React.FC = () => {
   };
 
   const removePunctuationAndAccents = (str: string) => {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
+    return str.normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")        // Remove acentos
+              .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "") // Remove pontuações
+              .replace(/\s{2,}/g, " ");               // Substitui espaços múltiplos por um único espaço
   };
-  
+    
   const filteredItems = items.filter((item) => {
     const lowerSearchTerm = removePunctuationAndAccents(searchMusic.toLowerCase());
     return (

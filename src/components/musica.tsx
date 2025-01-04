@@ -25,9 +25,11 @@ export const Musica: React.FC<Musica> = ({ id, musica, cantor, linkYoutube }) =>
   function transformarString(input: string): string {
     const stringSemEspacos = input.replace(/ /g, "-");
     const stringSemAcento = stringSemEspacos.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    const stringMinuscula = stringSemAcento.toLowerCase();
+    const stringSemSimbolos = stringSemAcento.replace(/[?!]/g, ""); // Remove ! e ?
+    const stringMinuscula = stringSemSimbolos.toLowerCase();
     return stringMinuscula;
-}
+  }
+  
 
 const singer = transformarString(`${cantor}`);
 const musicName = transformarString(`${musica}`);
