@@ -11,7 +11,8 @@ interface MusicaItem {
 }
 
 const items: MusicaItem[] = [
-    {id: 1, musica: 'Tá decidido', cantor: 'Damares', linkYoutube: ' '},
+{id: 1, musica: 'Tá decidido', cantor: 'Damares', linkYoutube: ' '},
+
 {id: 2, musica: 'Quero tanto agradecer', cantor: 'CANTOR NOT FOUND', linkYoutube: ' '},
 
 {id: 3, musica: 'Deus do Impossível', cantor: 'Diante do Trono', linkYoutube: ' '},
