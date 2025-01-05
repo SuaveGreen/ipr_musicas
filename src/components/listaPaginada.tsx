@@ -12,87 +12,87 @@ interface MusicaItem {
 
 const items: MusicaItem[] = [
 
-{id: 1, musica: 'Tá decidido', cantor: 'Damares', linkYoutube: ' '},
+{id: 1, musica: 'Tá decidido', cantor: 'Hebrom Ministério Fortaleza de Adoração', linkYoutube: ' https://youtu.be/VekDvBDAPAw '},
 
-{id: 2, musica: 'Quero tanto agradecer', cantor: '', linkYoutube: ' '},
+{id: 2, musica: 'Quero tanto agradecer', cantor: 'Vineyard', linkYoutube: ' https://youtu.be/PyBybbxT5cY '},
 
-{id: 3, musica: 'Deus do Impossível', cantor: 'Diante do Trono', linkYoutube: ' '},
+{id: 3, musica: 'Deus do Impossível', cantor: 'Toque no altar', linkYoutube: ' https://youtu.be/Apot7wbsO1o '},
 
-{id: 4, musica: 'Perdão e graça', cantor: 'Fernandinho', linkYoutube: ' '},
+{id: 4, musica: 'Perdão e graça', cantor: 'Vineyard', linkYoutube: ' https://youtu.be/WbM6V41gcqk '},
 
-{id: 5, musica: 'Quanto amor', cantor: '', linkYoutube: ' '},
+{id: 5, musica: 'Quanto amor', cantor: ' Voz da verdade ', linkYoutube: ' https://youtu.be/2efkucvsAYo '},
 
-{id: 6, musica: 'Oh! Por que duvidar?', cantor: 'Hinário Aleluia', linkYoutube: ' '},
+{id: 6, musica: 'Oh! Por que duvidar?', cantor: 'Hinário Aleluia', linkYoutube: ' https://youtu.be/e1EScpzUqSE '},
 
-{id: 7, musica: 'Chove, chove, chuva', cantor: '', linkYoutube: ' '},
+{id: 7, musica: 'Chuca de poder', cantor: ' Eyshila ', linkYoutube: ' https://youtu.be/cWovy08GhSY '},
 
-{id: 8, musica: 'Jesus meu guia é', cantor: 'Novo Tom', linkYoutube: ' '},
+{id: 8, musica: 'Jesus meu guia é', cantor: 'Raiz Coral', linkYoutube: ' https://youtu.be/LDteyOatCmA '},
 
-{id: 9, musica: 'Descansarei', cantor: 'André Valadão', linkYoutube: ' '},
+{id: 9, musica: 'Descansarei', cantor: 'Etiane Pires', linkYoutube: ' https://youtu.be/DQVf2tQp1Ec '},
 
-{id: 10, musica: 'Tenho fome', cantor: '', linkYoutube: ' '},
+{id: 10, musica: 'Tenho fome', cantor: ' Renascer Praise ', linkYoutube: ' https://youtu.be/r6t2yEPmlpw '},
 
-{id: 11, musica: 'Eu te quero Senhor', cantor: 'David Quinlan', linkYoutube: ' '},
+{id: 11, musica: '* Eu te quero Senhor *', cantor: 'NOT FOUND', linkYoutube: '  '},
 
-{id: 12, musica: 'Fogo de Deus', cantor: 'Mariana Valadão', linkYoutube: ' '},
+{id: 12, musica: 'Fogo de Deus', cantor: 'Adoração e Adoradores', linkYoutube: ' https://youtu.be/2uuni7Qlzdk '},
 
-{id: 13, musica: 'Deus enviou', cantor: 'Daniela Araújo', linkYoutube: ' '},
+{id: 13, musica: 'Deus enviou', cantor: 'Harpa Cristã', linkYoutube: ' https://youtu.be/Mwkb5To-4M0 '},
 
-{id: 14, musica: 'Diante de Ti', cantor: '', linkYoutube: ' '},
+{id: 14, musica: 'Diante de Ti', cantor: ' Quatro por um ', linkYoutube: ' https://youtu.be/DYF1KjjjgGY '},
 
-{id: 15, musica: 'Rendição', cantor: 'Livres para Adorar', linkYoutube: ' '},
+{id: 15, musica: 'Rendição', cantor: 'Ministério Hebrom', linkYoutube: ' https://youtu.be/7vjZC6YwVjs '},
 
-{id: 16, musica: 'Eu Te louvarei meu bom Jesus', cantor: '', linkYoutube: ' '},
+{id: 16, musica: 'Eu Te louvarei, meu bom Jesus', cantor: 'Ronaldo Bezerra', linkYoutube: ' https://youtu.be/dTLOdnCG1dA '},
 
-{id: 17, musica: 'Bom estarmos aqui', cantor: '', linkYoutube: ' '},
+{id: 17, musica: 'Bom estarmos aqui', cantor: ' Renascer Praise', linkYoutube: ' https://youtu.be/ukcvrrzfJFU '},
 
-{id: 18, musica: 'Dê-nos mãos limpas', cantor: 'Rosa de Saron', linkYoutube: ' '},
+{id: 18, musica: 'Dê-nos Mãos Limpas', cantor: 'Filhos do Homem', linkYoutube: ' https://youtu.be/VJpN2zCMYoE '},
 
-{id: 19, musica: 'Senho Te quero', cantor: '', linkYoutube: ' '},
+{id: 19, musica: 'Senho Te quero', cantor: ' David Quinlan ', linkYoutube: ' https://youtu.be/6dhtnEb3_NQ '},
 
-{id: 20, musica: 'Poder para salvar', cantor: 'Hillsong United', linkYoutube: ' '},
+{id: 20, musica: 'Poder para salvar', cantor: 'Aline Barros', linkYoutube: ' https://youtu.be/gDH0tT730UA '},
 
-{id: 21, musica: 'Lança sobre mim', cantor: '', linkYoutube: ' '},
+{id: 21, musica: '* Lança sobre mim *', cantor: 'NOT FOUND', linkYoutube: ' '},
 
-{id: 22, musica: 'A cura', cantor: 'Cassiane', linkYoutube: ' '},
+{id: 22, musica: 'A cura', cantor: 'Cassiane', linkYoutube: ' https://youtu.be/AVDgeemuSXg '},
 
-{id: 23, musica: 'O som da chuva', cantor: '', linkYoutube: ' '},
+{id: 23, musica: 'O som da chuva', cantor: 'Ellas', linkYoutube: ' https://youtu.be/JUH0-Bpjyno '},
 
-{id: 24, musica: 'Vem esta é a hora', cantor: 'Vineyard Music', linkYoutube: ' '},
+{id: 24, musica: 'Vem esta é a hora', cantor: 'Vineyard Music', linkYoutube: ' https://youtu.be/RltQ4USrWoA '},
 
-{id: 25, musica: 'Jesus Te entronizamos', cantor: 'David Quinlan', linkYoutube: ' '},
+{id: 25, musica: 'Jesus Te entronizamos', cantor: 'Arieta Magrini', linkYoutube: ' https://youtu.be/P1pUzWYC4mY '},
 
-{id: 26, musica: 'Grande é o Senhor', cantor: 'Fernandinho', linkYoutube: ' '},
+{id: 26, musica: 'Grande é o Senhor', cantor: 'Adhemar de Campos', linkYoutube: ' https://youtu.be/4_rv9Jmgc78 '},
 
-{id: 27, musica: 'Pelo Senhor', cantor: 'Asaph Borba', linkYoutube: ' '},
+{id: 27, musica: 'O Nosso General É Cristo', cantor: 'Adhemar de Campos', linkYoutube: ' https://youtu.be/dS35Xhf2UeI '},
 
-{id: 28, musica: 'Adoração', cantor: '', linkYoutube: ' '},
+{id: 28, musica: '* Adoração *', cantor: '', linkYoutube: ' '},
 
-{id: 29, musica: 'Louve e exalte ao Senhor', cantor: '', linkYoutube: ' '},
+{id: 29, musica: 'Santo, Santo, Santo', cantor: ' Renascer Praise ', linkYoutube: ' https://youtu.be/ZyXFj5yKOIM '},
 
-{id: 30, musica: 'Vento do Espírito', cantor: 'Liz Lanne', linkYoutube: ' '},
+{id: 30, musica: 'Vento do Espírito', cantor: 'Bruna Karla', linkYoutube: ' https://youtu.be/IY10nQn14KM '},
 
-{id: 31, musica: 'Deixe-me tocar', cantor: '', linkYoutube: ' '},
+{id: 31, musica: 'Deixe-me tocar', cantor: ' Ministério Fonte de Água Viva ', linkYoutube: ' https://youtu.be/skevizq-QlI '},
 
-{id: 32, musica: 'Meu coração', cantor: 'Ana Paula Valadão', linkYoutube: ' '},
+{id: 32, musica: 'Meu coração', cantor: 'Diante do Trono', linkYoutube: ' https://youtu.be/GrJIGJflsEE '},
 
-{id: 33, musica: 'Vem cear', cantor: '', linkYoutube: ' '},
+{id: 33, musica: 'Vem cear', cantor: 'Harpa Cristã', linkYoutube: ' * '},
 
-{id: 34, musica: 'Os guerreiros', cantor: '', linkYoutube: ' '},
+{id: 34, musica: 'Os guerreiros se preparam', cantor: 'Harpa Cristã', linkYoutube: ' * '},
 
-{id: 35, musica: 'Te dou meu coração', cantor: 'Hillsong United', linkYoutube: ' '},
+{id: 35, musica: 'Entrega', cantor: 'Vineyard', linkYoutube: ' https://youtu.be/z1vnYfxqIZ8 '},
 
-{id: 36, musica: 'Em espírito e em verdade', cantor: 'Nívea Soares', linkYoutube: ' '},
+{id: 36, musica: 'Em espírito e em verdade', cantor: 'Harpa Cristã', linkYoutube: ' https://youtu.be/VD37SEtzrT0 '},
 
-{id: 37, musica: 'Te louvarei', cantor: 'Diante do Trono', linkYoutube: ' '},
+{id: 37, musica: 'Te louvarei', cantor: 'Davi Sacer', linkYoutube: ' https://youtu.be/1S0NMgqipV4 '},
 
-{id: 38, musica: 'Eu quero descer', cantor: '', linkYoutube: ' '},
+{id: 38, musica: 'Eu quero descer', cantor: ' Nani Azevedo ', linkYoutube: ' https://youtu.be/3nYj9FfYAWM '},
 
-{id: 39, musica: 'Me leva onde eu possa ouvir Tua voz', cantor: '', linkYoutube: ' '},
+{id: 39, musica: 'Me leva onde eu possa ouvir', cantor: ' Filhos do Homem ', linkYoutube: ' https://youtu.be/n59BehDmJtc '},
 
-{id: 40, musica: 'A luz do Teu rosto', cantor: '', linkYoutube: ' '},
+{id: 40, musica: '* A luz do Teu rosto *', cantor: '', linkYoutube: ' '},
 
-{id: 41, musica: 'Exaltai', cantor: 'Diante do Trono', linkYoutube: ' '},
+{id: 41, musica: '* Exaltai *', cantor: 'Diante do Trono', linkYoutube: ' '},
 
 {id: 42, musica: 'Os sonhos de Deus', cantor: 'Damares', linkYoutube: ' '},
 
@@ -330,7 +330,7 @@ const items: MusicaItem[] = [
 
 {id: 159, musica: 'Lugar secreto', cantor: ' ', linkYoutube: ' '},
 
-{id: 160, musica: 'Oh, qão lindo esse nome é', cantor: ' ', linkYoutube: ' '},
+{id: 160, musica: 'Oh, quão lindo esse nome é', cantor: ' ', linkYoutube: ' '},
 
 {id: 161, musica: 'Adorador por excelência', cantor: ' ', linkYoutube: ' '},
 
@@ -490,8 +490,8 @@ const ListaPaginada: React.FC = () => {
 
   const removePunctuationAndAccents = (str: string) => {
     return str.normalize("NFD")
-              .replace(/[\u0300-\u036f]/g, "")        // Remove acentos
-              .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "") // Remove pontuações
+              // .replace(/[\u0300-\u036f]/g, "")        // Remove acentos
+              .replace(/[.\/#$%\^&\*;:{}=\_`~()]/g, "") // Remove pontuações
               .replace(/\s{2,}/g, " ");               // Substitui espaços múltiplos por um único espaço
   };
     
