@@ -519,8 +519,8 @@ const ListaPaginada: React.FC = () => {
   const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
 
   return (
-    <div className='pb-20'>
-      <div className="flex justify-around border-b-[1px] space-y-5 pl-5">
+    <div className=''>
+      <div className="flex lg:justify-around border-b-[1px] space-y-5">
         {/* Número, Música e Cantor invisíveis apenas em dispositivos móveis */}
         <div className="hidden md:block w-full sm:w-auto pt-[17px]">
           <p>Número</p>
@@ -531,11 +531,11 @@ const ListaPaginada: React.FC = () => {
         <div className="hidden md:block w-full sm:w-auto text-center">
           <p>Cantor</p>
         </div>
-        <div className="w-full sm:w-auto text-center">
+        <div className="w-56 text-center justify-between pr-8">
           <input 
             type="search" 
             id="search-input" 
-            className="rounded-lg outline-none bg-transparent px-2 md:px-3 w-40 md:w-60 border-[1px]" 
+            className="rounded-lg outline-none bg-transparent pl-2 md:px-3 md:w-60 w-full border-[1px]" 
             placeholder='Digite o nome da Música'
             value={searchMusic}
             onChange={(e) => {
@@ -544,10 +544,10 @@ const ListaPaginada: React.FC = () => {
             }}
           />
         </div>
-        <div className="w-full sm:w-auto text-center">
+        <div className="w-auto text-center">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="flex rounded-lg outline-none bg-transparent px-3 border-[1px] text-center  mb-4">
+              <button className="flex rounded-lg outline-none bg-transparent px-2 pr-4 h-[25px] border-[1px] text-center mb-4">
                 <span className="hidden md:inline">Ordenar por</span> <ArrowDownUp className='size-3 mt-1.5 ml-2' />
               </button>
             </DropdownMenuTrigger>
