@@ -520,9 +520,9 @@ const ListaPaginada: React.FC = () => {
 
   return (
     <div className='pb-20'>
-      <div className="flex flex-wrap justify-between border-b-[1px] space-y-5 pl-5">
+      <div className="flex justify-around border-b-[1px] space-y-5 pl-5">
         {/* Número, Música e Cantor invisíveis apenas em dispositivos móveis */}
-        <div className="hidden md:block w-full sm:w-auto text-center">
+        <div className="hidden md:block w-full sm:w-auto pt-[17px]">
           <p>Número</p>
         </div>
         <div className="hidden md:block w-full sm:w-auto text-center pr-4">
@@ -547,7 +547,7 @@ const ListaPaginada: React.FC = () => {
         <div className="w-full sm:w-auto text-center">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="flex rounded-lg outline-none bg-transparent px-3 border-[1px] text-center md:block">
+              <button className="flex rounded-lg outline-none bg-transparent px-3 border-[1px] text-center  mb-4">
                 <span className="hidden md:inline">Ordenar por</span> <ArrowDownUp className='size-3 mt-1.5 ml-2' />
               </button>
             </DropdownMenuTrigger>

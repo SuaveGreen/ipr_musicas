@@ -38,14 +38,14 @@ const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
 
   return (
     <div className='mt-3 text-nowrap text-left'>
-    <div className="grid grid-cols-1 gap-y-5 md:grid-cols-6 md:gap-x-5 lg:gap-x-[20vh] ml-[8.9vh] py-[19px]">
+    <div className="grid grid-cols-1 gap-y-5 md:grid-cols-6 md:gap-x-5 lg:gap-x-[5vh] ml-[8.9vh] py-[19px]">
         <div className="pl-10 w-16">
             {id}
         </div>
         <div>
             {musica}
         </div>
-        <div className="px-5">
+        <div className=" overflow-hidden">
             {cantor}
         </div>
         <div className='grid grid-cols-3 gap-5 md:gap-[20vh]'>
