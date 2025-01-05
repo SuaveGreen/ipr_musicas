@@ -26,8 +26,8 @@ export function SaveMusic() {
     <Dialog.Portal>
         <Dialog.Overlay className='inset-0 fixed bg-black/50' />
         <Dialog.Content className='fixed inset-0 md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 
-          md:-translate-y-1/2 bg-[#181f2c] md:rounded-md flex flex-col outline-none 
-          md:w-full md:h-[60vh] md:max-w-[640px]'>
+                md:-translate-y-1/2 bg-[#181f2c] md:rounded-md flex flex-col outline-none 
+                md:w-full md:h-[60vh] md:max-w-[640px]'>
             <Dialog.Close className='absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100'>
                 <X className='m-3'/>
             </Dialog.Close> 

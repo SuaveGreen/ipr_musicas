@@ -66,7 +66,7 @@ const items: MusicaItem[] = [
 
 {id: 27, musica: 'O Nosso General É Cristo', cantor: 'Adhemar de Campos', linkYoutube: ' https://youtu.be/dS35Xhf2UeI '},
 
-{id: 28, musica: '* Adoração *', cantor: '', linkYoutube: ' '},
+{id: 28, musica: ' Adoração ', cantor: '', linkYoutube: ' '},
 
 {id: 29, musica: 'Santo, Santo, Santo', cantor: ' Renascer Praise ', linkYoutube: ' https://youtu.be/ZyXFj5yKOIM '},
 
@@ -482,46 +482,41 @@ const ListaPaginada: React.FC = () => {
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
 
-  const totalPages = Math.ceil(items.length / ITEMS_PER_PAGE);
-
   const goToPage = (page: number) => {
     setCurrentPage(page);
   };
 
   const removePunctuationAndAccents = (str: string) => {
     return str.normalize("NFD")
-              // .replace(/[\u0300-\u036f]/g, "")        // Remove acentos
-              .replace(/[.\/#$%\^&\*;:{}=\_`~()]/g, "") // Remove pontuações
+              .replace(/[\u0300-\u036f]/g, "")        // Remove acentos
+              .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "") // Remove pontuações
               .replace(/\s{2,}/g, " ");               // Substitui espaços múltiplos por um único espaço
   };
-    
+
   const filteredItems = items.filter((item) => {
     const lowerSearchTerm = removePunctuationAndAccents(searchMusic.toLowerCase());
+    const normalizedMusica = removePunctuationAndAccents(item.musica.toLowerCase());
+    const normalizedCantor = item.cantor ? removePunctuationAndAccents(item.cantor.toLowerCase()) : '';
+    
     return (
-      removePunctuationAndAccents(item.musica.toLowerCase()).includes(lowerSearchTerm) ||
-      removePunctuationAndAccents(item.cantor.toLowerCase()).includes(lowerSearchTerm) ||
+      normalizedMusica.includes(lowerSearchTerm) ||
+      (normalizedCantor && normalizedCantor.includes(lowerSearchTerm)) ||
       item.id.toString().includes(lowerSearchTerm)
     );
   });
-  
-  const foundItem = items.find((item) =>
-    removePunctuationAndAccents(item.musica.toLowerCase()) === removePunctuationAndAccents(searchMusic.toLowerCase()) ||
-    removePunctuationAndAccents(item.cantor.toLowerCase()) === removePunctuationAndAccents(searchMusic.toLowerCase()) ||
-    item.id.toString() === searchMusic
-  );
-  
-  
-  
-const sortedItems = [...filteredItems].sort((a, b) => {
-  if (sortOrder === 'id') {
-    return a.id - b.id;
-  } else if (sortOrder === 'alphabetical') {
-    return a.musica.localeCompare(b.musica);
-  }
-  return 0;
-});
+
+  const sortedItems = [...filteredItems].sort((a, b) => {
+    if (sortOrder === 'id') {
+      return a.id - b.id;
+    } else if (sortOrder === 'alphabetical') {
+      return removePunctuationAndAccents(a.musica).localeCompare(removePunctuationAndAccents(b.musica));
+    }
+    return 0;
+  });
 
   const currentItems = sortedItems.slice(startIndex, endIndex);
+
+  const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
 
   return (
     <div className='pb-20'>
@@ -543,7 +538,10 @@ const sortedItems = [...filteredItems].sort((a, b) => {
             className="rounded-lg outline-none bg-transparent px-2 md:px-3 w-40 md:w-60 border-[1px]" 
             placeholder='Digite o nome da Música'
             value={searchMusic}
-            onChange={(e) => setSearchMusic(e.target.value)}
+            onChange={(e) => {
+              setSearchMusic(e.target.value);
+              setCurrentPage(1); // Resetar para a primeira página ao buscar
+            }}
           />
         </div>
         <div className="w-full sm:w-auto text-center">
@@ -554,11 +552,11 @@ const sortedItems = [...filteredItems].sort((a, b) => {
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent sideOffset={5} className="bg-blue-200 rounded-md shadow-lg">
-              <DropdownMenuItem className='bg-[#181f2c] p-1.5 border-b-[1px]' onSelect={() => setSortOrder('id')}>
+              <DropdownMenuItem className='bg-[#181f2c] p-1.5 border-b-[1px]' onSelect={() => { setSortOrder('id'); setCurrentPage(1);}}>
                 <ListOrdered />
                 Ordenar por Número
               </DropdownMenuItem>
-              <DropdownMenuItem className='bg-[#181f2c] p-1.5' onSelect={() => setSortOrder('alphabetical')}>
+              <DropdownMenuItem className='bg-[#181f2c] p-1.5' onSelect={() => { setSortOrder('alphabetical'); setCurrentPage(1);}}>
                 <AArrowUp />
                 Ordenar por Alfabética
               </DropdownMenuItem>
@@ -567,25 +565,15 @@ const sortedItems = [...filteredItems].sort((a, b) => {
         </div>
       </div>
 
-      {foundItem ? (
-        currentItems.some((item) => item.id === foundItem.id) ? (
-          currentItems.map((item) => (
-            <Musica key={item.id} {...item} />
-          ))
-        ) : (
-          <Musica key={foundItem.id} {...foundItem} />
-        )
+      {currentItems.length === 0 ? (
+        <div className='text-center py-28 border-b-[1px]'>
+          <p className='text-lg'>A música não existe, ou você digitou errado.</p>
+          <Frown className='ml-[78vh] mt-8' />
+        </div>
       ) : (
-        sortedItems.length === 0 ? (
-          <div className='text-center py-28 border-b-[1px]'>
-            <p className='text-lg'>A música não existe, ou você digitou errado.</p>
-            <Frown className='ml-[78vh] mt-8' />
-          </div>
-        ) : (
-          currentItems.map((item) => (
-            <Musica key={item.id} {...item} />
-          ))
-        )
+        currentItems.map((item) => (
+          <Musica key={item.id} {...item} />
+        ))
       )}
 
       {currentItems.length > 0 && (
@@ -643,3 +631,4 @@ const sortedItems = [...filteredItems].sort((a, b) => {
 };
 
 export default ListaPaginada;
+
