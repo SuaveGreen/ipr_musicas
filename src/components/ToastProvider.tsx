@@ -38,7 +38,7 @@ const ToastProvider = ({ children }: { children: ReactNode }) => {
     <RadixToastProvider swipeDirection="right">
         {toast && (
             <Toast 
-                className="fixed bottom-5 right-5 bg-[#202a3b] p-4 rounded-lg shadow-lg z-50 max-w-xs md:max-w-md">
+                className="fixed bottom-5 right-5 bg-[#202a3b] p-4 rounded-lg shadow-lg z-50 max-w-xs tablet:max-w-md">
                 <ToastTitle className="font-bold text-lg text-white truncate">{toast.title}</ToastTitle>
                 <ToastDescription className="text-sm text-white truncate">{toast.description}</ToastDescription>
             </Toast>

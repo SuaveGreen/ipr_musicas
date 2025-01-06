@@ -25,9 +25,9 @@ export function SaveMusic() {
 
     <Dialog.Portal>
         <Dialog.Overlay className='inset-0 fixed bg-black/50' />
-        <Dialog.Content className='fixed inset-0 md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 
-                md:-translate-y-1/2 bg-[#181f2c] md:rounded-md flex flex-col outline-none 
-                md:w-full md:h-[60vh] md:max-w-[640px]'>
+        <Dialog.Content className='fixed inset-0 tablet:inset-auto tablet:left-1/2 tablet:top-1/2 tablet:-translate-x-1/2 
+                tablet:-translate-y-1/2 bg-[#181f2c] tablet:rounded-md flex flex-col outline-none 
+                tablet:w-full tablet:h-[60vh] tablet:max-w-[640px]'>
             <Dialog.Close className='absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100'>
                 <X className='m-3'/>
             </Dialog.Close> 
@@ -56,7 +56,7 @@ export function SaveMusic() {
                         className="border-[1px] border-red-600 text-red-600 rounded-lg 
                         flex items-center justify-center hover:scale-105 hover:text-gray-300
                         hover:bg-red-600 hover:border-transparent duration-300
-                        w-28 h-10 md:w-36 md:h-12">
+                        w-28 h-10 tablet:w-36 tablet:h-12">
                         <ListX/>
                     </button>
                 </div>
@@ -65,7 +65,7 @@ export function SaveMusic() {
                         className="border-[1px] border-green-700 text-green-600 
                         rounded-lg flex items-center justify-center hover:scale-105 
                         hover:text-gray-300 hover:bg-green-700 hover:border-transparent duration-300
-                        w-28 h-10 md:w-36 md:h-12"> 
+                        w-28 h-10 tablet:w-36 tablet:h-12"> 
                         <SendHorizontal/>
                     </button>
                 </div>

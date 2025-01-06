@@ -520,22 +520,22 @@ const ListaPaginada: React.FC = () => {
 
   return (
     <div className=''>
-      <div className="flex lg:justify-around border-b-[1px] space-y-5">
+      <div className="flex tablet:justify-around border-b-[1px] space-y-5 monitor:ml-[-5vh]">
         {/* Número, Música e Cantor invisíveis apenas em dispositivos móveis */}
-        <div className="hidden md:block w-full sm:w-auto pt-[17px]">
+        <div className="hidden tablet:block w-full celular:w-auto pt-[17px]">
           <p>Número</p>
         </div>
-        <div className="hidden md:block w-full sm:w-auto text-center pr-4">
+        <div className="hidden tablet:block w-full celular:w-auto text-center pr-4">
           <p>Música</p>
         </div>
-        <div className="hidden md:block w-full sm:w-auto text-center">
+        <div className="hidden tablet:block w-full celular:w-auto text-center">
           <p>Cantor</p>
         </div>
         <div className="w-56 text-center justify-between pr-8">
           <input 
             type="search" 
             id="search-input" 
-            className="rounded-lg outline-none bg-transparent pl-2 md:px-3 md:w-60 w-full border-[1px]" 
+            className="rounded-lg outline-none bg-transparent pl-2 tablet:px-3 tablet:w-60 w-full border-[1px]" 
             placeholder='Digite o nome da Música'
             value={searchMusic}
             onChange={(e) => {
@@ -544,19 +544,19 @@ const ListaPaginada: React.FC = () => {
             }}
           />
         </div>
-        <div className="w-auto text-center">
+        <div className="w-auto text-center ">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="flex rounded-lg outline-none bg-transparent px-2 pr-4 h-[25px] border-[1px] text-center mb-4">
-                <span className="hidden md:inline">Ordenar por</span> <ArrowDownUp className='size-3 mt-1.5 ml-2' />
+                <span className="hidden tablet:inline">Ordenar por</span> <ArrowDownUp className='size-3 mt-1.5 ml-2' />
               </button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent sideOffset={5} className="bg-blue-200 rounded-md shadow-lg">
-              <DropdownMenuItem className='bg-[#181f2c] p-1.5 border-b-[1px]' onSelect={() => { setSortOrder('id'); setCurrentPage(1);}}>
+            <DropdownMenuContent sideOffset={5} className=" shadow-lg">
+              <DropdownMenuItem className='bg-[#181f2c] p-1.5 border-b-[1px] rounded-t-md hover:cursor-pointer' onSelect={() => { setSortOrder('id'); setCurrentPage(1);}}>
                 <ListOrdered />
                 Ordenar por Número
               </DropdownMenuItem>
-              <DropdownMenuItem className='bg-[#181f2c] p-1.5' onSelect={() => { setSortOrder('alphabetical'); setCurrentPage(1);}}>
+              <DropdownMenuItem className='bg-[#181f2c] p-1.5 rounded-b-md hover:cursor-pointer' onSelect={() => { setSortOrder('alphabetical'); setCurrentPage(1);}}>
                 <AArrowUp />
                 Ordenar por Alfabética
               </DropdownMenuItem>
@@ -577,7 +577,7 @@ const ListaPaginada: React.FC = () => {
       )}
 
       {currentItems.length > 0 && (
-        <div className="mt-4 flex justify-center border-t-[1px] pt-5">
+        <div className="mt-4 flex justify-center border-t-[1px] py-5">
           <ChevronsLeft
             className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
                 hover:animate-pulse duration-300 ${
