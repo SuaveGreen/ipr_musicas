@@ -3,7 +3,7 @@ import iprLogo from '../assets/ipr-logo.png';
 
 export function Hero() {
   return (
-    <div className="flex w-[99%] items-center">
+    <div className="flex w-[99%] items-center md:w-[98%]">
       <div className="flex justify-between w-full">
         <div className="ml-5">
           <img src={iprLogo} className="h-12" title='Logo IPR' />

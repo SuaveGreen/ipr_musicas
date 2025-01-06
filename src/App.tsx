@@ -9,7 +9,7 @@ export function App() {
     <MusicProvider>
       <ToastProvider>
         <main className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-48 pt-8 md:pt-12 
-            lg:pt-16 space-y-8 md:space-y-10 h-full">
+            lg:pt-16 space-y-8 md:space-y-10 max-h-full">
           <Hero />
           <div className="border-neutral-400 h-auto md:h-[50.4vw] p-4">
             <ListaPaginada />

@@ -38,7 +38,7 @@ const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
 
   return (
     <div className='mt-3 text-nowrap text-left '>
-    <div className="grid grid-cols-1 gap-y-5 md:grid-cols-6 md:gap-x-5 lg:gap-x-[5vh] lg:ml-[8.9vh] py-[19px] ">
+    <div className="grid grid-cols-1 gap-y-5 md:grid-cols-6  lg:gap-x-[5vh]  lg:w-[100%] lg:ml-4 py-[19px] ">
         <div className="hidden md:block pl-10 w-16">
             {id}
         </div>
@@ -56,16 +56,28 @@ const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
         <div className=" ml-6 overflow-hidden">
             {cantor}
         </div>
-        <div className='grid grid-cols-3 gap-5 md:gap-[20vh]'>
+        <div className='grid grid-cols-3  lg:gap-[10vh]'>
             <div className="pl-5 mt-1">
-                <a href={linkYoutube} target='_blank' rel="noopener noreferrer">
+              { linkYoutube ? (
+                <a href={linkYoutube} target="_blank" rel="noopener noreferrer">
                     <Play className='size-4 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300'/>
                 </a>
+              ) : (
+                <a href={linkYoutube} target="_blank" >
+                  <Play className='hidden'/>
+                </a>
+              )}
             </div>
             <div className="pl-[6px]">
-                <a href={cifraclub} target='_blank' rel="noopener noreferrer">
-                    <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300'/>
-                </a>
+              { cantor ? (
+                  <a href={cifraclub} target="_blank" rel="noopener noreferrer">
+                      <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300'/>
+                  </a>
+                ) : (
+                  <a href={cifraclub} target="_blank" >
+                    <FileMusic className='hidden'/>
+                  </a>
+                )}
             </div>
             <div className="pl-2">
                 <button onClick={handleSaveMusic}>
