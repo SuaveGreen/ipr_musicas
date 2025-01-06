@@ -22,7 +22,7 @@ const ToastProvider = ({ children }: { children: ReactNode }) => {
 
     timerRef.current = window.setTimeout(() => {
       setToast(null);
-    }, 3000);
+    }, 1500);
   };
 
   useEffect(() => {
@@ -35,19 +35,18 @@ const ToastProvider = ({ children }: { children: ReactNode }) => {
 
   return (
     <ToastContext.Provider value={{ showToast }}>
-    <RadixToastProvider swipeDirection="right">
-        {toast && (
-            <Toast 
-                className="fixed bottom-5 right-5 bg-[#202a3b] p-4 rounded-lg shadow-lg z-50 max-w-xs tablet:max-w-md">
-                <ToastTitle className="font-bold text-lg text-white truncate">{toast.title}</ToastTitle>
-                <ToastDescription className="text-sm text-white truncate">{toast.description}</ToastDescription>
-            </Toast>
-        )}
-        <ToastViewport />
-    </RadixToastProvider>
-    {children}
-</ToastContext.Provider>
-
+      <RadixToastProvider swipeDirection="right">
+          {toast && (
+              <Toast 
+                  className="fixed tablet:bottom-5 tablet:right-5 ml-5 mt-5 bg-[#202a3b] p-4 rounded-lg shadow-lg z-50 tablet:max-w-md">
+                  <ToastTitle className="font-bold text-lg text-white truncate">{toast.title}</ToastTitle>
+                  <ToastDescription className="text-sm text-white truncate">{toast.description}</ToastDescription>
+              </Toast>
+          )}
+          <ToastViewport />
+      </RadixToastProvider>
+      {children}
+    </ToastContext.Provider>
   );
 };
 

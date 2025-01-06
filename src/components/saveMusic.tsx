@@ -27,7 +27,7 @@ export function SaveMusic() {
         <Dialog.Overlay className='inset-0 fixed bg-black/50' />
         <Dialog.Content className='fixed inset-0 tablet:inset-auto tablet:left-1/2 tablet:top-1/2 tablet:-translate-x-1/2 
                 tablet:-translate-y-1/2 bg-[#181f2c] tablet:rounded-md flex flex-col outline-none 
-                tablet:w-full tablet:h-[60vh] tablet:max-w-[640px]'>
+                tablet:w-full tablet:h-[80vh] tablet:max-w-[640px]'>
             <Dialog.Close className='absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100'>
                 <X className='m-3'/>
             </Dialog.Close> 
@@ -52,27 +52,55 @@ export function SaveMusic() {
             </div>
             <div className='flex p-5 pb-8 items-center justify-around'>
                 <div>
-                    <button onClick={clearList} 
-                        className="border-[1px] border-red-600 text-red-600 rounded-lg 
-                        flex items-center justify-center hover:scale-105 hover:text-gray-300
-                        hover:bg-red-600 hover:border-transparent duration-300
-                        w-28 h-10 tablet:w-36 tablet:h-12">
-                        <ListX/>
-                    </button>
+
+
+
+                { musicList.length === 0 ? (
+                        <button
+                            className="border-[1px] border-gray-700 text-gray-600 
+                            rounded-lg flex items-center justify-center hover:cursor-default
+                            w-28 h-10 tablet:w-36 tablet:h-12 duration-300"
+                        > 
+                            <ListX/>
+                        </button>
+                    ) : (
+                        <button onClick={clearList} 
+                            className="border-[1px] border-red-600 text-red-600 rounded-lg 
+                            flex items-center justify-center hover:scale-105 hover:text-gray-300
+                            hover:bg-red-600 hover:border-transparent duration-300
+                            w-28 h-10 tablet:w-36 tablet:h-12"
+                        >
+                            <ListX/>
+                        </button>
+                    )}
+
+
+
                 </div>
                 <div>
-                    <button onClick={shareOnWhatsApp} 
-                        className="border-[1px] border-green-700 text-green-600 
-                        rounded-lg flex items-center justify-center hover:scale-105 
-                        hover:text-gray-300 hover:bg-green-700 hover:border-transparent duration-300
-                        w-28 h-10 tablet:w-36 tablet:h-12"> 
-                        <SendHorizontal/>
-                    </button>
+                    { musicList.length === 0 ? (
+                        <button
+                            className="border-[1px] border-gray-700 text-gray-600 
+                            rounded-lg flex items-center justify-center hover:cursor-default
+                            w-28 h-10 tablet:w-36 tablet:h-12 duration-300"
+                        > 
+                            <SendHorizontal/>
+                        </button>
+                    ) : (
+                        <button 
+                            onClick={shareOnWhatsApp} 
+                            className="border-[1px] border-green-700 text-green-600 
+                            rounded-lg flex items-center justify-center hover:scale-105 
+                            hover:text-gray-300 hover:bg-green-700 hover:border-transparent duration-300
+                            w-28 h-10 tablet:w-36 tablet:h-12"
+                        > 
+                            <SendHorizontal/>
+                        </button>
+                    )}
                 </div>
             </div>
         </Dialog.Content>
     </Dialog.Portal>
 </Dialog.Root>
 
-  )
-}
+)}

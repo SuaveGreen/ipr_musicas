@@ -568,7 +568,7 @@ const ListaPaginada: React.FC = () => {
       {currentItems.length === 0 ? (
         <div className='text-center py-28 border-b-[1px]'>
           <p className='text-lg'>A música não existe, ou você digitou errado.</p>
-          <Frown className='ml-[78vh] mt-8' />
+          <Frown className='w-full mt-8' />
         </div>
       ) : (
         currentItems.map((item) => (

@@ -57,14 +57,14 @@ const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
             {cantor}
         </div>
         <div className='grid grid-cols-3 tablet:ml-[3vh] tablet:gap-[8vh] notebook:ml-[15vh] notebook:gap-[20vh]'>
-            <div className="">
+            <div className="mt-[2px] w-4 h-4">
                 <button onClick={handleSaveMusic}>
                     <Save className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
                 </button>
             </div>
-            <div className="mt-1">
+            <div className="mt-1 w-4 h-4">
               { linkYoutube ? (
-                <a href={linkYoutube} target="_blank" rel="noopener noreferrer">
+                <a href={linkYoutube} target="_blank" rel="noopener noreferrer" className=''>
                     <Play className='size-4 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300'/>
                 </a>
               ) : (
@@ -73,7 +73,7 @@ const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
                 </a>
               )}
             </div>
-            <div className="">
+            <div className="w-4 h-4">
               { cantor ? (
                   <a href={cifraclub} target="_blank" rel="noopener noreferrer">
                       <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300'/>
