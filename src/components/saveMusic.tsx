@@ -31,7 +31,6 @@ export function SaveMusic() {
             <Dialog.Close className='absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100'>
                 <X className='m-3'/>
             </Dialog.Close> 
-
             <form className=''>
                 <div className="flex flex-1 flex-col gap-3 p-5">
                     <span className='text-lg text-slate-300'>
@@ -39,7 +38,6 @@ export function SaveMusic() {
                     </span>
                 </div>
             </form>
-
             <div className='overflow-y-auto scrollbar scrollbar-thumb-gray-800 h-full justify-between'>
                 {musicList.map(music => (
                     <div key={music.id} className="px-12 py-5 flex items-center justify-between">
@@ -52,9 +50,6 @@ export function SaveMusic() {
             </div>
             <div className='flex p-5 pb-8 items-center justify-around'>
                 <div>
-
-
-
                 { musicList.length === 0 ? (
                         <button
                             className="border-[1px] border-gray-700 text-gray-600 
@@ -73,9 +68,6 @@ export function SaveMusic() {
                             <ListX/>
                         </button>
                     )}
-
-
-
                 </div>
                 <div>
                     { musicList.length === 0 ? (

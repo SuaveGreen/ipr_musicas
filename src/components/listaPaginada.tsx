@@ -520,9 +520,9 @@ const ListaPaginada: React.FC = () => {
 
   return (
     <div className=''>
-      <div className="flex tablet:justify-around border-b-[1px] space-y-5 monitor:ml-[-5vh]">
+      <div className="flex tablet:justify-around border-b-[1px] space-y-10 monitor:ml-[-5vh]">
         {/* Número, Música e Cantor invisíveis apenas em dispositivos móveis */}
-        <div className="hidden tablet:block w-full celular:w-auto pt-[17px]">
+        <div className="hidden tablet:block w-full celular:w-auto pt-[34px]">
           <p>Número</p>
         </div>
         <div className="hidden tablet:block w-full celular:w-auto text-center pr-4">
@@ -577,7 +577,7 @@ const ListaPaginada: React.FC = () => {
       )}
 
       {currentItems.length > 0 && (
-        <div className="mt-4 flex justify-center border-t-[1px] py-5">
+        <div className="mt-4 flex justify-center border-t-[1px] pt-5">
           <ChevronsLeft
             className={`mt-[7px] hover:scale-125 hover:cursor-pointer 
                 hover:animate-pulse duration-300 ${
