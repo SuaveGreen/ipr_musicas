@@ -344,9 +344,9 @@ const items: MusicaItem[] = [
 
 {id: 166, musica: 'Deus é Deus', cantor: '', linkYoutube: ''},
 
-{id: 167, musica: 'Renova-me', cantor: ' Voz da verdade ', linkYoutube: ''},
+{id: 167, musica: 'Renova-me', cantor: 'Voz da verdade', linkYoutube: ''},
 
-{id: 168, musica: 'MÚSICA ', cantor: '', linkYoutube: ''},
+{id: 168, musica: 'MÚSICA', cantor: '', linkYoutube: ''},
 
 {id: 169, musica: 'Ousado amor', cantor: '', linkYoutube: ''},
 
@@ -380,7 +380,7 @@ const items: MusicaItem[] = [
 
 {id: 184, musica: 'Tua alegria é a minha', cantor: '', linkYoutube: ''},
 
-{id: 185, musica: 'Tua presença', cantor: ' Paulo Nato ', linkYoutube: ''},
+{id: 185, musica: 'Tua presença', cantor: 'Paulo Nato', linkYoutube: ''},
 
 {id: 186, musica: 'Noites traiçoeiras', cantor: '', linkYoutube: ''},
 
@@ -406,7 +406,7 @@ const items: MusicaItem[] = [
 
 {id: 197, musica: 'Espero por ti', cantor: '', linkYoutube: ''},
 
-{id: 198, musica: 'Só tu és Santo / Uma coisa / deixa queimar', cantor: ' pot pourri ', linkYoutube: ''},
+{id: 198, musica: 'Só tu és Santo / Uma coisa / deixa queimar', cantor: 'pot pourri', linkYoutube: ''},
 
 {id: 199, musica: 'Estamos de pé', cantor: '', linkYoutube: ''},
 
@@ -444,9 +444,9 @@ const items: MusicaItem[] = [
 
 {id: 216, musica: 'Bondade de Deus', cantor: '', linkYoutube: ''},
 
-{id: 217, musica: 'Avivamento', cantor: ' Adoração central ', linkYoutube: ''},
+{id: 217, musica: 'Avivamento', cantor: 'Adoração central', linkYoutube: ''},
 
-{id: 218, musica: 'In memorian', cantor: ' Gabriel ', linkYoutube: ''},
+{id: 218, musica: 'In memorian', cantor: 'Gabriel', linkYoutube: ''},
 
 {id: 219, musica: 'Deus do avivamento', cantor: '', linkYoutube: ''},
 
@@ -462,7 +462,7 @@ const items: MusicaItem[] = [
 
 {id: 225, musica: 'O espirito de Deus está aqui', cantor: '', linkYoutube: ''},
 
-{id: 226, musica: 'Te agradeço', cantor: ' André Valadão ', linkYoutube: ''},
+{id: 226, musica: 'Te agradeço', cantor: 'André Valadão', linkYoutube: ''},
 
 {id: 227, musica: 'Tu és / Águas purificadoras', cantor: '', linkYoutube: ''},
 
@@ -522,13 +522,13 @@ const ListaPaginada: React.FC = () => {
     <div className=''>
       <div className="flex tablet:justify-around border-b-[1px] space-y-10 monitor:ml-[-5vh]">
         {/* Número, Música e Cantor invisíveis apenas em dispositivos móveis */}
-        <div className="hidden tablet:block w-full celular:w-auto pt-[34px]">
+        <div className="hidden tablet:block w-full celular:w-auto pt-[34px] hover:cursor-default">
           <p>Número</p>
         </div>
-        <div className="hidden tablet:block w-full celular:w-auto text-center pr-4">
+        <div className="hidden tablet:block w-full celular:w-auto text-center pr-4 hover:cursor-default">
           <p>Música</p>
         </div>
-        <div className="hidden tablet:block w-full celular:w-auto text-center">
+        <div className="hidden tablet:block w-full celular:w-auto text-center hover:cursor-default">
           <p>Cantor</p>
         </div>
         <div className="w-56 text-center justify-between pr-8">

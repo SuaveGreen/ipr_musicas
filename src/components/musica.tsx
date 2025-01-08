@@ -40,10 +40,10 @@ const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
   return (
     <div className='mt-3 text-nowrap text-left '>
       <div className="grid grid-cols-1 gap-5 tablet:grid-cols-6 tabletx:w-[100%] tabletx:ml-4 py-[19px] tabletx:py-8 monitor:ml-[6vh]">
-        <div className="hidden tablet:block pl-10 w-16">
+        <div className="hidden tablet:block pl-10 w-16 hover:cursor-default">
             {id}
         </div>
-        <div className='hidden tablet:block overflow-hidden'>
+        <div className='hidden tablet:block overflow-hidden hover:cursor-default'>
             {musica}
         </div>
         <div className='flex space-x-5 tablet:hidden overflow-hidden'>
@@ -54,7 +54,7 @@ const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
               {musica}
             </div>
         </div>
-        <div className=" overflow-hidden">
+        <div className="overflow-hidden hover:cursor-default">
             {cantor}
         </div>
         <div className='grid grid-cols-3 tablet:ml-[3vh] tablet:gap-[8vh] notebook:ml-[15vh] notebook:gap-[20vh]'>
