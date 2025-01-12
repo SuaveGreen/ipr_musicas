@@ -286,193 +286,191 @@ const items: MusicaItem[] = [
 
 {id: 137, musica: 'Te Agradeço', cantor: 'Kleber Lucas', linkYoutube: ''},
 
-// Erro da ordem músical ↓
+{id: 138, musica: 'O mar se abrirá', cantor: '', linkYoutube: ''},
 
-{id: 137, musica: 'O mar se abrirá', cantor: '', linkYoutube: ''},
+{id: 139, musica: 'Pra sempre', cantor: '', linkYoutube: ''},
 
-{id: 138, musica: 'Pra sempre', cantor: '', linkYoutube: ''},
+{id: 140, musica: 'Eu creio que', cantor: '', linkYoutube: ''},
 
-{id: 139, musica: 'Eu creio que', cantor: '', linkYoutube: ''},
+{id: 141, musica: 'Maranata', cantor: '', linkYoutube: ''},
 
-{id: 140, musica: 'Maranata', cantor: '', linkYoutube: ''},
+{id: 142, musica: 'Canção do apocalipse', cantor: '', linkYoutube: ''},
 
-{id: 141, musica: 'Canção do apocalipse', cantor: '', linkYoutube: ''},
+{id: 143, musica: 'Do meu interior', cantor: '', linkYoutube: ''},
 
-{id: 142, musica: 'Do meu interior', cantor: '', linkYoutube: ''},
+{id: 144, musica: 'Só em Jesus', cantor: '', linkYoutube: ''},
 
-{id: 143, musica: 'Só em Jesus', cantor: '', linkYoutube: ''},
+{id: 145, musica: 'Digno é o Senhor', cantor: '', linkYoutube: ''},
 
-{id: 144, musica: 'Digno é o Senhor', cantor: '', linkYoutube: ''},
+{id: 146, musica: 'Atos 2', cantor: '', linkYoutube: ''},
 
-{id: 145, musica: 'Atos 2', cantor: '', linkYoutube: ''},
+{id: 147, musica: 'Os sonhos de Deus', cantor: '', linkYoutube: ''},
 
-{id: 146, musica: 'Os sonhos de Deus', cantor: '', linkYoutube: ''},
+{id: 148, musica: 'Lindo és', cantor: '', linkYoutube: ''},
 
-{id: 147, musica: 'Lindo és', cantor: '', linkYoutube: ''},
+{id: 149, musica: 'Santo Espírito', cantor: '', linkYoutube: ''},
 
-{id: 148, musica: 'Santo Espírito', cantor: '', linkYoutube: ''},
+{id: 150, musica: 'Redenção', cantor: '', linkYoutube: ''},
 
-{id: 149, musica: 'Redenção', cantor: '', linkYoutube: ''},
+{id: 151, musica: 'Aquieta minh`alma', cantor: '', linkYoutube: ''},
 
-{id: 150, musica: 'Aquieta minh`alma', cantor: '', linkYoutube: ''},
+{id: 152, musica: 'Galileu', cantor: '', linkYoutube: ''},
 
-{id: 151, musica: 'Galileu', cantor: '', linkYoutube: ''},
+{id: 153, musica: 'Plano perfeito', cantor: '', linkYoutube: ''},
 
-{id: 152, musica: 'Plano perfeito', cantor: '', linkYoutube: ''},
+{id: 154, musica: '1000 Graus', cantor: '', linkYoutube: ''},
 
-{id: 153, musica: '1000 Graus', cantor: '', linkYoutube: ''},
+{id: 155, musica: 'Oceanos', cantor: '', linkYoutube: ''},
 
-{id: 154, musica: 'Oceanos', cantor: '', linkYoutube: ''},
+{id: 156, musica: 'Alfa e Ômega', cantor: '', linkYoutube: ''},
 
-{id: 155, musica: 'Alfa e Ômega', cantor: '', linkYoutube: ''},
+{id: 157, musica: 'Faça morada', cantor: '', linkYoutube: ''},
 
-{id: 156, musica: 'Faça morada', cantor: '', linkYoutube: ''},
+{id: 158, musica: 'Sossega', cantor: '', linkYoutube: ''},
 
-{id: 157, musica: 'Sossega', cantor: '', linkYoutube: ''},
+{id: 159, musica: 'Eu cuido de ti', cantor: '', linkYoutube: ''},
 
-{id: 158, musica: 'Eu cuido de ti', cantor: '', linkYoutube: ''},
+{id: 160, musica: 'Lugar secreto', cantor: '', linkYoutube: ''},
 
-{id: 159, musica: 'Lugar secreto', cantor: '', linkYoutube: ''},
+{id: 161, musica: 'Oh, quão lindo esse nome é', cantor: '', linkYoutube: ''},
 
-{id: 160, musica: 'Oh, quão lindo esse nome é', cantor: '', linkYoutube: ''},
+{id: 162, musica: 'Adorador por excelência', cantor: '', linkYoutube: ''},
 
-{id: 161, musica: 'Adorador por excelência', cantor: '', linkYoutube: ''},
+{id: 163, musica: 'Renova-me', cantor: '', linkYoutube: ''},
 
-{id: 162, musica: 'Renova-me', cantor: '', linkYoutube: ''},
+{id: 164, musica: 'Pra sempre', cantor: '', linkYoutube: ''},
 
-{id: 163, musica: 'Pra sempre', cantor: '', linkYoutube: ''},
+{id: 165, musica: 'E se', cantor: '', linkYoutube: ''},
 
-{id: 164, musica: 'E se', cantor: '', linkYoutube: ''},
+{id: 166, musica: 'Deus e eu', cantor: '', linkYoutube: ''},
 
-{id: 165, musica: 'Deus e eu', cantor: '', linkYoutube: ''},
+{id: 167, musica: 'Deus é Deus', cantor: '', linkYoutube: ''},
 
-{id: 166, musica: 'Deus é Deus', cantor: '', linkYoutube: ''},
+{id: 168, musica: 'Renova-me', cantor: 'Voz da verdade', linkYoutube: ''},
 
-{id: 167, musica: 'Renova-me', cantor: 'Voz da verdade', linkYoutube: ''},
+{id: 169, musica: 'MÚSICA', cantor: '', linkYoutube: ''},
 
-{id: 168, musica: 'MÚSICA', cantor: '', linkYoutube: ''},
+{id: 170, musica: 'Ousado amor', cantor: '', linkYoutube: ''},
 
-{id: 169, musica: 'Ousado amor', cantor: '', linkYoutube: ''},
+{id: 171, musica: 'Jesus é o caminho', cantor: '', linkYoutube: ''},
 
-{id: 170, musica: 'Jesus é o caminho', cantor: '', linkYoutube: ''},
+{id: 172, musica: 'Braços de amor', cantor: '', linkYoutube: ''},
 
-{id: 171, musica: 'Braços de amor', cantor: '', linkYoutube: ''},
+{id: 173, musica: 'O que tua glória faz comigo', cantor: '', linkYoutube: ''},
 
-{id: 172, musica: 'O que tua glória faz comigo', cantor: '', linkYoutube: ''},
+{id: 174, musica: 'Obra Santa', cantor: '', linkYoutube: ''},
 
-{id: 173, musica: 'Obra Santa', cantor: '', linkYoutube: ''},
+{id: 175, musica: 'Sua casa', cantor: '', linkYoutube: ''},
 
-{id: 174, musica: 'Sua casa', cantor: '', linkYoutube: ''},
+{id: 176, musica: 'Deixa queimar', cantor: '', linkYoutube: ''},
 
-{id: 175, musica: 'Deixa queimar', cantor: '', linkYoutube: ''},
+{id: 177, musica: 'Tu pode', cantor: '', linkYoutube: ''},
 
-{id: 176, musica: 'Tu pode', cantor: '', linkYoutube: ''},
+{id: 178, musica: 'Algo novo', cantor: '', linkYoutube: ''},
 
-{id: 177, musica: 'Algo novo', cantor: '', linkYoutube: ''},
+{id: 179, musica: 'Maravilhosa graça', cantor: '', linkYoutube: ''},
 
-{id: 178, musica: 'Maravilhosa graça', cantor: '', linkYoutube: ''},
+{id: 180, musica: 'Espero por ti', cantor: '', linkYoutube: ''},
 
-{id: 179, musica: 'Espero por ti', cantor: '', linkYoutube: ''},
+{id: 181, musica: 'Quando ele vem', cantor: '', linkYoutube: ''},
 
-{id: 180, musica: 'Quando ele vem', cantor: '', linkYoutube: ''},
+{id: 182, musica: 'Casa do Oleiro', cantor: '', linkYoutube: ''},
 
-{id: 181, musica: 'Casa do Oleiro', cantor: '', linkYoutube: ''},
+{id: 183, musica: 'Toda via me alegrarei', cantor: '', linkYoutube: ''},
 
-{id: 182, musica: 'Toda via me alegrarei', cantor: '', linkYoutube: ''},
+{id: 184, musica: 'Hey Pai', cantor: '', linkYoutube: ''},
 
-{id: 183, musica: 'Hey Pai', cantor: '', linkYoutube: ''},
+{id: 185, musica: 'Tua alegria é a minha', cantor: '', linkYoutube: ''},
 
-{id: 184, musica: 'Tua alegria é a minha', cantor: '', linkYoutube: ''},
+{id: 186, musica: 'Tua presença', cantor: 'Paulo Nato', linkYoutube: ''},
 
-{id: 185, musica: 'Tua presença', cantor: 'Paulo Nato', linkYoutube: ''},
+{id: 187, musica: 'Noites traiçoeiras', cantor: '', linkYoutube: ''},
 
-{id: 186, musica: 'Noites traiçoeiras', cantor: '', linkYoutube: ''},
+{id: 188, musica: 'Tu és soberano', cantor: '', linkYoutube: ''},
 
-{id: 187, musica: 'Tu és soberano', cantor: '', linkYoutube: ''},
+{id: 189, musica: 'Cantai', cantor: '', linkYoutube: ''},
 
-{id: 188, musica: 'Cantai', cantor: '', linkYoutube: ''},
+{id: 190, musica: 'Só tenho a ti', cantor: '', linkYoutube: ''},
 
-{id: 189, musica: 'Só tenho a ti', cantor: '', linkYoutube: ''},
+{id: 191, musica: 'Pai nosso', cantor: '', linkYoutube: ''},
 
-{id: 190, musica: 'Pai nosso', cantor: '', linkYoutube: ''},
+{id: 192, musica: 'Deus de promessa', cantor: '', linkYoutube: ''},
 
-{id: 191, musica: 'Deus de promessa', cantor: '', linkYoutube: ''},
+{id: 193, musica: 'Teu reino', cantor: '', linkYoutube: ''},
 
-{id: 192, musica: 'Teu reino', cantor: '', linkYoutube: ''},
+{id: 194, musica: 'Eu sei que vem', cantor: '', linkYoutube: ''},
 
-{id: 193, musica: 'Eu sei que vem', cantor: '', linkYoutube: ''},
+{id: 195, musica: 'Quero louvar-te', cantor: '', linkYoutube: ''},
 
-{id: 194, musica: 'Quero louvar-te', cantor: '', linkYoutube: ''},
+{id: 196, musica: 'Jesus, filho de Deus', cantor: '', linkYoutube: ''},
 
-{id: 195, musica: 'Jesus, filho de Deus', cantor: '', linkYoutube: ''},
+{id: 197, musica: 'Tu és bom', cantor: '', linkYoutube: ''},
 
-{id: 196, musica: 'Tu és bom', cantor: '', linkYoutube: ''},
+{id: 198, musica: 'Espero por ti', cantor: '', linkYoutube: ''},
 
-{id: 197, musica: 'Espero por ti', cantor: '', linkYoutube: ''},
+{id: 199, musica: 'Só tu és Santo / Uma coisa / deixa queimar', cantor: 'pot pourri', linkYoutube: ''},
 
-{id: 198, musica: 'Só tu és Santo / Uma coisa / deixa queimar', cantor: 'pot pourri', linkYoutube: ''},
+{id: 200, musica: 'Estamos de pé', cantor: '', linkYoutube: ''},
 
-{id: 199, musica: 'Estamos de pé', cantor: '', linkYoutube: ''},
+{id: 201, musica: 'Jesus em tua presença', cantor: '', linkYoutube: ''},
 
-{id: 200, musica: 'Jesus em tua presença', cantor: '', linkYoutube: ''},
+{id: 202, musica: 'Ele vem', cantor: '', linkYoutube: ''},
 
-{id: 201, musica: 'Ele vem', cantor: '', linkYoutube: ''},
+{id: 203, musica: 'Castelo forte', cantor: '', linkYoutube: ''},
 
-{id: 202, musica: 'Castelo forte', cantor: '', linkYoutube: ''},
+{id: 204, musica: 'O nome de Jesus', cantor: '', linkYoutube: ''},
 
-{id: 203, musica: 'O nome de Jesus', cantor: '', linkYoutube: ''},
+{id: 205, musica: 'Pode morar aqui', cantor: '', linkYoutube: ''},
 
-{id: 204, musica: 'Pode morar aqui', cantor: '', linkYoutube: ''},
+{id: 206, musica: 'Lar de milagre', cantor: '', linkYoutube: ''},
 
-{id: 205, musica: 'Lar de milagre', cantor: '', linkYoutube: ''},
+{id: 207, musica: 'Infinitamente mais', cantor: '', linkYoutube: ''},
 
-{id: 206, musica: 'Infinitamente mais', cantor: '', linkYoutube: ''},
+{id: 208, musica: 'O grande eu sou', cantor: '', linkYoutube: ''},
 
-{id: 207, musica: 'O grande eu sou', cantor: '', linkYoutube: ''},
+{id: 209, musica: 'Deus de palavra', cantor: '', linkYoutube: ''},
 
-{id: 208, musica: 'Deus de palavra', cantor: '', linkYoutube: ''},
+{id: 210, musica: 'Eu vejo a gloria', cantor: '', linkYoutube: ''},
 
-{id: 209, musica: 'Eu vejo a gloria', cantor: '', linkYoutube: ''},
+{id: 211, musica: 'Eu vou construir', cantor: '', linkYoutube: ''},
 
-{id: 210, musica: 'Eu vou construir', cantor: '', linkYoutube: ''},
+{id: 212, musica: 'A benção', cantor: '', linkYoutube: ''},
 
-{id: 211, musica: 'A benção', cantor: '', linkYoutube: ''},
+{id: 213, musica: 'Eu só quero sua presença', cantor: '', linkYoutube: ''},
 
-{id: 212, musica: 'Eu só quero sua presença', cantor: '', linkYoutube: ''},
+{id: 214, musica: 'Nunca me deixou', cantor: '', linkYoutube: ''},
 
-{id: 213, musica: 'Nunca me deixou', cantor: '', linkYoutube: ''},
+{id: 215, musica: 'Fazer morada', cantor: '', linkYoutube: ''},
 
-{id: 214, musica: 'Fazer morada', cantor: '', linkYoutube: ''},
+{id: 216, musica: 'Eu e minha casa', cantor: '', linkYoutube: ''},
 
-{id: 215, musica: 'Eu e minha casa', cantor: '', linkYoutube: ''},
+{id: 217, musica: 'Bondade de Deus', cantor: '', linkYoutube: ''},
 
-{id: 216, musica: 'Bondade de Deus', cantor: '', linkYoutube: ''},
+{id: 218, musica: 'Avivamento', cantor: 'Adoração central', linkYoutube: ''},
 
-{id: 217, musica: 'Avivamento', cantor: 'Adoração central', linkYoutube: ''},
+{id: 219, musica: 'In memorian', cantor: 'Gabriel', linkYoutube: ''},
 
-{id: 218, musica: 'In memorian', cantor: 'Gabriel', linkYoutube: ''},
+{id: 220, musica: 'Deus do avivamento', cantor: '', linkYoutube: ''},
 
-{id: 219, musica: 'Deus do avivamento', cantor: '', linkYoutube: ''},
+{id: 221, musica: 'Ruja o Leão', cantor: '', linkYoutube: ''},
 
-{id: 220, musica: 'Ruja o Leão', cantor: '', linkYoutube: ''},
+{id: 222, musica: 'Corpo e família', cantor: '', linkYoutube: ''},
 
-{id: 221, musica: 'Corpo e família', cantor: '', linkYoutube: ''},
+{id: 223, musica: 'Aclame ao Senhor', cantor: '', linkYoutube: ''},
 
-{id: 222, musica: 'Aclame ao Senhor', cantor: '', linkYoutube: ''},
+{id: 224, musica: 'Consagração', cantor: '', linkYoutube: ''},
 
-{id: 223, musica: 'Consagração', cantor: '', linkYoutube: ''},
+{id: 225, musica: 'Estrela do amanhã', cantor: '', linkYoutube: ''},
 
-{id: 224, musica: 'Estrela do amanhã', cantor: '', linkYoutube: ''},
+{id: 226, musica: 'O espirito de Deus está aqui', cantor: '', linkYoutube: ''},
 
-{id: 225, musica: 'O espirito de Deus está aqui', cantor: '', linkYoutube: ''},
+{id: 227, musica: 'Te agradeço', cantor: 'André Valadão', linkYoutube: ''},
 
-{id: 226, musica: 'Te agradeço', cantor: 'André Valadão', linkYoutube: ''},
+{id: 228, musica: 'Tu és / Águas purificadoras', cantor: '', linkYoutube: ''},
 
-{id: 227, musica: 'Tu és / Águas purificadoras', cantor: '', linkYoutube: ''},
+{id: 229, musica: 'Águas purificadoras', cantor: '', linkYoutube: ''},
 
-{id: 228, musica: 'Águas purificadoras', cantor: '', linkYoutube: ''},
-
-{id: 229, musica: 'Nada além do sangue', cantor: '', linkYoutube: ''},
+{id: 230, musica: 'Nada além do sangue', cantor: '', linkYoutube: ''},
 
 ];
 
