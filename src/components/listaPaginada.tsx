@@ -284,6 +284,10 @@ const items: MusicaItem[] = [
 
 {id: 136, musica: 'Deus tem o melhor pra mim', cantor: '', linkYoutube: ''},
 
+{id: 137, musica: 'Te Agradeço', cantor: 'Kleber Lucas', linkYoutube: ''},
+
+// Erro da ordem músical ↓
+
 {id: 137, musica: 'O mar se abrirá', cantor: '', linkYoutube: ''},
 
 {id: 138, musica: 'Pra sempre', cantor: '', linkYoutube: ''},
@@ -489,7 +493,7 @@ const ListaPaginada: React.FC = () => {
   const removePunctuationAndAccents = (str: string) => {
     return str.normalize("NFD")
               .replace(/[\u0300-\u036f]/g, "")        // Remove acentos
-              .replace(/[.\/#$%\^&\*;:{}=\-_`~()]/g, "") // Remove pontuações
+              .replace(/[.,\/#$!?%\^&\*;:{}=\-_`~()]/g, "") // Remove pontuações
               .replace(/\s{2,}/g, " ");               // Substitui espaços múltiplos por um único espaço
   };
 
@@ -554,11 +558,11 @@ const ListaPaginada: React.FC = () => {
             <DropdownMenuContent sideOffset={5} className=" shadow-lg">
               <DropdownMenuItem className='bg-[#181f2c] p-1.5 border-b-[1px] rounded-t-md hover:cursor-pointer' onSelect={() => { setSortOrder('id'); setCurrentPage(1);}}>
                 <ListOrdered />
-                Ordenar por Número
+                Ordem Numérica
               </DropdownMenuItem>
               <DropdownMenuItem className='bg-[#181f2c] p-1.5 rounded-b-md hover:cursor-pointer' onSelect={() => { setSortOrder('alphabetical'); setCurrentPage(1);}}>
                 <AArrowUp />
-                Ordenar por Alfabética
+                Ordem Alfabética
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
