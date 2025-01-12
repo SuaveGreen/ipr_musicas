@@ -316,7 +316,7 @@ const items: MusicaItem[] = [
 
 {id: 152, musica: 'Galileu', cantor: '', linkYoutube: ''},
 
-{id: 153, musica: 'Plano perfeito', cantor: '', linkYoutube: ''},
+{id: 153, musica: 'Plano perfeito', cantor: 'Renascer Praise', linkYoutube: 'https://youtu.be/oM6ApEAJda0'},
 
 {id: 154, musica: '1000 Graus', cantor: '', linkYoutube: ''},
 
@@ -358,7 +358,7 @@ const items: MusicaItem[] = [
 
 {id: 173, musica: 'O que tua glória faz comigo', cantor: '', linkYoutube: ''},
 
-{id: 174, musica: 'Obra Santa', cantor: '', linkYoutube: ''},
+{id: 174, musica: 'Obra Santa', cantor: 'Hinário Aleluia', linkYoutube: ''},
 
 {id: 175, musica: 'Sua casa', cantor: '', linkYoutube: ''},
 
@@ -410,7 +410,7 @@ const items: MusicaItem[] = [
 
 {id: 199, musica: 'Só tu és Santo / Uma coisa / deixa queimar', cantor: 'pot pourri', linkYoutube: ''},
 
-{id: 200, musica: 'Estamos de pé', cantor: '', linkYoutube: ''},
+{id: 200, musica: 'Estamos de pé', cantor: 'Marcus Salles', linkYoutube: ''},
 
 {id: 201, musica: 'Jesus em tua presença', cantor: '', linkYoutube: ''},
 
