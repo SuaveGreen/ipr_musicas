@@ -14,8 +14,8 @@ export default defineConfig({
         description: 'Uma aplicação para gerenciar as músicas da igreja.',
         start_url: '/',
         display: 'standalone',
-        background_color: '#181f2c',
-        theme_color: '#ffffff',
+        background_color: '#00ff55',
+        theme_color: '#ffcc00',
         icons: [
           {
             src: 'icon-192x192.png',
