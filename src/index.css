@@ -14,3 +14,14 @@
   transform: translate3d(0, -20px, 0);
   transition: opacity 0.3s, transform 0.3s;
 }
+
+/* styles.css */
+.bg-default-icon {
+  @apply bg-no-repeat bg-center bg-cover;
+  background-image: url('/icon-192x192.png');
+}
+
+.bg-active-icon {
+  @apply bg-no-repeat bg-center bg-cover;
+  background-image: url('/icon-192x192-active.png');
+}
