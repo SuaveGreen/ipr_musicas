@@ -16,9 +16,9 @@ export const Musica: React.FC<Musica> = ({ id, musica, cantor, linkYoutube }) =>
   const handleSaveMusic = () => {
     const isDuplicate = addMusic({ id: id.toString(), musica, cantor });
     if (isDuplicate) {
-      showToast("Falha", `A música  ksksksksksk"${musica}" já está salva.`);
+      showToast("Falha", `A música "${musica}" já está salva.`);
     } else {
-      showToast("Sucesso", `A música ksksksksksks"${musica}" foi salva.`);
+      showToast("Sucesso", `A música "${musica}" foi salva.`);
     }
   };
 
