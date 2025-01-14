@@ -7,8 +7,8 @@ import { Footer } from './components/footer';
 
 export function App() {
   return (
-    <MusicProvider>
-      <ToastProvider>
+    <ToastProvider>
+      <MusicProvider>
         <main className="px-4 celular:px-8 tablet:px-16 tabletx:px-24 notebook:px-48 pt-8 tablet:pt-12 
             tabletx:pt-16 max-h-full">
           <Hero />
@@ -17,7 +17,7 @@ export function App() {
           </div>
           <Footer/>
         </main>
-      </ToastProvider>
-    </MusicProvider>
+      </MusicProvider>
+    </ToastProvider>
   )
 }

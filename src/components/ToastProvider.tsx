@@ -1,5 +1,5 @@
 import { useState, createContext, ReactNode, useContext, useEffect, useRef } from "react";
-import { ToastProvider as RadixToastProvider, Toast, ToastTitle, ToastDescription, ToastViewport } from "@radix-ui/react-toast";
+import { Provider as RadixToastProvider, Toast, Title as ToastTitle, Description as ToastDescription, Viewport as ToastViewport } from "@radix-ui/react-toast";
 
 interface ToastContextProps {
   showToast: (title: string, description: string) => void;
@@ -36,14 +36,13 @@ const ToastProvider = ({ children }: { children: ReactNode }) => {
   return (
     <ToastContext.Provider value={{ showToast }}>
       <RadixToastProvider swipeDirection="right">
-          {toast && (
-              <Toast 
-                  className="fixed tablet:bottom-5 tablet:right-5 ml-5 mt-5 bg-[#202a3b] p-4 rounded-lg shadow-lg z-50 tablet:max-w-md">
-                  <ToastTitle className="font-bold text-lg text-white truncate">{toast.title}</ToastTitle>
-                  <ToastDescription className="text-sm text-white truncate">{toast.description}</ToastDescription>
-              </Toast>
-          )}
-          <ToastViewport />
+        {toast && (
+          <Toast className="fixed tablet:bottom-5 tablet:right-5 ml-5 mt-5 bg-[#202a3b] p-4 rounded-lg shadow-lg z-50 tablet:max-w-md">
+            <ToastTitle className="font-bold text-lg text-white truncate">{toast.title}</ToastTitle>
+            <ToastDescription className="text-sm text-white truncate">{toast.description}</ToastDescription>
+          </Toast>
+        )}
+        <ToastViewport />
       </RadixToastProvider>
       {children}
     </ToastContext.Provider>

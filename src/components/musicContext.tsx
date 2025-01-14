@@ -1,38 +1,56 @@
-import { createContext, useState, ReactNode, useContext } from "react";
+// musicContext.ts
+import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { saveMusicToLocalStorage, getMusicFromLocalStorage } from './storage';
 
 interface Music {
-  id: number;
+  id: string;
   musica: string;
   cantor: string;
-  linkYoutube: string;
 }
 
-interface MusicContextProps {
+interface MusicContextType {
   musicList: Music[];
   addMusic: (music: Music) => boolean;
-  removeMusic: (id: number) => void;
+  removeMusic: (musicId: string) => void;
   clearList: () => void;
 }
 
-const MusicContext = createContext<MusicContextProps | null>(null);
+interface MusicProviderProps {
+  children: ReactNode;
+}
 
-const MusicProvider = ({ children }: { children: ReactNode }) => {
+const MusicContext = createContext<MusicContextType | undefined>(undefined);
+
+export const MusicProvider: React.FC<MusicProviderProps> = ({ children }) => {
   const [musicList, setMusicList] = useState<Music[]>([]);
 
-  const addMusic = (music: Music): boolean => {
-    const exists = musicList.some(m => m.id === music.id);
-    if (!exists) {
-      setMusicList([...musicList, music]);
+  useEffect(() => {
+    const savedMusic = getMusicFromLocalStorage();
+    setMusicList(savedMusic);
+  }, []);
+
+  const addMusic = (music: Music) => {
+    const isDuplicate = musicList.some(item => item.id === music.id);
+    if (isDuplicate) {
+      return true;
     }
-    return exists;
+
+    const updatedMusicList = [...musicList, music];
+    setMusicList(updatedMusicList);
+    saveMusicToLocalStorage(updatedMusicList);
+    // showToast('Sucesso', 'Música salva com sucesso!');
+    return false;
   };
 
-  const removeMusic = (id: number) => {
-    setMusicList(musicList.filter(music => music.id !== id));
+  const removeMusic = (musicId: string) => {
+    const updatedMusicList = musicList.filter((music) => music.id !== musicId);
+    setMusicList(updatedMusicList);
+    saveMusicToLocalStorage(updatedMusicList);
   };
 
   const clearList = () => {
     setMusicList([]);
+    saveMusicToLocalStorage([]);
   };
 
   return (
@@ -42,12 +60,10 @@ const MusicProvider = ({ children }: { children: ReactNode }) => {
   );
 };
 
-const useMusicContext = () => {
+export const useMusicContext = (): MusicContextType => {
   const context = useContext(MusicContext);
   if (!context) {
-    throw new Error("useMusicContext must be used within a MusicProvider");
+    throw new Error('useMusicContext must be used within a MusicProvider');
   }
   return context;
 };
-
-export { MusicProvider, useMusicContext };
