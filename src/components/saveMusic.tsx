@@ -31,13 +31,13 @@ export function SaveMusic() {
             <Dialog.Close className='absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100'>
                 <X className='m-3'/>
             </Dialog.Close> 
-            <form className=''>
+            <div className=''>
                 <div className="flex flex-1 flex-col gap-3 p-5">
                     <span className='text-lg text-slate-300'>
                         Músicas salvas
                     </span>
                 </div>
-            </form>
+            </div>
             <div className='overflow-y-auto scrollbar scrollbar-thumb-gray-800 h-full justify-between'>
                 {musicList.map(music => (
                     <div key={music.id} className="px-12 py-5 flex items-center justify-between">
