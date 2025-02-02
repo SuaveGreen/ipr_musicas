@@ -472,6 +472,26 @@ const items: MusicaItem[] = [
 
 {id: 230, musica: 'Nada além do sangue', cantor: '', linkYoutube: ''},
 
+{id: 231, musica: 'Nos braços do Pai', cantor: 'Diante do trono', linkYoutube: 'https://youtu.be/c_hsLDNme64'},
+
+{id: 232, musica: 'Santo para sempre', cantor: 'Marine Friesen', linkYoutube: 'https://youtu.be/Ao-vBEhBxr0'},
+
+{id: 233, musica: 'O mover do Espírito', cantor: 'Armando Filho', linkYoutube: 'https://youtu.be/M_MKgoVmglw'},
+
+{id: 234, musica: 'Escape', cantor: 'Renascer Praise', linkYoutube: 'https://youtu.be/vM2A2XEm9TE'},
+
+{id: 235, musica: 'Os que olham para ti', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/Kv96CEmcjVs'},
+
+{id: 236, musica: 'Clamo Jesus', cantor: 'Paulo Cesar Baruk', linkYoutube: 'https://youtu.be/ye9caqETC0A'},
+
+{id: 237, musica: '63', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/FXMmY2ql9Ug'},
+
+{id: 238, musica: 'Nosso Rei', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/QBSRPNd9LAg'},
+
+{id: 239, musica: 'Único', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/0vCmIKyJPRI'},
+
+{id: 240, musica: 'Só em Ti', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/EY3cIar-JU0'},
+
 ];
 
 const ITEMS_PER_PAGE = 10;

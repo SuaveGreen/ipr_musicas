@@ -1,12 +1,13 @@
-import { Play, FileMusic, Save } from 'lucide-react';
+import { Play, FileMusic, Save,  } from 'lucide-react';
 import { useMusicContext } from './musicContext';
 import { useToast } from './ToastProvider';
-
+// CaseLower
 interface Musica {
   id: number;
   musica: string;
   cantor: string;
   linkYoutube: string;
+  // letra: string;
 }
 
 export const Musica: React.FC<Musica> = ({ id, musica, cantor, linkYoutube }) => {
@@ -34,9 +35,10 @@ export const Musica: React.FC<Musica> = ({ id, musica, cantor, linkYoutube }) =>
   const singer = transformarString(cantor);
   const musicName = transformarString(musica);
   const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
+  // const cifra = '';
 
   return (
-    <div className='mt-3 text-nowrap text-left'>
+    <div className='mt-3 text-nowrap text-left '>
       <div className="grid grid-cols-1 gap-5 tablet:grid-cols-6 tabletx:w-[100%] tabletx:ml-4 py-[19px] tabletx:py-8 monitor:ml-[6vh]">
         <div className="hidden tablet:block pl-10 w-16 hover:cursor-default">
           {id}
@@ -55,7 +57,7 @@ export const Musica: React.FC<Musica> = ({ id, musica, cantor, linkYoutube }) =>
         <div className="overflow-hidden hover:cursor-default">
           {cantor}
         </div>
-        <div className='grid grid-cols-3 tablet:ml-[3vh] tablet:gap-[8vh] notebook:ml-[15vh] notebook:gap-[20vh]'>
+        <div className='grid grid-cols-4 tablet:ml-[3vh] tablet:gap-[8vh] notebook:gap-[20vh]'>
           <div className="mt-[2px] w-4 h-4">
             <button onClick={handleSaveMusic}>
               <Save className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
@@ -83,6 +85,18 @@ export const Musica: React.FC<Musica> = ({ id, musica, cantor, linkYoutube }) =>
               </a>
             )}
           </div>
+
+          {/* <div className="w-4 h-4">
+            {cifra ? (
+              <span >
+                <CaseLower />
+              </span>
+            ) : (
+              <span className='hidden' >
+                <CaseLower />
+              </span>
+            )}
+          </div> */}
         </div>
       </div>
     </div>

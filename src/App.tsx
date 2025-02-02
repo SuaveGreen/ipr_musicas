@@ -4,6 +4,7 @@ import { ToastProvider } from './components/ToastProvider';
 import ListaPaginada from './components/listaPaginada';
 import './index.css'
 import { Footer } from './components/footer';
+// import Cifra from './components/cifra';
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
           <div className="border-neutral-400 h-full">
             <ListaPaginada />
           </div>
+          {/* <Cifra /> */}
           <Footer/>
         </main>
       </MusicProvider>

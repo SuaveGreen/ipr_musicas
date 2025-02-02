@@ -6,6 +6,8 @@ export default {
   ],
   theme: {
     extend: {
+      colors: { chord: '#FF0000' // Cor personalizada para os acordes 
+        },
       keyframes: {
         bounceR: {
           '50%, 100%': { transform: 'translatex(-25%)' },

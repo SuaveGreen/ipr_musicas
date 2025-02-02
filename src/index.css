@@ -14,3 +14,31 @@
   transform: translate3d(0, -20px, 0);
   transition: opacity 0.3s, transform 0.3s;
 }
+
+td.chord { 
+  @apply text-chord font-bold; /* Aplicar classes TailwindCSS */ 
+  color: #c75151 ; /* Cor personalizada para os acordes */
+  font-weight: bold; /* Negrito para destacar os acordes */
+  padding-right: 25px;
+}
+
+td.comment { 
+  color: #567131  ; /* Aplicar classes TailwindCSS para comentários  */
+  font-style: italic;
+}
+
+h1.text-2xl { 
+  font-style:italic;
+  color: #000000
+}
+
+h2.text-xl { 
+  font-style:italic;
+  color: #4e4c4c
+}
+
+td.lyrics {
+  padding-bottom: 20px; 
+  color: #000000;
+  /* padding-right: 50px; */
+}
