@@ -432,7 +432,7 @@ const items: MusicaItem[] = [
 
 {id: 210, musica: 'Eu vejo a gloria', cantor: '', linkYoutube: ''},
 
-{id: 211, musica: 'Eu vou construir', cantor: '', linkYoutube: ''},
+{id: 211, musica: 'Eu vou construir', cantor: 'Juliano Son', linkYoutube: 'https://youtu.be/1htnqzaKLP8?si=5C22WA7V0m8XYtw9'},
 
 {id: 212, musica: 'A benção', cantor: '', linkYoutube: ''},
 
