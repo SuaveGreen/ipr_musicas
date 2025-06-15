@@ -60,7 +60,7 @@ const items: MusicaItem[] = [
 
 {id: 24, musica: 'Vem esta é a hora', cantor: 'Vineyard Music', linkYoutube: 'https://youtu.be/RltQ4USrWoA'},
 
-{id: 25, musica: 'Jesus Te entronizamos', cantor: 'Arieta Magrini', linkYoutube: 'https://youtu.be/P1pUzWYC4mY'},
+{id: 25, musica: 'Jesus Te entronizamos', cantor: 'Marcos Góes', linkYoutube: 'https://youtu.be/rpBCO9Ck4nA?si=Fq2_r9w5_rFMRcJm'},
 
 {id: 26, musica: 'Grande é o Senhor', cantor: 'Adhemar de Campos', linkYoutube: 'https://youtu.be/4_rv9Jmgc78'},
 
