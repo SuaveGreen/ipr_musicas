@@ -320,7 +320,7 @@ const items: MusicaItem[] = [
 
 {id: 154, musica: '1000 Graus', cantor: '', linkYoutube: ''},
 
-{id: 155, musica: 'Oceanos', cantor: '', linkYoutube: ''},
+{id: 155, musica: 'Oceanos', cantor: 'Ana Nóbrega', linkYoutube: 'https://youtu.be/1XqHlWsMThA?si=69xWzfMOK_ho7RQC'},
 
 {id: 156, musica: 'Alfa e Ômega', cantor: '', linkYoutube: ''},
 
