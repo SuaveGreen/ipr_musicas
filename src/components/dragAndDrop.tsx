@@ -97,7 +97,7 @@ function SortableItem({ id, renderItem }: SortableItemProps) {
       <GripVertical
         {...attributes}
         {...listeners}
-        className="ml-8 cursor-grab text-[#181f2c] text-opacity-25 hover:text-gray-900 outline-none"
+        className="ml-8 cursor-grab text-[#96a4c2] text-opacity-25 hover:text-white outline-none"
       />
       <div className="flex-1">
         {renderItem()}
