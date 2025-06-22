@@ -12,7 +12,7 @@ export function Hero() {
         {/* <div className="flex mr-3 pt-3 gap-8 ml-auto monitor:mr-9 text-nowrap">
           <Tutorial />
         </div> */}
-        <div className="flex mr-3 pt-3 gap-8 ml-auto monitor:mr-9 text-nowrap">
+        <div className="hidden tablet:flex mr-3 pt-3 gap-8 ml-auto monitor:mr-9 text-nowrap ">
           <SaveMusic />
         </div>
       </div>

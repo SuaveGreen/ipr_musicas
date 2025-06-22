@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Musica } from './musica';
 import { ChevronLeft, ChevronRight, ChevronsRight, ChevronsLeft, Frown, ArrowDownUp, AArrowUp, ListOrdered } from 'lucide-react';
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@radix-ui/react-dropdown-menu';
+import { SaveMusic } from './saveMusic';
 
 interface MusicaItem {
   id: number;
@@ -542,7 +543,7 @@ const ListaPaginada: React.FC = () => {
 
   return (
     <div className=''>
-      <div className="flex tablet:justify-around border-b-[1px] space-y-10 monitor:ml-[-5vh]">
+      <div className="flex tablet:justify-around border-b-[1px] space-y-10 monitor:ml-[-5vh] celular:sticky celular:pb-2 celular:top-0 celular:bg-[#181f2c] celular:shadow ">
         {/* Número, Música e Cantor invisíveis apenas em dispositivos móveis */}
         <div className="hidden tablet:block w-full celular:w-auto pt-[34px] hover:cursor-default">
           <p>Número</p>
@@ -566,7 +567,7 @@ const ListaPaginada: React.FC = () => {
             }}
           />
         </div>
-        <div className="w-auto text-center ">
+        <div className="w-auto text-center pr-8">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="flex rounded-lg outline-none bg-transparent px-2 pr-4 h-[25px] border-[1px] text-center mb-4">
@@ -584,6 +585,9 @@ const ListaPaginada: React.FC = () => {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
+        </div>
+        <div className="flex tablet:hidden">
+          <SaveMusic />
         </div>
       </div>
 
