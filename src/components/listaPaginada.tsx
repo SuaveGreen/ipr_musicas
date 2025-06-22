@@ -231,7 +231,7 @@ const items: MusicaItem[] = [
 
 {id: 109, musica: 'Santo do Brasil', cantor: '', linkYoutube: ''},
 
-{id: 110, musica: 'Só tenho a ti', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/mFaxgIyt5PY?si=yEVlqmEklhuSHcTY'},
+{id: 110, musica: 'ESPAÇO LIVRE', cantor: '', linkYoutube: ''},
 
 {id: 111, musica: 'Todos que tem sede', cantor: '', linkYoutube: ''},
 
@@ -349,7 +349,7 @@ const items: MusicaItem[] = [
 
 {id: 168, musica: 'Renova-me', cantor: 'Voz da verdade', linkYoutube: ''},
 
-{id: 169, musica: 'MÚSICA', cantor: '', linkYoutube: ''},
+{id: 169, musica: 'ESPAÇO LIVRE', cantor: '', linkYoutube: ''},
 
 {id: 170, musica: 'Ousado amor', cantor: '', linkYoutube: ''},
 
@@ -391,7 +391,7 @@ const items: MusicaItem[] = [
 
 {id: 189, musica: 'Cantai', cantor: '', linkYoutube: ''},
 
-{id: 190, musica: 'Só tenho a ti', cantor: '', linkYoutube: ''},
+{id: 190, musica: 'Só tenho a ti', cantor: 'vineyard', linkYoutube: 'https://youtu.be/lRH8WF4_3VQ?si=ZjK_WKPLu4pKSEII'},
 
 {id: 191, musica: 'Pai nosso', cantor: '', linkYoutube: ''},
 
@@ -429,7 +429,7 @@ const items: MusicaItem[] = [
 
 {id: 208, musica: 'O grande eu sou', cantor: 'Leonardo Vieira', linkYoutube: 'https://youtu.be/0UD_cz7CuWg?si=hmc-SvRB3Q0ONcwS'},
 
-{id: 209, musica: 'Deus de palavra', cantor: '', linkYoutube: ''},
+{id: 209, musica: 'Deus de palavra', cantor: 'Voz da Verdade', linkYoutube: 'https://youtu.be/8D5xbBuuc4Q?si=hN_Wv14zj7FFq2Pm'},
 
 {id: 210, musica: 'Eu vejo a gloria', cantor: '', linkYoutube: ''},
 
