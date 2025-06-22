@@ -1,9 +1,11 @@
 import * as Dialog from '@radix-ui/react-dialog';
-import { Musica } from './musica';
+// import { Musica } from './musica';
 import { useState, useEffect } from 'react';
 import { useMusicContext } from './musicContext';
 import { DragAndDrop, DndItem } from './dragAndDrop';
-import { X, Trash2, SendHorizontal, ListX, Play, FileMusic } from 'lucide-react';
+import { X, Trash2, SendHorizontal, ListX } from 'lucide-react';
+
+// Play, FileMusic
 
 export function SaveMusic() {
   const { musicList, removeMusic, clearList } = useMusicContext();
