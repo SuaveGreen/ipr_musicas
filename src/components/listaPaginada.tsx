@@ -411,7 +411,7 @@ const items: MusicaItem[] = [
 
 {id: 199, musica: 'Só tu és Santo / Uma coisa / deixa queimar', cantor: 'pot pourri', linkYoutube: ''},
 
-{id: 200, musica: 'Estamos de pé', cantor: 'Marcus Salles', linkYoutube: ''},
+{id: 200, musica: 'Estamos de pé', cantor: 'Marcus Salles', linkYoutube: 'https://youtu.be/4x-yrCz1D9g?si=t7ZXd60PbsC9iRHK'},
 
 {id: 201, musica: 'Jesus em tua presença', cantor: '', linkYoutube: ''},
 
