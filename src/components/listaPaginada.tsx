@@ -231,7 +231,7 @@ const items: MusicaItem[] = [
 
 {id: 109, musica: 'Santo do Brasil', cantor: '', linkYoutube: ''},
 
-{id: 110, musica: 'Só tenho a ti', cantor: '', linkYoutube: ''},
+{id: 110, musica: 'Só tenho a ti', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/mFaxgIyt5PY?si=yEVlqmEklhuSHcTY'},
 
 {id: 111, musica: 'Todos que tem sede', cantor: '', linkYoutube: ''},
 
@@ -427,7 +427,7 @@ const items: MusicaItem[] = [
 
 {id: 207, musica: 'Infinitamente mais', cantor: '', linkYoutube: ''},
 
-{id: 208, musica: 'O grande eu sou', cantor: '', linkYoutube: ''},
+{id: 208, musica: 'O grande eu sou', cantor: 'Leonardo Vieira', linkYoutube: 'https://youtu.be/0UD_cz7CuWg?si=hmc-SvRB3Q0ONcwS'},
 
 {id: 209, musica: 'Deus de palavra', cantor: '', linkYoutube: ''},
 
