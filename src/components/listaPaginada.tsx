@@ -61,7 +61,7 @@ const items: MusicaItem[] = [
 
 {id: 24, musica: 'Vem esta é a hora', cantor: 'Vineyard Music', linkYoutube: 'https://youtu.be/RltQ4USrWoA'},
 
-{id: 25, musica: 'Jesus Te entronizamos', cantor: 'Arieta Magrini', linkYoutube: 'https://youtu.be/P1pUzWYC4mY'},
+{id: 25, musica: 'Jesus Te entronizamos', cantor: 'Marcos Góes', linkYoutube: 'https://youtu.be/rpBCO9Ck4nA?si=Fq2_r9w5_rFMRcJm'},
 
 {id: 26, musica: 'Grande é o Senhor', cantor: 'Adhemar de Campos', linkYoutube: 'https://youtu.be/4_rv9Jmgc78'},
 
@@ -311,7 +311,7 @@ const items: MusicaItem[] = [
 
 {id: 149, musica: 'Santo Espírito', cantor: '', linkYoutube: ''},
 
-{id: 150, musica: 'Redenção', cantor: '', linkYoutube: ''},
+{id: 150, musica: 'Redenção', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/2FQpBK3Mmp8?si=ODCiVE7jo0s9LfNh'},
 
 {id: 151, musica: 'Aquieta minh`alma', cantor: '', linkYoutube: ''},
 
@@ -321,7 +321,7 @@ const items: MusicaItem[] = [
 
 {id: 154, musica: '1000 Graus', cantor: '', linkYoutube: ''},
 
-{id: 155, musica: 'Oceanos', cantor: '', linkYoutube: ''},
+{id: 155, musica: 'Oceanos', cantor: 'Ana Nóbrega', linkYoutube: 'https://youtu.be/1XqHlWsMThA?si=69xWzfMOK_ho7RQC'},
 
 {id: 156, musica: 'Alfa e Ômega', cantor: '', linkYoutube: ''},
 
@@ -433,7 +433,7 @@ const items: MusicaItem[] = [
 
 {id: 210, musica: 'Eu vejo a gloria', cantor: '', linkYoutube: ''},
 
-{id: 211, musica: 'Eu vou construir', cantor: '', linkYoutube: ''},
+{id: 211, musica: 'Eu vou construir', cantor: 'Juliano Son', linkYoutube: 'https://youtu.be/1htnqzaKLP8?si=5C22WA7V0m8XYtw9'},
 
 {id: 212, musica: 'A benção', cantor: '', linkYoutube: ''},
 
