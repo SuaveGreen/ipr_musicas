@@ -395,7 +395,7 @@ const items: MusicaItem[] = [
 
 {id: 191, musica: 'Pai nosso', cantor: '', linkYoutube: ''},
 
-{id: 192, musica: 'Deus de promessa', cantor: 'Davi Sacer', linkYoutube: 'https://youtu.be/meiqsELWxNs?si=Rx9bHLc8lRVkYiTl'},
+{id: 192, musica: 'Deus de promessas', cantor: 'Davi Sacer', linkYoutube: 'https://youtu.be/meiqsELWxNs?si=Rx9bHLc8lRVkYiTl'},
 
 {id: 193, musica: 'Teu reino', cantor: '', linkYoutube: ''},
 
