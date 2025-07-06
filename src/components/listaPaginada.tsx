@@ -375,7 +375,7 @@ const items: MusicaItem[] = [
 
 {id: 181, musica: 'Quando ele vem', cantor: '', linkYoutube: ''},
 
-{id: 182, musica: 'Casa do Oleiro', cantor: '', linkYoutube: ''},
+{id: 182, musica: 'Casa do Oleiro', cantor: 'Nani Azevedo', linkYoutube: 'https://youtu.be/HfKL01mMCvs?si=-YRvin-9gep-PsJ5'},
 
 {id: 183, musica: 'Toda via me alegrarei', cantor: '', linkYoutube: ''},
 
