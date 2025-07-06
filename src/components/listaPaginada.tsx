@@ -369,7 +369,7 @@ const items: MusicaItem[] = [
 
 {id: 178, musica: 'Algo novo', cantor: '', linkYoutube: ''},
 
-{id: 179, musica: 'Maravilhosa graça', cantor: '', linkYoutube: ''},
+{id: 179, musica: 'Maravilhosa Graça', cantor: '', linkYoutube: 'https://youtu.be/XjZQHVjJO8E?si=xcuvQy4xgqPPmdHl'},
 
 {id: 180, musica: 'Espero por ti', cantor: '', linkYoutube: ''},
 
