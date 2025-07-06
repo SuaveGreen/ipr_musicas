@@ -493,6 +493,8 @@ const items: MusicaItem[] = [
 
 {id: 240, musica: 'Só em Ti', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/EY3cIar-JU0'},
 
+{id: 241, musica: 'Meia noite', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/hRJUcvsnqKs?si=f2ArgHwMcka_ZQgc'},
+
 ];
 
 const ITEMS_PER_PAGE = 10;
