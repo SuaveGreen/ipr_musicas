@@ -495,6 +495,8 @@ const items: MusicaItem[] = [
 
 {id: 241, musica: 'Meia noite', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/hRJUcvsnqKs?si=f2ArgHwMcka_ZQgc'},
 
+{id: 242, musica: 'Isaías 9', cantor: 'Rodolfo Abrantes', linkYoutube: 'https://youtu.be/XPxUfGfWtRA?si=7R60jSM9gUy2__A0'},
+
 ];
 
 const ITEMS_PER_PAGE = 10;
