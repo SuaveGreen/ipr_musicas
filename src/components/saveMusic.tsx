@@ -67,7 +67,7 @@ export function SaveMusic() {
                     <span className='mr-5 flex text-wrap overflow-x-hidden'>{music.id}. {music.musica}</span>
                     <span className='mr-5'>{music.cantor}</span>
                   </div>
-                  <div className='flex items-center space-x-3 justify-between'>
+                  <div className='flex items-center space-x-3 justify-between margin-bottom-[.5px]'>
                     <button>
                       {/* {music ? (
                         <a href={} target="_blank" rel="noopener noreferrer" className=''>
