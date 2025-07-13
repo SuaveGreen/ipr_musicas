@@ -201,7 +201,7 @@ const items: MusicaItem[] = [
 
 {id: 94, musica: 'Sopre espírito', cantor: '', linkYoutube: ''},
 
-{id: 95, musica: 'Essencia de adoração', cantor: 'David Quinlan', linkYoutube: 'https://youtu.be/ZfOpeP2SMx8?si=BldqoXJHtpuPrfP6'},
+{id: 95, musica: 'Essencia da adoração', cantor: 'David Quinlan', linkYoutube: 'https://youtu.be/ZfOpeP2SMx8?si=BldqoXJHtpuPrfP6'},
 
 {id: 96, musica: 'Aquele que está feliz', cantor: '', linkYoutube: ''},
 
