@@ -169,7 +169,7 @@ const items: MusicaItem[] = [
 
 {id: 78, musica: 'Pelos olhos da fé', cantor: '', linkYoutube: ''},
 
-{id: 79, musica: 'Vinho e pão', cantor: '', linkYoutube: ''},
+{id: 79, musica: 'Vinho e pão', cantor: 'fernanda-brum', linkYoutube: 'https://youtu.be/fqaTkmAeusI?si=d4RWbooEK16DkBfd'},
 
 {id: 80, musica: 'Ao único', cantor: '', linkYoutube: ''},
 
@@ -201,7 +201,7 @@ const items: MusicaItem[] = [
 
 {id: 94, musica: 'Sopre espírito', cantor: '', linkYoutube: ''},
 
-{id: 95, musica: 'Essencia de adoração', cantor: '', linkYoutube: ''},
+{id: 95, musica: 'Essencia de adoração', cantor: 'David Quinlan', linkYoutube: 'https://youtu.be/ZfOpeP2SMx8?si=BldqoXJHtpuPrfP6'},
 
 {id: 96, musica: 'Aquele que está feliz', cantor: '', linkYoutube: ''},
 
