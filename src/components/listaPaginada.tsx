@@ -169,7 +169,7 @@ const items: MusicaItem[] = [
 
 {id: 78, musica: 'Pelos olhos da fé', cantor: '', linkYoutube: ''},
 
-{id: 79, musica: 'Vinho e pão', cantor: 'fernanda-brum', linkYoutube: 'https://youtu.be/fqaTkmAeusI?si=d4RWbooEK16DkBfd'},
+{id: 79, musica: 'Vinho e pão', cantor: 'Fernanda Brum', linkYoutube: 'https://youtu.be/fqaTkmAeusI?si=d4RWbooEK16DkBfd'},
 
 {id: 80, musica: 'Ao único', cantor: '', linkYoutube: ''},
 
