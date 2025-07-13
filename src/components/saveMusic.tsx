@@ -62,12 +62,12 @@ export function SaveMusic() {
               items={orderedList.map((music) => ({ id: music.id, data: music } as DndItem<typeof music>))}
               onReorder={(newItems) => setOrderedList(newItems.map((i) => i.data))}
               renderItem={(music) => (
-                <div className="flex items-center justify-between celular:mx-8 py-5 ">
+                <div className="flex items-center justify-between celular:mx-8 py-5 border-b-[0.5px] border-gray-400 ">
                   <div className='mr-5'>
                     <span className='mr-5 flex text-wrap overflow-x-hidden'>{music.id}. {music.musica}</span>
                     <span className='mr-5'>{music.cantor}</span>
                   </div>
-                  <div className='flex items-center space-x-3 justify-between border-b-[0.5px] border-gray-400'>
+                  <div className='flex items-center space-x-3 justify-between '>
                     <button>
                       {/* {music ? (
                         <a href={} target="_blank" rel="noopener noreferrer" className=''>
