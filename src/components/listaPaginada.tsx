@@ -81,7 +81,7 @@ const items: MusicaItem[] = [
 
 {id: 34, musica: 'Os guerreiros se preparam', cantor: 'Harpa Cristã', linkYoutube: ''},
 
-{id: 35, musica: 'Entrega', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/z1vnYfxqIZ8'},
+{id: 35, musica: 'Te dou meu coração', cantor: 'Aline', linkYoutube: 'https://youtu.be/u-eym7Okkyc?si=Unw71uiQiLYJmicP'},
 
 {id: 36, musica: 'Em espírito e em verdade', cantor: 'Harpa Cristã', linkYoutube: 'https://youtu.be/VD37SEtzrT0'},
 
@@ -255,7 +255,7 @@ const items: MusicaItem[] = [
 
 {id: 121, musica: 'Meu respirar', cantor: '', linkYoutube: ''},
 
-{id: 122, musica: 'Entrega', cantor: '', linkYoutube: ''},
+{id: 122, musica: 'Entrega', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/z1vnYfxqIZ8?si=WvQQsC-BZej3BN4l'},
 
 {id: 123, musica: 'Eu me rendo', cantor: '', linkYoutube: ''},
 
