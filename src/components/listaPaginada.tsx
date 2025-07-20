@@ -59,7 +59,7 @@ const items: MusicaItem[] = [
 
 {id: 23, musica: 'O som da chuva', cantor: 'Ellas', linkYoutube: 'https://youtu.be/JUH0-Bpjyno'},
 
-{id: 24, musica: 'Vem esta é a hora', cantor: 'Vineyard Music', linkYoutube: 'https://youtu.be/RltQ4USrWoA'},
+{id: 24, musica: 'Vem esta a hora', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/RltQ4USrWoA'},
 
 {id: 25, musica: 'Jesus Te entronizamos', cantor: 'Marcos Góes', linkYoutube: 'https://youtu.be/rpBCO9Ck4nA?si=Fq2_r9w5_rFMRcJm'},
 
@@ -391,7 +391,7 @@ const items: MusicaItem[] = [
 
 {id: 189, musica: 'Cantai', cantor: '', linkYoutube: ''},
 
-{id: 190, musica: 'Só tenho a ti', cantor: 'vineyard', linkYoutube: 'https://youtu.be/lRH8WF4_3VQ?si=ZjK_WKPLu4pKSEII'},
+{id: 190, musica: 'Só tenho a ti', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/lRH8WF4_3VQ?si=ZjK_WKPLu4pKSEII'},
 
 {id: 191, musica: 'Pai nosso', cantor: '', linkYoutube: ''},
 
