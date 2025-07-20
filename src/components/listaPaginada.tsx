@@ -333,7 +333,7 @@ const items: MusicaItem[] = [
 
 {id: 160, musica: 'Lugar secreto', cantor: '', linkYoutube: ''},
 
-{id: 161, musica: 'Oh quão lindo esse nome ', cantor: 'Ana Nóbrega', linkYoutube: 'https://youtu.be/mTPgy4VuXyo?si=Qs0cO2EoSWo5f_8B'},
+{id: 161, musica: 'Oh, quão lindo esse nome ', cantor: 'Ana Nóbrega', linkYoutube: 'https://youtu.be/mTPgy4VuXyo?si=Qs0cO2EoSWo5f_8B'},
 
 {id: 162, musica: 'Adorador por excelência', cantor: '', linkYoutube: ''},
 
