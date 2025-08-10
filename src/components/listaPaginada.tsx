@@ -49,7 +49,7 @@ const items: MusicaItem[] = [
 
 {id: 18, musica: 'Dê-nos Mãos Limpas', cantor: 'Filhos do Homem', linkYoutube: 'https://youtu.be/VJpN2zCMYoE'},
 
-{id: 19, musica: 'Senho Te quero', cantor: 'David Quinlan', linkYoutube: 'https://youtu.be/6dhtnEb3_NQ'},
+{id: 19, musica: 'Senhor Te quero', cantor: 'David Quinlan', linkYoutube: 'https://youtu.be/6dhtnEb3_NQ'},
 
 {id: 20, musica: 'Poder para salvar', cantor: 'Aline Barros', linkYoutube: 'https://youtu.be/gDH0tT730UA'},
 
