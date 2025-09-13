@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, ChevronsRight, ChevronsLeft, Frown, ArrowDow
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@radix-ui/react-dropdown-menu';
 import { SaveMusic } from './saveMusic';
 
-interface MusicaItem {
+export interface MusicaItem {
   id: number;
   musica: string;
   cantor: string;

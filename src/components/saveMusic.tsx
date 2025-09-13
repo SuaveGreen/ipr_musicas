@@ -1,11 +1,8 @@
 import * as Dialog from '@radix-ui/react-dialog';
-// import { Musica } from './musica';
 import { useState, useEffect } from 'react';
 import { useMusicContext } from './musicContext';
 import { DragAndDrop, DndItem } from './dragAndDrop';
-import { X, Trash2, SendHorizontal, ListX } from 'lucide-react';
-
-// Play, FileMusic
+import { X, Trash2, SendHorizontal, ListX, FileMusic } from 'lucide-react';
 
 export function SaveMusic() {
   const { musicList, removeMusic, clearList } = useMusicContext();
@@ -22,7 +19,7 @@ export function SaveMusic() {
     const diasSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
     const nomeDia = diasSemana[hoje.getDay()];
     const numeroDia = hoje.getDate();
-    const header = `Hinos de hoje: ${nomeDia} ${numeroDia}`
+    const header = `Hinos de hoje: *${nomeDia} ${numeroDia}*`
     
 
     const linhas = orderedList.map(
@@ -57,7 +54,7 @@ export function SaveMusic() {
             <span className="text-lg text-slate-300">Músicas salvas</span>
           </div>
 
-          <div className="overflow-y-auto scrollbar scrollbar-thumb-gray-800 flex-1">
+          <div className="overflow-y-auto  scrollbar scrollbar-thumb-gray-800 flex-1">
             <DragAndDrop
               items={orderedList.map((music) => ({ id: music.id, data: music } as DndItem<typeof music>))}
               onReorder={(newItems) => setOrderedList(newItems.map((i) => i.data))}
@@ -67,31 +64,19 @@ export function SaveMusic() {
                     <span className='mr-5 flex text-wrap overflow-x-hidden'>{music.id}. {music.musica}</span>
                     <span className='mr-5'>{music.cantor}</span>
                   </div>
-                  <div className='flex items-center space-x-3 justify-between'>
-                    <button>
-                      {/* {music ? (
-                        <a href={} target="_blank" rel="noopener noreferrer" className=''>
-                          <Play className='size-4 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
-                        </a>
-                      ) : (
-                        <a href={} target="_blank">
-                          <Play className='hidden' />
-                        </a>
-                      )} */}
-                    </button>
+                  <div className='flex items-center celular:space-x-6 tablet:space-x-12 justify-between'>
                     <button
-                      onClick={() => removeMusic(music.id)}
                       className=" p-1 ml-2"
                     >
-                    {/* { ? (
-                      <a href={} target="_blank" rel="noopener noreferrer">
+                    { music.cantor ? (
+                      <a href={music.cantor} target="_blank" rel="noopener noreferrer">
                         <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
                       </a>
                     ) : (
-                      <a href={Musica.name} target="_blank">
+                      <a href={music.cantor} target="_blank">
                         <FileMusic className='hidden' />
                       </a>
-                    )} */}
+                    )}
                     </button>
                     <button
                       onClick={() => removeMusic(music.id)}
