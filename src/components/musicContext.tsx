@@ -2,15 +2,15 @@
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import { saveMusicToLocalStorage, getMusicFromLocalStorage } from './storage';
 
-interface Music {
+interface MusicaItem {
   id: string;
   musica: string;
   cantor: string;
 }
 
 interface MusicContextType {
-  musicList: Music[];
-  addMusic: (music: Music) => boolean;
+  musicList: MusicaItem[];
+  addMusic: (music: MusicaItem) => boolean;
   removeMusic: (musicId: string) => void;
   clearList: () => void;
 }
@@ -22,14 +22,14 @@ interface MusicProviderProps {
 const MusicContext = createContext<MusicContextType | undefined>(undefined);
 
 export const MusicProvider: React.FC<MusicProviderProps> = ({ children }) => {
-  const [musicList, setMusicList] = useState<Music[]>([]);
+  const [musicList, setMusicList] = useState<MusicaItem[]>([]);
 
   useEffect(() => {
     const savedMusic = getMusicFromLocalStorage();
     setMusicList(savedMusic);
   }, []);
 
-  const addMusic = (music: Music) => {
+  const addMusic = (music: MusicaItem) => {
     const isDuplicate = musicList.some(item => item.id === music.id);
     if (isDuplicate) {
       return true;
