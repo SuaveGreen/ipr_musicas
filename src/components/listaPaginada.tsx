@@ -49,7 +49,7 @@ const items: MusicaItem[] = [
 
 {id: 18, musica: 'Dê-nos Mãos Limpas', cantor: 'Filhos do Homem', linkYoutube: 'https://youtu.be/VJpN2zCMYoE'},
 
-{id: 19, musica: 'Senho Te quero', cantor: 'David Quinlan', linkYoutube: 'https://youtu.be/6dhtnEb3_NQ'},
+{id: 19, musica: 'Senhor Te quero', cantor: 'David Quinlan', linkYoutube: 'https://youtu.be/6dhtnEb3_NQ'},
 
 {id: 20, musica: 'Poder para salvar', cantor: 'Aline Barros', linkYoutube: 'https://youtu.be/gDH0tT730UA'},
 
@@ -59,7 +59,7 @@ const items: MusicaItem[] = [
 
 {id: 23, musica: 'O som da chuva', cantor: 'Ellas', linkYoutube: 'https://youtu.be/JUH0-Bpjyno'},
 
-{id: 24, musica: 'Vem esta é a hora', cantor: 'Vineyard Music', linkYoutube: 'https://youtu.be/RltQ4USrWoA'},
+{id: 24, musica: 'Vem esta a hora', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/RltQ4USrWoA'},
 
 {id: 25, musica: 'Jesus Te entronizamos', cantor: 'Marcos Góes', linkYoutube: 'https://youtu.be/rpBCO9Ck4nA?si=Fq2_r9w5_rFMRcJm'},
 
@@ -81,7 +81,7 @@ const items: MusicaItem[] = [
 
 {id: 34, musica: 'Os guerreiros se preparam', cantor: 'Harpa Cristã', linkYoutube: ''},
 
-{id: 35, musica: 'Entrega', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/z1vnYfxqIZ8'},
+{id: 35, musica: 'Te dou meu coração', cantor: 'Aline', linkYoutube: 'https://youtu.be/u-eym7Okkyc?si=Unw71uiQiLYJmicP'},
 
 {id: 36, musica: 'Em espírito e em verdade', cantor: 'Harpa Cristã', linkYoutube: 'https://youtu.be/VD37SEtzrT0'},
 
@@ -169,7 +169,7 @@ const items: MusicaItem[] = [
 
 {id: 78, musica: 'Pelos olhos da fé', cantor: '', linkYoutube: ''},
 
-{id: 79, musica: 'Vinho e pão', cantor: '', linkYoutube: ''},
+{id: 79, musica: 'Vinho e pão', cantor: 'Fernanda Brum', linkYoutube: 'https://youtu.be/fqaTkmAeusI?si=d4RWbooEK16DkBfd'},
 
 {id: 80, musica: 'Ao único', cantor: '', linkYoutube: ''},
 
@@ -201,7 +201,7 @@ const items: MusicaItem[] = [
 
 {id: 94, musica: 'Sopre espírito', cantor: '', linkYoutube: ''},
 
-{id: 95, musica: 'Essencia de adoração', cantor: '', linkYoutube: ''},
+{id: 95, musica: 'Essencia da adoração', cantor: 'David Quinlan', linkYoutube: 'https://youtu.be/ZfOpeP2SMx8?si=BldqoXJHtpuPrfP6'},
 
 {id: 96, musica: 'Aquele que está feliz', cantor: '', linkYoutube: ''},
 
@@ -255,7 +255,7 @@ const items: MusicaItem[] = [
 
 {id: 121, musica: 'Meu respirar', cantor: '', linkYoutube: ''},
 
-{id: 122, musica: 'Entrega', cantor: '', linkYoutube: ''},
+{id: 122, musica: 'Entrega', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/z1vnYfxqIZ8?si=WvQQsC-BZej3BN4l'},
 
 {id: 123, musica: 'Eu me rendo', cantor: '', linkYoutube: ''},
 
@@ -333,7 +333,7 @@ const items: MusicaItem[] = [
 
 {id: 160, musica: 'Lugar secreto', cantor: '', linkYoutube: ''},
 
-{id: 161, musica: 'Oh, quão lindo esse nome é', cantor: '', linkYoutube: ''},
+{id: 161, musica: 'Oh, quão lindo esse nome ', cantor: 'Ana Nóbrega', linkYoutube: 'https://youtu.be/mTPgy4VuXyo?si=Qs0cO2EoSWo5f_8B'},
 
 {id: 162, musica: 'Adorador por excelência', cantor: '', linkYoutube: ''},
 
@@ -369,13 +369,13 @@ const items: MusicaItem[] = [
 
 {id: 178, musica: 'Algo novo', cantor: '', linkYoutube: ''},
 
-{id: 179, musica: 'Maravilhosa graça', cantor: '', linkYoutube: ''},
+{id: 179, musica: 'Maravilhosa Graça', cantor: '', linkYoutube: 'https://youtu.be/XjZQHVjJO8E?si=xcuvQy4xgqPPmdHl'},
 
 {id: 180, musica: 'Espero por ti', cantor: '', linkYoutube: ''},
 
 {id: 181, musica: 'Quando ele vem', cantor: '', linkYoutube: ''},
 
-{id: 182, musica: 'Casa do Oleiro', cantor: '', linkYoutube: ''},
+{id: 182, musica: 'Casa do Oleiro', cantor: 'Nani Azevedo', linkYoutube: 'https://youtu.be/HfKL01mMCvs?si=-YRvin-9gep-PsJ5'},
 
 {id: 183, musica: 'Toda via me alegrarei', cantor: '', linkYoutube: ''},
 
@@ -391,11 +391,11 @@ const items: MusicaItem[] = [
 
 {id: 189, musica: 'Cantai', cantor: '', linkYoutube: ''},
 
-{id: 190, musica: 'Só tenho a ti', cantor: 'vineyard', linkYoutube: 'https://youtu.be/lRH8WF4_3VQ?si=ZjK_WKPLu4pKSEII'},
+{id: 190, musica: 'Só tenho a ti', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/lRH8WF4_3VQ?si=ZjK_WKPLu4pKSEII'},
 
 {id: 191, musica: 'Pai nosso', cantor: '', linkYoutube: ''},
 
-{id: 192, musica: 'Deus de promessa', cantor: '', linkYoutube: ''},
+{id: 192, musica: 'Deus de promessas', cantor: 'Davi Sacer', linkYoutube: 'https://youtu.be/meiqsELWxNs?si=Rx9bHLc8lRVkYiTl'},
 
 {id: 193, musica: 'Teu reino', cantor: '', linkYoutube: ''},
 
@@ -492,6 +492,10 @@ const items: MusicaItem[] = [
 {id: 239, musica: 'Único', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/0vCmIKyJPRI'},
 
 {id: 240, musica: 'Só em Ti', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/EY3cIar-JU0'},
+
+{id: 241, musica: 'Meia noite', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/hRJUcvsnqKs?si=f2ArgHwMcka_ZQgc'},
+
+{id: 242, musica: 'Isaías 9', cantor: 'Rodolfo Abrantes', linkYoutube: 'https://youtu.be/XPxUfGfWtRA?si=7R60jSM9gUy2__A0'},
 
 ];
 
