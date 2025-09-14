@@ -13,7 +13,7 @@ export interface MusicaProps {
   id: number;
   musica: string;
   cantor: string;
-  linkYoutube: string;
+  linkYoutube?: string;
   letra?: string;
 };
 

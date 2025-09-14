@@ -6,6 +6,7 @@ interface MusicaItem {
   id: string;
   musica: string;
   cantor: string;
+  letra?: string;
 }
 
 interface MusicContextType {

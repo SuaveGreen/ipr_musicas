@@ -2,7 +2,7 @@ import * as Dialog from '@radix-ui/react-dialog';
 import { useState, useEffect } from 'react';
 import { useMusicContext } from './musicContext';
 import { DragAndDrop, DndItem } from './dragAndDrop';
-import { X, Trash2, SendHorizontal, ListX, FileMusic } from 'lucide-react';
+import { X, Trash2, SendHorizontal, ListX, FileMusic, Music } from 'lucide-react';
 
 export function SaveMusic() {
   const { musicList, removeMusic, clearList } = useMusicContext();
@@ -30,6 +30,8 @@ export function SaveMusic() {
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
+
+const letra = true;
 
   return (
     <Dialog.Root>
@@ -64,26 +66,72 @@ export function SaveMusic() {
                     <span className='mr-5 flex text-wrap overflow-x-hidden'>{music.id}. {music.musica}</span>
                     <span className='mr-5'>{music.cantor}</span>
                   </div>
-                  <div className='flex items-center celular:space-x-6 tablet:space-x-12 justify-between'>
-                    <button
-                      className=" p-1 ml-2"
-                    >
-                    { music.cantor ? (
-                      <a href={music.cantor} target="_blank" rel="noopener noreferrer">
-                        <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
-                      </a>
-                    ) : (
-                      <a href={music.cantor} target="_blank">
-                        <FileMusic className='hidden' />
-                      </a>
-                    )}
-                    </button>
-                    <button
-                      onClick={() => removeMusic(music.id)}
-                      className="text-red-500 p-1"
-                    >
-                      <Trash2 />
-                    </button>
+                  <div className='flex items-center justify-between space-x-3 tablet:space-x-7 notebook:space-x-12 '>
+                    <div>
+                      <span
+                        className=" flex  justify-between space-x-4 tablet:space-x-9 notebook:space-x-14 "
+                      >
+                        <div>
+                          { letra ? (
+                            <a href={music.letra} target="_blank" rel="noopener noreferrer">
+                              <Dialog.Root>
+                                <Dialog.Trigger>
+                                    <Dialog.Title>
+                                      <Music className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
+                                  </Dialog.Title>
+                                </Dialog.Trigger>
+
+                                <Dialog.Portal>
+                                  <Dialog.Overlay>
+                                    <Dialog.Content className="fixed inset-0 tablet:inset-auto tablet:left-1/2 tablet:top-1/2 \
+                                      tablet:-translate-x-1/2 tablet:-translate-y-1/2 bg-[#181f2c] tablet:rounded-md \
+                                      flex flex-col outline-none w-full h-full p-5">
+                                        
+                                      <Dialog.Close className="absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100">
+                                        <X className="m-3" />
+                                      </Dialog.Close>
+                                        <div className='mb-10'>
+                                          Nome musica | cantor | tom
+                                        </div>
+
+                                        <span>
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quibusdam non. Incidunt fugiat sint ducimus debitis a amet quaerat consequatur at. In a ab velit provident quas libero, adipisci iure. [g]
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quibusdam non. Incidunt fugiat sint ducimus debitis a amet quaerat consequatur at. In a ab velit provident quas libero, adipisci iure. [g]
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quibusdam non. Incidunt fugiat sint ducimus debitis a amet quaerat [g] consequatur at. In a ab velit provident quas libero, adipisci iure.
+                                        </span>
+
+                                    </Dialog.Content>
+                                  </Dialog.Overlay>
+                                </Dialog.Portal>
+                              </Dialog.Root>
+                            </a>
+                          ) : (
+                            <a href={music.letra} target="_blank">
+                              <Music className='hidden' />
+                            </a>
+                          )}
+                        </div>
+                        <div>
+                          { music.cantor ? (
+                            <a href={music.cantor} target="_blank" rel="noopener noreferrer">
+                              <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
+                            </a>
+                          ) : (
+                            <a href={music.cantor} target="_blank">
+                              <FileMusic className='hidden' />
+                            </a>
+                          )}
+                        </div>
+                      </span>
+                    </div>
+                    <div>
+                      <button
+                        onClick={() => removeMusic(music.id)}
+                        className="text-red-500 p-1"
+                      >
+                        <Trash2 />
+                      </button>
+                    </div>
                   </div>
                 </div>
               )}

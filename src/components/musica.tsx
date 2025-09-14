@@ -1,10 +1,10 @@
-import { Play, FileMusic, Save, CaseLower,  } from 'lucide-react';
+import { Play, FileMusic, Save  } from 'lucide-react';
 import { useMusicContext } from './musicContext';
 import { MusicaProps } from "./types";
 import { useToast } from './ToastProvider';
 // CaseLower
 
-export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, linkYoutube, letra }) => {
+export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, linkYoutube }) => {
   const { addMusic } = useMusicContext();
   const { showToast } = useToast();
 
@@ -76,18 +76,6 @@ export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, linkYoutube,
             ) : (
               <a href={cifraclub} target="_blank">
                 <FileMusic className='hidden' />
-              </a>
-            )}
-          </div>
-
-          <div className="w-4 h-4">
-            {letra ? (
-              <a >
-                <CaseLower />
-              </a>
-            ) : (
-              <a className='hidden' >
-                <CaseLower />
               </a>
             )}
           </div>
