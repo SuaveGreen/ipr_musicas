@@ -480,24 +480,26 @@ Tiveram pra vencer'},
 
 {id: 232, musica: 'Santo para sempre', cantor: 'Marine Friesen', linkYoutube: 'https://youtu.be/Ao-vBEhBxr0'},
 
-{id: 233, musica: 'O mover do Espírito', cantor: 'Armando Filho', linkYoutube: 'https://youtu.be/M_MKgoVmglw'},
+{id: 233, musica: 'Escape', cantor: 'Renascer Praise', linkYoutube: 'https://youtu.be/vM2A2XEm9TE'},
 
-{id: 234, musica: 'Escape', cantor: 'Renascer Praise', linkYoutube: 'https://youtu.be/vM2A2XEm9TE'},
+{id: 234, musica: 'Clamo Jesus', cantor: 'Paulo Cesar Baruk', linkYoutube: 'https://youtu.be/ye9caqETC0A'},
 
 {id: 235, musica: 'Os que olham para ti', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/Kv96CEmcjVs'},
 
-{id: 236, musica: 'Clamo Jesus', cantor: 'Paulo Cesar Baruk', linkYoutube: 'https://youtu.be/ye9caqETC0A'},
+{id: 236, musica: '63', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/FXMmY2ql9Ug'},
 
-{id: 237, musica: '63', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/FXMmY2ql9Ug'},
+{id: 237, musica: 'Nosso Rei', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/QBSRPNd9LAg'},
 
-{id: 238, musica: 'Nosso Rei', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/QBSRPNd9LAg'},
+{id: 238, musica: 'Único', cantor: 'Marco Telles', linkYoutube: ''},
 
-{id: 239, musica: 'Único', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/0vCmIKyJPRI'},
+{id: 239, musica: 'Só em Ti', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/EY3cIar-JU0'},
 
-{id: 240, musica: 'Só em Ti', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/EY3cIar-JU0'},
+{id: 240, musica: 'O mover do Espírito', cantor: 'Armamdo Filho', linkYoutube: 'https://youtu.be/M_MKgoVmglw?si=SW5mEaOrEus0s3PE'},
 
 {id: 241, musica: 'Meia noite', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/hRJUcvsnqKs?si=f2ArgHwMcka_ZQgc'},
 
 {id: 242, musica: 'Isaías 9', cantor: 'Rodolfo Abrantes', linkYoutube: 'https://youtu.be/XPxUfGfWtRA?si=7R60jSM9gUy2__A0'},
+
+{id: 243, musica: 'Eternamente Deus', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/p5Ve4V3AZyY?si=z1hZoHAPrxe90qkm'},
 
 ];
