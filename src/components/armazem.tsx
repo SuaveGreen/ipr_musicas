@@ -292,7 +292,7 @@ Tiveram pra vencer'},
 
 {id: 138, musica: 'O mar se abrirá', cantor: '', linkYoutube: ''},
 
-{id: 139, musica: 'Pra sempre', cantor: '', linkYoutube: ''},
+{id: 139, musica: 'Pra sempre', cantor: 'Livres para Adorar', linkYoutube: 'https://youtu.be/bg2d4_GWwQo?si=xE2FNcH3k6PDY6JQ'},
 
 {id: 140, musica: 'Eu creio que', cantor: '', linkYoutube: ''},
 
@@ -342,7 +342,7 @@ Tiveram pra vencer'},
 
 {id: 163, musica: 'Renova-me', cantor: '', linkYoutube: ''},
 
-{id: 164, musica: 'Pra sempre', cantor: '', linkYoutube: ''},
+{id: 164, musica: 'Pra sempre', cantor: 'Fernandinho', linkYoutube: 'https://youtu.be/fAll7coh4y0?si=P9RpkRyy3WcmX5sl'},
 
 {id: 165, musica: 'E se', cantor: '', linkYoutube: ''},
 
@@ -442,7 +442,7 @@ Tiveram pra vencer'},
 
 {id: 213, musica: 'Eu só quero sua presença', cantor: '', linkYoutube: ''},
 
-{id: 214, musica: 'Nunca me deixou', cantor: '', linkYoutube: ''},
+{id: 214, musica: 'Nunca me deixou', cantor: 'Livres para Adorar', linkYoutube: 'https://youtu.be/Z_mvHa5BnvQ?si=dh4MlpIQeSJ9ctCq'},
 
 {id: 215, musica: 'Fazer morada', cantor: '', linkYoutube: ''},
 
@@ -464,7 +464,7 @@ Tiveram pra vencer'},
 
 {id: 224, musica: 'Consagração', cantor: '', linkYoutube: ''},
 
-{id: 225, musica: 'Estrela do amanhã', cantor: '', linkYoutube: ''},
+{id: 225, musica: 'Estrela do amanhã', cantor: 'Corinhos Evangélicos', linkYoutube: 'https://youtu.be/lqBCrF4Hb8U?si=_hZzGh7CQkbzpOfz'},
 
 {id: 226, musica: 'O espirito de Deus está aqui', cantor: '', linkYoutube: ''},
 
@@ -474,7 +474,7 @@ Tiveram pra vencer'},
 
 {id: 229, musica: 'Águas purificadoras', cantor: '', linkYoutube: ''},
 
-{id: 230, musica: 'Nada além do sangue', cantor: '', linkYoutube: ''},
+{id: 230, musica: 'Nada além do sangue', cantor: 'Fernandinho', linkYoutube: 'https://youtu.be/AZ46zaGpMcg?si=sSd1I44kP4kDRCPh'},
 
 {id: 231, musica: 'Nos braços do Pai', cantor: 'Diante do trono', linkYoutube: 'https://youtu.be/c_hsLDNme64'},
 
