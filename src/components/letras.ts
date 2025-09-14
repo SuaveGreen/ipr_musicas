@@ -10,13 +10,16 @@ Intro
 
 [Em]Não,não vou me importar com aquilo que [D]dizem lá [C]fora
 [Em]Vou fechar com Jesus e ser só de [D]Deus[C]
-[Em]Vou me santificar pra não me enganar com ban[F]quetes[C]
+[Em]Vou me santificar pra não me enganar 
+com ban[F]quetes[C]
 E na Babilônia dizer como [D]Daniel
 
-[G]Eu sou de Deus ,separado pro Santo ofí[D]cio[Em][C]
+[G]Eu sou de Deus ,separado pro Santo 
+ofí[D]cio[Em][C]
 [G]Não troco minha benção por [D]nada[Am][C]
 [G]Eu vou pro céu ,vou morar com [D]Jesus[Em]
-E can[Bm]tar com aque[C]les que for[G/B]ças ti[Am]veram pra ven[D]cer
+E can[Bm]tar com aque[C]les que for[G/B]ças 
+ti[Am]veram pra ven[D]cer
 
 [G]  [D]  [Em]   [C]  
 Ôuô ,ÊiÊ

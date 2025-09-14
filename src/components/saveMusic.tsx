@@ -89,7 +89,7 @@ export function SaveMusic() {
                                 <Dialog.Overlay />
                                 <Dialog.Content className="fixed inset-0 tablet:inset-auto tablet:left-1/2 tablet:top-1/2 
                                     tablet:-translate-x-1/2 tablet:-translate-y-1/2 bg-[#181f2c] tablet:rounded-md
-                                    flex outline-none w-[90%] h-[90%] p-6 justify-center overflow-y-auto scrollbar scrollbar-thumb-gray-800 flex-1">
+                                    flex outline-none w-[90%] h-[90%] celular:w-[100%] celular:h-[100%] p-6 justify-center overflow-y-auto scrollbar scrollbar-thumb-gray-800 flex-1">
                                   
                                   <Dialog.Close className="absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100">
                                     <X className="m-3" />
