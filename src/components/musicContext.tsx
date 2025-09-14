@@ -3,10 +3,10 @@ import React, { createContext, useContext, useEffect, useState, ReactNode } from
 import { saveMusicToLocalStorage, getMusicFromLocalStorage } from './storage';
 
 interface MusicaItem {
+  letra?: string;
   id: string;
   musica: string;
   cantor: string;
-  letra?: string;
 }
 
 interface MusicContextType {

@@ -5,8 +5,11 @@ export interface MusicaItem {
   cantor: string;
   linkYoutube: string;
   tom?: string;
-  letra?: string;
 };
+
+export interface Letra {
+  letra?: string;
+}
 
 // src/types.ts
 export interface MusicaProps {

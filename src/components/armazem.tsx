@@ -3,20 +3,7 @@ import { MusicaItem } from "./types";
 
 export const musicas: MusicaItem[] = [
 
-{id: 1, musica: 'Tá decidido', cantor: 'Hebrom Ministério Fortaleza de Adoração', linkYoutube: 'https://youtu.be/VekDvBDAPAw', tom: 'G', 
-letra: '`[G]` Tá decidido, eu não vou mais olhar \
-`[G]` Pra esse mundo na, na, na, não quero\
-`[G]` Tá decidido o que eu quero é orar\
-`[G]` Me consagrar ser um cristão sincero\
-Não, não `[G]` vou me importar com aquilo que dizem lá fora\
-Vou fechar `[G]` com Jesus e ser só de Deus\
-Vou me santificar `[G]` pra não me enganar com banquetes\
-E na Babilônia dizer como Daniel\
-Eu sou de Deus, `[G]` separado pro santo ofício\
-Não troco minha benção por nada\
-Eu vou pro céu, `[G]` vou morar com Jesus\
-E cantar com aqueles que forças\
-Tiveram pra vencer'},
+{id: 1, musica: 'Tá decidido', cantor: 'Hebrom Ministério Fortaleza de Adoração', linkYoutube: 'https://youtu.be/VekDvBDAPAw'},
 
 {id: 2, musica: 'Quero tanto agradecer', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/PyBybbxT5cY'},
 
@@ -464,7 +451,7 @@ Tiveram pra vencer'},
 
 {id: 224, musica: 'Consagração', cantor: '', linkYoutube: ''},
 
-{id: 225, musica: 'Estrela do amanhã', cantor: 'Corinhos Evangélicos', linkYoutube: 'https://youtu.be/lqBCrF4Hb8U?si=_hZzGh7CQkbzpOfz'},
+{id: 225, musica: 'Estrela do amanhã', cantor: 'Corinhos Evangélicos', linkYoutube: 'https://youtu.be/lqBCrF4Hb8U?si=_hZzGh7CQkbzpOfz', tom:"G"},
 
 {id: 226, musica: 'O espirito de Deus está aqui', cantor: '', linkYoutube: ''},
 

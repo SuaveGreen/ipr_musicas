@@ -15,30 +15,47 @@
   transition: opacity 0.3s, transform 0.3s;
 }
 
-td.chord { 
-  @apply text-chord font-bold; /* Aplicar classes TailwindCSS */ 
-  color: #c75151 ; /* Cor personalizada para os acordes */
-  font-weight: bold; /* Negrito para destacar os acordes */
-  padding-right: 25px;
+/* Adicione no seu CSS global (ex: styles/globals.css) ou componente com <style jsx global> */
+
+.cifra {
+  white-space: pre-wrap;
+  /* font-family: monospace; */
+  /* font-weight: 100; */
+  line-height: 1.6;
 }
 
-td.comment { 
-  color: #567131  ; /* Aplicar classes TailwindCSS para comentários  */
-  font-style: italic;
+/* Container das linhas */
+.cifra p {
+  margin-bottom: 1rem;
+  position: relative;
 }
 
-h1.text-2xl { 
-  font-style:italic;
-  color: #000000
+/* Para cada acorde entre colchetes */
+.cifra span.chord {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: #ee7829ff;
+  font-size: 0.85rem;
+  user-select: none;
 }
 
-h2.text-xl { 
-  font-style:italic;
-  color: #4e4c4c
+/* Push acordes para cima da palavra */
+.cifra span.chord::after {
+  content: attr(data-chord);
+  position: absolute;
+  top: -2.25rem;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  pointer-events: none;
 }
 
-td.lyrics {
-  padding-bottom: 20px; 
-  color: #000000;
-  /* padding-right: 50px; */
+/* Espaço entre palavras para o acorde não sobrepor */
+.cifra span.word {
+  padding-top: 0.25rem;
+  display: inline-block;
+  position: relative;
+  font-size: 0.95rem;
 }

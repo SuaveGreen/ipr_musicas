@@ -1,44 +1,76 @@
-import React, { useEffect, useRef } from 'react';
-import { ChordProParser, HtmlTableFormatter } from 'chordsheetjs';
-import { MusicaItem as MusicaItemType } from './types'; // Importa com alias opcional
+import { ChordSheetParser } from "chordsheetjs";
+import { musicas } from "./armazem";
+import { letras } from "./letras";
 
-interface Props {
-  musicaData: MusicaItemType;
+interface CifraProps {
+  musicaId: number;
 }
 
-const Cifra: React.FC<Props> = ({ musicaData }) => {
-  const { musica, cantor, tom = '', letra = '' } = musicaData;
+function formatCifraToJSX(rawHtml: string) {
+  const lines = rawHtml
+    .replace(/<[^>]*>/g, "")
+    .split("\n")
+    .filter(Boolean);
 
-  const chordProString = `
-{title: ${musica}}
-{artist: ${cantor}}
-{key: ${tom}}
-${letra}
-  `;
+  return (
+    <div className="cifra font-mono whitespace-pre-wrap leading-relaxed py-5">
+      {lines.map((line, i) => {
+        const parts = line.split(/(\[[^\]]+\])/g).filter(Boolean);
 
-  const cifraRef = useRef<HTMLDivElement>(null);
+        return (
+          <p key={i}>
+            {parts.map((part, j) => {
+              if (part.startsWith("[") && part.endsWith("]")) {
+                const chord = part.slice(1, -1);
+                return (
+                  <span
+                    key={j}
+                    className="chord"
+                    data-chord={chord}
+                    aria-label={`Acorde ${chord}`}
+                  />
+                );
+              } else {
+                return (
+                  <span key={j} className="word">
+                    {part}
+                  </span>
+                );
+              }
+            })}
+          </p>
+        );
+      })}
+    </div>
+  );
+}
 
-  useEffect(() => {
-    const parser = new ChordProParser();
-    const song = parser.parse(chordProString);
-    const formatter = new HtmlTableFormatter({
-      css: {
-        chord: 'text-red-500 font-bold', // Classe TailwindCSS para os acordes
-      }
-    });
-    const output = formatter.format(song);
+const Cifra: React.FC<CifraProps> = ({ musicaId }) => {
+  const musica = musicas.find((m) => m.id === musicaId);
+  const letra = letras[musicaId];
 
-    // Adiciona título e artista manualmente, removendo duplicação do título
-    const title = song.metadata.title ? `<h1 class="text-2xl font-bold">${song.metadata.title}</h1>` : '';
-    const artist = song.metadata.artist ? `<h2 class="text-xl italic">${song.metadata.artist}</h2>` : '';
-    const metadata = `<div class="mb-4">${title}${artist}</div>`;
+  if (!musica || !letra) {
+    return <p>Música não encontrada.</p>;
+  }
 
-    if (cifraRef.current) {
-      cifraRef.current.innerHTML = metadata + output.replace(/<h1[^>]*>(.*?)<\/h1>/g, '');
-    }
-  }, [chordProString]);
+  const parser = new ChordSheetParser();
+  const song = parser.parse(letra);
 
-  return <div ref={cifraRef} className="p-10 bg-gray-400 h-full rounded-lg font-mono text-xl shadow-md"></div>;
+  const title = song.metadata?.title || musica.musica;
+  const artist = song.metadata?.artist || musica.cantor;
+  const key = song.metadata?.key || musica.tom;
+
+  // Como o formatter padrão não ajuda, pegamos só o texto cru
+  const rawText = letra;
+
+  return (
+    <div>
+      <h2 className="text-2xl font-bold mb-2">{title}</h2>
+      {artist && <h3 className="text-lg text-[#ee7829ff] mb-1">{artist}</h3>}
+      <h4 className="mb-4 italic">Tom: {key}</h4>
+      {formatCifraToJSX(rawText)}
+    </div>
+  );
 };
 
 export default Cifra;
