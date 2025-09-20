@@ -69,7 +69,7 @@ const ListaPaginada: React.FC = () => {
             type="search" 
             id="search-input" 
             className="rounded-lg outline-none bg-transparent pl-2 tablet:px-3 tablet:w-60 w-full border-[1px]" 
-            placeholder='Digite o nome da Música'
+            placeholder='Digite o nome da Música/Cantor'
             value={searchMusic}
             onChange={(e) => {
               setSearchMusic(e.target.value);
@@ -96,7 +96,7 @@ const ListaPaginada: React.FC = () => {
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
-        <div className="flex tablet:hidden">
+        <div className="flex tablet:hidden text-nowrap text-sm tablet:text-base">
           <SaveMusic />
         </div>
       </div>

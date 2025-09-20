@@ -490,3 +490,5 @@ export const musicas: MusicaItem[] = [
 {id: 243, musica: 'Eternamente Deus', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/p5Ve4V3AZyY?si=z1hZoHAPrxe90qkm'},
 
 ];
+
+export type { MusicaItem };

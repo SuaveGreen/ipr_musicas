@@ -3,7 +3,7 @@ export interface MusicaItem {
   id: number;
   musica: string;
   cantor: string;
-  linkYoutube: string;
+  linkYoutube?: string;
   tom?: string;
 };
 
