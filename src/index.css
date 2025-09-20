@@ -28,6 +28,7 @@
 .cifra p {
   margin-bottom: 1rem;
   position: relative;
+  flex-wrap: wrap; /* permite quebrar certinho no mobile */
 }
 
 /* Para cada acorde entre colchetes */
@@ -36,7 +37,7 @@
   position: relative;
   text-align: center;
   font-weight: bold;
-  color: #ee7829ff;
+  color: #da681d;
   font-size: 0.85rem;
   user-select: none;
 }

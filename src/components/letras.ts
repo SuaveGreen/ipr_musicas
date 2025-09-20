@@ -10,12 +10,10 @@ Intro
 
 [Em]Não,não vou me importar com aquilo que [D]dizem lá [C]fora
 [Em]Vou fechar com Jesus e ser só de [D]Deus[C]
-[Em]Vou me santificar pra não me enganar 
-com ban[F]quetes[C]
+[Em]Vou me santificar pra não me enganar com ban[F]quetes[C]
 E na Babilônia dizer como [D]Daniel
 
-[G]Eu sou de Deus ,separado pro Santo 
-ofí[D]cio[Em][C]
+[G]Eu sou de Deus ,separado pro Santo ofí[D]cio[Em][C]
 [G]Não troco minha benção por [D]nada[Am][C]
 [G]Eu vou pro céu ,vou morar com [D]Jesus[Em]
 E can[Bm]tar com aque[C]les que for[G/B]ças 
@@ -50,6 +48,158 @@ Intro
 [G]  [D]  [Em]   [C]  
 é um teste
 `,
+
+  48: `
+(Intro)
+[Em]   [G]   [D9]
+
+(Primeira Parte)
+[Em] Tu és a minha por[D9]ção
+[Am7] Tu és a minha he[C]rança
+[Em] Tu és o meu so[D9]corro
+[Am7] Nos dias de tribu[C]lação
+[G] Mesmo que meus pais me dei[D9]xem
+[Am7] Mesmo que amigos me trai[C]am
+[G] Eu sei que em Seus bra[D9]ços
+[Am7] Eu encontro salva[C]ção
+
+(Refrão)
+[G] Ainda que a figuei[D9]ra
+[Am7] Não floresça
+[Am7] Ainda que a videi[C]ra
+[C] Não dê o seu fruto
+[G] Mesmo que não haja ali[D9]mento
+Nos campos
+[F] Eu me alegrarei em [C]Ti
+
+(Intro)
+[Em]   [G]   [D9]
+
+(Primeira Parte)
+[Em] Tu és a minha por[D9]ção
+[Am7] Tu és a minha he[C]rança
+[Em] Tu és o meu so[D9]corro
+[Am7] Nos dias de tribu[C]lação
+[G] Mesmo que meus pais me dei[D9]xem
+[Am7] Mesmo que amigos me trai[C]am
+[G] Eu sei que em Seus bra[D9]ços
+[Am7] Eu encontro salva[C]ção
+
+(Refrão)
+[G] Ainda que a figuei[D9]ra
+[Am7] Não floresça
+[Am7] Ainda que a videi[C]ra
+[C] Não dê o seu fruto
+[G] Mesmo que não haja ali[D9]mento
+Nos campos
+[F] Eu me alegrarei em [C]Ti
+
+(Solo)
+[Am7]    [G]  [D9]
+[Am7]    [G]  [D9]
+[Am7]    [G]  [D9]
+[Am7]    [G]  [D9]   [C]
+
+  `,
+
+  210: `
+Intro: 
+[G]  [C9]   [Em7]    [D]
+
+(Primeira Parte)
+[G] Eu vejo a gló[C9]ria do Senhor hoje a[Em7]qui [D]
+[G] A sua m[C9]ão, o seu poder sobre [Em7]mim [D]
+[G] Os céus ab[C9]ertos hoje eu vou contem[Em7]plar [D]
+O [Am]amor descer nesse lu[G/B]gar [C] [D]
+
+(Refrão)
+[G] Eu quero [C9]ver agora o [Em7]teu poder [D]
+[G] A tua gló[C9]ria inundando meu [Em7]ser [D]
+[G] Vou levantar as [C9]mãos e vou rece[Em7]ber [D]
+Vou [Am]louvando o teu [G/B]nome
+Porque [C]sinto o Senhor me to[D]car [G]
+[G]  [C9]   [Em7]    [D]
+
+(Primeira Parte)
+[G] Eu vejo a gló[C9]ria do Senhor hoje a[Em7]qui [D]
+[G] A sua m[C9]ão, o seu poder sobre [Em7]mim [D]
+[G] Os céus ab[C9]ertos hoje eu vou contem[Em7]plar [D]
+O [Am]amor descer nesse lu[G/B]gar [C]
+[G] Eu quero [C9]ver agora o [Em7]teu poder [D]
+[G] A tua gló[C9]ria inundando meu [Em7]ser [D]
+[G] Vou levantar as [C9]mãos e vou rece[Em7]ber [D]
+Vou [Am]louvando o teu [G/B]nome
+Porque [C]sinto o Senhor me to[D]car [G]
+
+[Em7]    [D]  [Em7]    [D]
+
+(Refrão)
+[G] Eu quero [C9]ver agora o [Em7]teu poder [D]
+[G] A tua gló[C9]ria inundando meu [Em7]ser [D]
+[G] Vou levantar as [C9]mãos e vou rece[Em7]ber [D]
+Vou [Am]louvando o teu [G/B]nome
+Porque [C]sinto o Senhor me to[D]car [G]
+Vou [C/E]louvando o Teu [G/B]nome
+Porque [D]sinto o Senhor me to[G]car
+Vou [Am]louvando o Teu [G/B]nome
+Porque [C]sinto o Senhor me to[D]car [G]
+
+  `,
+
+  236: `
+(Intro)
+[G]  [G9]   [G]  [G9]
+(Primeira Parte)
+[G] Tu és o Deus que sa[G7M]cia
+[C9] O deserto do coração
+[G/B] Em quem devo con[D]fiar
+[G] A Ti me apego
+[G] És o auxílio
+[G7M] E à sombra de Tuas a[C9]sas descansarei
+[G/B] Pela Tua forte [D]mão
+[G] Estou seguro
+
+(Refrão)
+[C] De todo coração
+[D4] Desejo contemplar
+[C] A Tua força
+[C] A Tua glória
+[D4] E o Teu poder
+[G] Por toda vida, bendi[C9]rei
+[Em7] Levantarei as minhas [C9]mãos
+[D4] Todo o meu ser se satisfaz em Teu amor
+[G] Com alegria canta[C9]rei
+[Em7] Uma canção de grati[C9]dão
+[G] A Tua graça é bem melhor que a vida
+
+(Ponte)
+[C] Como terra [D]seca
+[G/B] A minha alma es[C]tá
+[C] Clamo pela [D]água viva
+[G/B] Tu podes [C]dar
+[C] Mesmo quando a es[D]curidão
+[G/B] Enfim, me alcan[C]çar
+[C] Sei que não sou de [D]mim mesmo
+[G/B] Cristo é tudo o que [C]tenho
+[Em] Cristo é tudo o que [D]tenho
+[G/B] Cristo é tudo o que [C]tenho
+
+(Refrão)
+[(G)] Por toda vida, bendi[C9]rei
+[Em7] Levantarei as minhas [C9]mãos
+[D4] Todo o meu ser se satisfaz em Teu amor
+[G] Com alegria canta[C9]rei
+[Em7] Uma canção de grati[C9]dão
+[G] A Tua graça é bem melhor que a vida
+(Refrão Final)
+[G] Por toda vida, bendi[C9]rei
+[Em7] Levantarei as minhas [C9]mãos
+[D4] Todo o meu ser se satisfaz em Teu amor
+[G] Com alegria canta[C9]rei
+[Em7] Uma canção de grati[C9]dão
+[G] A Tua graça é bem melhor que a vida
+
+  `,
 
   225: `
 Intro

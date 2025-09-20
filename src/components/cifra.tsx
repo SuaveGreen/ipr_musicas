@@ -13,10 +13,22 @@ function formatCifraToJSX(rawHtml: string) {
     .filter(Boolean);
 
   return (
-    <div className="cifra font-mono whitespace-pre-wrap leading-relaxed py-5">
+    <div className="cifra font-mono whitespace-pre-wrap leading-relaxed pt-2 pb-5">
       {lines.map((line, i) => {
-        const parts = line.split(/(\[[^\]]+\])/g).filter(Boolean);
+        // 🔹 Se for seção (ex: "(Refrão)", "(Intro)")
+        if (/^\(.*\)$/.test(line.trim())) {
+          return (
+            <p
+              key={i}
+              className="text-yellow-200 text-left mt-4 mb-2 uppercase"
+            >
+              {line.replace(/[()]/g, "")}
+            </p>
+          );
+        }
 
+        // 🔹 Caso contrário, processa acordes []
+        const parts = line.split(/(\[[^\]]+\])/g).filter(Boolean);
         return (
           <p key={i}>
             {parts.map((part, j) => {
@@ -25,7 +37,7 @@ function formatCifraToJSX(rawHtml: string) {
                 return (
                   <span
                     key={j}
-                    className="chord"
+                    className="chord "
                     data-chord={chord}
                     aria-label={`Acorde ${chord}`}
                   />
@@ -66,8 +78,8 @@ const Cifra: React.FC<CifraProps> = ({ musicaId }) => {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-2">{title}</h2>
-      {artist && <h3 className="text-lg text-[#ee7829ff] mb-1">{artist}</h3>}
-      <h4 className="mb-4 italic">Tom: {key}</h4>
+      {artist && <h3 className="text-lg text-[#ee7829ff] underline">{artist}</h3>}
+      <h4 className="mb-4 italic">Tom: <span className="uppercase">{key}</span></h4>
       {formatCifraToJSX(rawText)}
     </div>
   );

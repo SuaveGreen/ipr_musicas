@@ -97,7 +97,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 47, musica: 'Te amo tanto', cantor: 'Fernanda Brum', linkYoutube: ''},
 
-{id: 48, musica: 'Ainda que a figueira', cantor: '', linkYoutube: ''},
+{id: 48, musica: 'Ainda que a Figueira', cantor: 'Fernandinho', linkYoutube: 'https://www.youtube.com/watch?v=hFwNSQVi0q0&t=1s', tom:"A"},
 
 {id: 49, musica: 'Vem espírito de Deus', cantor: 'André Valadão', linkYoutube: ''},
 
@@ -421,7 +421,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 209, musica: 'Deus de palavra', cantor: 'Voz da Verdade', linkYoutube: 'https://youtu.be/8D5xbBuuc4Q?si=hN_Wv14zj7FFq2Pm'},
 
-{id: 210, musica: 'Eu vejo a gloria', cantor: '', linkYoutube: ''},
+{id: 210, musica: 'A Tua Glória', cantor: 'Fernanda Brum', linkYoutube: 'https://www.youtube.com/watch?v=LqXPt6g95P0', tom:"g"},
 
 {id: 211, musica: 'Eu vou construir', cantor: 'Juliano Son', linkYoutube: 'https://youtu.be/1htnqzaKLP8?si=5C22WA7V0m8XYtw9'},
 
@@ -473,7 +473,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 235, musica: 'Os que olham para ti', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/Kv96CEmcjVs'},
 
-{id: 236, musica: '63', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/FXMmY2ql9Ug'},
+{id: 236, musica: '63', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/FXMmY2ql9Ug', tom:"G"},
 
 {id: 237, musica: 'Nosso Rei', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/QBSRPNd9LAg'},
 
