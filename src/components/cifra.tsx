@@ -20,7 +20,7 @@ function formatCifraToJSX(rawHtml: string) {
           return (
             <p
               key={i}
-              className="text-yellow-200 text-left mt-4 mb-2 uppercase"
+              className="text-yellow-500 text-left mt-4 mb-2 uppercase"
             >
               {line.replace(/[()]/g, "")}
             </p>
