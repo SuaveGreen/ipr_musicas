@@ -79,7 +79,7 @@ const Cifra: React.FC<CifraProps> = ({ musicaId }) => {
     <div>
       <h2 className="text-2xl font-bold mb-2 text-black">{title}</h2>
       {artist && <h3 className="text-lg text-[#ee7829ff] underline">{artist}</h3>}
-      <h4 className="mb-4 italic">Tom: <span className="uppercase">{key}</span></h4>
+      <h4 className="mb-4 italic text-black">Tom: <span className="uppercase text-[#ee7829ff]">{key}</span></h4>
       {formatCifraToJSX(rawText)}
     </div>
   );
