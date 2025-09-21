@@ -100,7 +100,7 @@ export function SaveMusic() {
                                     tablet:-translate-x-1/2 tablet:-translate-y-1/2 bg-[#FFFFFF] tablet:rounded-md
                                     flex outline-none w-[90%] h-[90%] celular:w-[100%] celular:h-[100%] p-6 justify-center overflow-y-auto scrollbar scrollbar-thumb-gray-400 flex-1">
 
-                                  <Dialog.Close className="absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100">
+                                  <Dialog.Close className="absolute right-0 top-0 p-1.5 text-black hover:text-slate-100">
                                     <X className="m-3" />
                                   </Dialog.Close>
                                     <Cifra musicaId={Number(music.id)}/>

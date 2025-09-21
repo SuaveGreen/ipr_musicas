@@ -20,7 +20,7 @@ function formatCifraToJSX(rawHtml: string) {
           return (
             <p
               key={i}
-              className="text-yellow-500 text-left mt-4 mb-2 uppercase"
+              className="text-left mt-4 mb-2 text-[#Ff0000] uppercase"
             >
               {line.replace(/[()]/g, "")}
             </p>
@@ -78,7 +78,7 @@ const Cifra: React.FC<CifraProps> = ({ musicaId }) => {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-2 text-black">{title}</h2>
-      {artist && <h3 className="text-lg text-[#ee7829ff] underline">{artist}</h3>}
+      {artist && <h3 className="text-lg font-normal text-wrap text-[#ee7829ff] underline">{artist}</h3>}
       <h4 className="mb-4 italic text-black">Tom: <span className="uppercase text-[#ee7829ff]">{key}</span></h4>
       {formatCifraToJSX(rawText)}
     </div>
