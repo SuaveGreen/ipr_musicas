@@ -25,11 +25,6 @@ export function SaveMusic() {
       const letra = letras[musicId];
       return letra !== undefined && letra.trim().length > 0;
     }
-    if (!temLetra(music.id)) {
-      return <Music className='hidden' />;
-    } else {
-      <Music />
-    }
 
   // Compartilha no WhatsApp com dia da semana e número do dia
     const shareOnWhatsApp = () => {
