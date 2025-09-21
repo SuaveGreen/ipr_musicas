@@ -29,6 +29,7 @@
   margin-bottom: 1rem;
   position: relative;
   flex-wrap: wrap; /* permite quebrar certinho no mobile */
+  color: black;
 }
 
 /* Para cada acorde entre colchetes */
