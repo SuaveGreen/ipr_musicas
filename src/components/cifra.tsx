@@ -13,14 +13,14 @@ function formatCifraToJSX(rawHtml: string) {
     .filter(Boolean);
 
   return (
-    <div className="cifra font-mono whitespace-pre-wrap leading-relaxed pt-2 pb-5">
+    <div className="cifra font-mono whitespace-pre-wrap leading-relaxed pt-2">
       {lines.map((line, i) => {
         // 🔹 Se for seção (ex: "(Refrão)", "(Intro)")
         if (/^\(.*\)$/.test(line.trim())) {
           return (
             <p
               key={i}
-              className="text-left mt-4 mb-2 text-[#Ff0000] uppercase"
+              className="text-left mb-2 uppercase obs"
             >
               {line.replace(/[()]/g, "")}
             </p>
@@ -44,7 +44,7 @@ function formatCifraToJSX(rawHtml: string) {
                 );
               } else {
                 return (
-                  <span key={j} className="word">
+                  <span key={j} className="word ">
                     {part}
                   </span>
                 );

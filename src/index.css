@@ -63,10 +63,10 @@
   color: #000000;
 }
 
-.cifra span.obs{
+.cifra p.obs{
   padding-top: 0.25rem;
   display: inline-block;
   position: relative;
   font-size: 0.95rem;
-  color: #Ff0000;
+  color: #f34242;
 }

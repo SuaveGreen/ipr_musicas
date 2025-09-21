@@ -6,8 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      colors: { chord: '#FF0000' // Cor personalizada para os acordes 
-        },
+      colors: {
+        chord: '#FF0000' // Cor personalizada para os acordes 
+      },
       keyframes: {
         bounceR: {
           '50%, 100%': { transform: 'translatex(-25%)' },
@@ -19,7 +20,7 @@ export default {
       'celular': '320px',
       // => @media (min-width: 320px) { ... }
 
-      // 'sm': '640px',
+      'tabletsm': '640px',
       // => @media (min-width: 640px) sm { ... }
 
       'tablet': '768px',
