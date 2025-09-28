@@ -115,7 +115,7 @@ Nos campos
 
   122: `
 (Intro)  
-[D]   [A/C#]   [G]   [Bm7]   [A/C#]  
+[D]   [A/C#]     [G]     [Bm7]     [A/C#]  
 
 (Primeira Parte)  
 [D] Te dou meu cora[A]ção  
