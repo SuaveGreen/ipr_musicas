@@ -475,7 +475,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 236, musica: '63', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/FXMmY2ql9Ug', tom:"G"},
 
-{id: 237, musica: 'Nosso Rei', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/QBSRPNd9LAg'},
+{id: 237, musica: 'Nosso Rei', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/QBSRPNd9LAg', tom:"B"},
 
 {id: 238, musica: 'Único', cantor: 'Marco Telles', linkYoutube: ''},
 
