@@ -245,9 +245,12 @@ Porque [C]sinto o Senhor me to[D]car [G]
   `,
 
 237: `
+(forma dos acordes no tom de G) 
+(Capotraste na 4ª casa)
+
 
 (Intro)  
-[G]      [G5(9)]  
+[G]   [G5(9)]  
 
 Canto ao Senhor  
 [G] Que me perdoou  
