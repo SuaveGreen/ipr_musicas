@@ -398,34 +398,41 @@ Que vive em nós
 
   238: `
 (Intro)
-[C7M]    [D]   [Em7]    [G9/B]
-[C7M]    [D]   [Em7]    [G]
+[A#7M]    [C]    [Dm7]    [F9/A]
+[A#7M]    [C]    [Dm7]    [F]
 
-(Verso 1)
-[C7M]Veja, a vida está tão [D]perto
-[Em7]Prove, a paz não está tão [G9/B]longe
-[C7M]Cadê as sombras que nos se[D]guiam?
-Quebrou o [Em7]cristal do nosso or[G]gulho
-[C]Ao [D]chão
-[Em7]Ao chão
+(Primeira Parte)
+[A#7M]Veja, a vida está tão [C]perto
+[Dm7]Prove, a paz não está tão [F9/A]longe
+[A#7M]Cadê as sombras que nos se[C]guiam?
+Quebrou o [Dm7]cristal do nosso or[F]gulho
+[A#]Ao [C]chão
+[Dm7]Ao chão
 
 (Refrão)
-[C9]Veja os tronos de outros [D]reis
-[Em7]Dobrados ao chão
-[G]Até meu coração se [C9]deu
-[D]Eita, tudo se ren[Em7]deu
-Quem não louva[G]rá?
-Quem não temerá o [C9]Rei? [D] [Em7] [G]
+[A#2]Veja os tronos de outros [C]reis
+[Dm7]Dobrados ao chão
+[F]Até meu coração se deu
+[A#2]Eita, tudo se ren[C]deu
+[Dm7]Quem não louva[F]rá?
+Quem não temerá o Rei?
 
 (Ponte)
-[C9]Importa que Ele [D]cresça
-[Em7]Maior que toda [G/B]sombra
-Que a gente pro[C9]jetou
-Importa que Ele [D]seja
-[Em7]O único Se[G]nhor
+[A#2]Importa que Ele [C]cresça
+[Dm7]Maior que toda [F/A]sombra
+Que a gente pro[A#2]jetou
+Importa que Ele [C]seja
+[Dm7]O único Se[F]nhor
+
+[A#2]Veja os tronos de outros [C]reis
+[Dm7]Dobrados ao chão
+[F]Até meu coração se deu
+[Gm]Eita, tudo se ren[Am]deu
+[Dm7]Quem não louva[F]rá?
+Quem não temerá o Rei?
 
 (Final)
-[C9]   [D]  [Em7]    [G]
+[A#2]    [C]    [Dm7]    [F]
 `,
 
 };
