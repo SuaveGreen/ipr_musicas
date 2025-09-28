@@ -113,7 +113,7 @@ Nos campos
 
   `,
 
-  122: '
+  122: `
 (Intro)  
 [D]   [A/C#]   [G]   [Bm7]   [A/C#]  
 
@@ -143,7 +143,7 @@ Nos campos
 [G] A teu nome dar louvor  
 [Bm7] Sentir tua alegria  
 [A/C#] Partilhando tua [D]dor  
-',
+`,
 
   210: `
 Intro: 
@@ -243,6 +243,66 @@ Porque [C]sinto o Senhor me to[D]car [G]
 [G] A Tua graça é bem melhor que a vida
 
   `,
+
+237: `
+
+(Intro)  
+[G]      [G5(9)]  
+
+Canto ao Senhor  
+[G] Que me perdoou  
+[G] Removeu a ira que estava sobre mim  
+[G] Eu confiarei  
+[G] Não há o que temer  
+[G] Esperança que traz força ao coração  
+
+(Pré-Refrão)  
+[Em7] E naquele dia en[C9]fim  
+[G] Toda terra então ve[Em7]rá  
+[C9] Toda terra então ve[C9]rá  
+
+(Refrão)  
+[G5(9)] Deus é a sal[C5(9)]vação  
+[G5(9)] O mal não irá tri[C5(9)]unfar  
+[G/B] Cantem: O nosso [D/F#]Rei  
+[G5(9)] é grande em po[Em7]der  
+[D/F#] é grande em po[G]der  
+
+[G5(9)] Verbo que encarnou  
+[G/B] O amor veio a [C5(9)]nós  
+[Em7] Em verdade e [C5(9)]graça  
+[D/F#] Vimos sua [G]luz  
+
+[G5(9)] O princípio e o fim  
+[G/B] O Filho de [C5(9)]Deus  
+[Em7] Que foi morto mas [C5(9)]agora  
+[D/F#] Vivo es[G]tá  
+
+(Pré-Refrão)  
+[Em7] E naquele dia en[C9]fim  
+[G] Toda terra então ve[Em7]rá  
+[C9] Toda terra então ve[C9]rá  
+
+(Refrão)  
+[G5(9)] Deus é a sal[C5(9)]vação  
+[G5(9)] O mal não irá tri[C5(9)]unfar  
+[G/B] Cantem: O nosso [D/F#]Rei  
+[G5(9)] é grande em po[D/F#]der  
+[G] é grande em poder  
+
+(Encerramento)  
+[Em] Graças ao Se[D/F#]nhor  
+[G] Que nos liberta[C9]ou  
+[Em] Com alegria, de co[D/F#]ração  
+[Em7] Nós celebramos o [C9]Rei  
+Que vive em nós  
+
+(Instrumental)  
+(G5(9)) (G/B) (C9)  
+(G) (C9) (G/B) (D/F#)  
+(G5(9)) (G/B) (C9)  
+(G) (C9) (G/B) (D/F#)  
+`
 
   225: `
 Intro
