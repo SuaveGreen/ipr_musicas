@@ -261,6 +261,29 @@ Mas até este dia chegar
 [F#]Te louvarei, [E]Te louva[B9]rei
   `,
 
+  225: `
+Intro
+[C]  [G]  [Am7]    [F7M]    [C]  [G]
+
+[Primeira Parte]
+[C]És a nossa estrela da [G]manhã
+[Am7]Cordeiro Santo que nos [F7M]trouxe a paz
+[C]Em Tuas mãos está todo o [G]vencer
+[Am7]Resposta a todo aquele que [F7M]clamar
+
+[Pré-Refrão]
+[E]A verdade é a Tua palavra
+[Am7]E não podes [D7]mentir
+[F7M]Por isso estamos [G]aqui [E]
+
+[Refrão]
+[A]Te louvamos, oh [D]Senhor
+[E]Pelo Teu imenso [A]amor
+[A]Manifesta o Teu perdão e [D]po__der
+[E]E assim vamos Te adorar para [A]sempre
+[A]Pra sempre, oh meu [D]Deus
+  `,
+
   236: `
 (Intro)
 [G]  [G9]   [G]  [G9]
@@ -314,29 +337,6 @@ Mas até este dia chegar
 [Em7] Uma canção de grati[C9]dão
 [G] A Tua graça é bem melhor que a vida
 
-  `,
-
-  225: `
-Intro
-[C]  [G]  [Am7]    [F7M]    [C]  [G]
-
-[Primeira Parte]
-[C]És a nossa estrela da [G]manhã
-[Am7]Cordeiro Santo que nos [F7M]trouxe a paz
-[C]Em Tuas mãos está todo o [G]vencer
-[Am7]Resposta a todo aquele que [F7M]clamar
-
-[Pré-Refrão]
-[E]A verdade é a Tua palavra
-[Am7]E não podes [D7]mentir
-[F7M]Por isso estamos [G]aqui [E]
-
-[Refrão]
-[A]Te louvamos, oh [D]Senhor
-[E]Pelo Teu imenso [A]amor
-[A]Manifesta o Teu perdão e [D]po__der
-[E]E assim vamos Te adorar para [A]sempre
-[A]Pra sempre, oh meu [D]Deus
   `,
 
   237: `
@@ -394,6 +394,38 @@ Que vive em nós
 [G5(9)]      [G/B]    [C9]
 
 [G]   [C9]    [G/B]    [D/F#]
+`,
+
+  238: `
+(Intro)
+[C7M]    [D]   [Em7]    [G9/B]
+[C7M]    [D]   [Em7]    [G]
+
+(Verso 1)
+[C7M]Veja, a vida está tão [D]perto
+[Em7]Prove, a paz não está tão [G9/B]longe
+[C7M]Cadê as sombras que nos se[D]guiam?
+Quebrou o [Em7]cristal do nosso or[G]gulho
+[C]Ao [D]chão
+[Em7]Ao chão
+
+(Refrão)
+[C9]Veja os tronos de outros [D]reis
+[Em7]Dobrados ao chão
+[G]Até meu coração se [C9]deu
+[D]Eita, tudo se ren[Em7]deu
+Quem não louva[G]rá?
+Quem não temerá o [C9]Rei? [D] [Em7] [G]
+
+(Ponte)
+[C9]Importa que Ele [D]cresça
+[Em7]Maior que toda [G/B]sombra
+Que a gente pro[C9]jetou
+Importa que Ele [D]seja
+[Em7]O único Se[G]nhor
+
+(Final)
+[C9]   [D]  [Em7]    [G]
 `,
 
 };
