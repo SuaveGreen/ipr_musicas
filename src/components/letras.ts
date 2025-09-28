@@ -114,7 +114,35 @@ Nos campos
   `,
 
   122: '
+(Intro)  
+[D]   [A/C#]   [G]   [Bm7]   [A/C#]  
 
+(Primeira Parte)  
+[D] Te dou meu cora[A]ção  
+[G] E tudo que há em mim  
+[Bm7] Entrego meu vi[A/C#]ver  
+[D] Por amor a ti, meu rei!  
+
+[A] Meus sonhos rendo a ti  
+[G] E meus direitos dou  
+[Bm7] O orgulho vou tro[A/C#]car  
+[D] Pela vida do sen[A/C#]hor  
+
+[Bm7] E eu en[A/C#]trego tudo a [D]ti  
+[G] Tudo a [D]ti  
+[Bm7] Tudo a [A]ti  
+[G] Tudo a ti  
+
+(Parte Final)  
+[D] Eu canto esta can[A]ção  
+[G] De entrega a ti, Jesus  
+[Bm7] E o que o mundo [A/C#]dá  
+[D] Eu deixo aos pés da cruz  
+
+[A] Por conhecer a ti  
+[G] A teu nome dar louvor  
+[Bm7] Sentir tua alegria  
+[A/C#] Partilhando tua [D]dor  
 ',
 
   210: `
