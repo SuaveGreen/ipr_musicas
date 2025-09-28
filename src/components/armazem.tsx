@@ -245,7 +245,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 121, musica: 'Meu respirar', cantor: '', linkYoutube: ''},
 
-{id: 122, musica: 'Entrega', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/z1vnYfxqIZ8?si=WvQQsC-BZej3BN4l'},
+{id: 122, musica: 'Entrega', cantor: 'Vineyard', linkYoutube: 'https://youtu.be/z1vnYfxqIZ8?si=WvQQsC-BZej3BN4l', tom:"D"},
 
 {id: 123, musica: 'Eu me rendo', cantor: '', linkYoutube: ''},
 
@@ -403,7 +403,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 200, musica: 'Estamos de pé', cantor: 'Marcus Salles', linkYoutube: 'https://youtu.be/4x-yrCz1D9g?si=t7ZXd60PbsC9iRHK'},
 
-{id: 201, musica: 'Jesus em tua presença', cantor: '', linkYoutube: ''},
+{id: 201, musica: 'Jesus em tua presença', cantor: 'Morada', linkYoutube: 'https://youtu.be/aMpM68cb5MY', tom:"C"},
 
 {id: 202, musica: 'Ele vem', cantor: '', linkYoutube: ''},
 
@@ -429,7 +429,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 213, musica: 'Eu só quero sua presença', cantor: '', linkYoutube: ''},
 
-{id: 214, musica: 'Nunca me deixou', cantor: 'Livres para Adorar', linkYoutube: 'https://youtu.be/Z_mvHa5BnvQ?si=dh4MlpIQeSJ9ctCq'},
+{id: 214, musica: 'Nunca me deixou', cantor: 'Livres para Adorar', linkYoutube: 'https://youtu.be/Z_mvHa5BnvQ?si=dh4MlpIQeSJ9ctCq', tom: "B"},
 
 {id: 215, musica: 'Fazer morada', cantor: '', linkYoutube: ''},
 
@@ -477,7 +477,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 237, musica: 'Nosso Rei', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/QBSRPNd9LAg', tom:"B"},
 
-{id: 238, musica: 'Único', cantor: 'Marco Telles', linkYoutube: ''},
+{id: 238, musica: 'Único', cantor: 'Marco Telles', linkYoutube: 'https://youtu.be/0vCmIKyJPRI'},
 
 {id: 239, musica: 'Só em Ti', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/EY3cIar-JU0'},
 

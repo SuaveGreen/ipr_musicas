@@ -13,7 +13,7 @@ function formatCifraToJSX(rawHtml: string) {
     .filter(Boolean);
 
   return (
-    <div className="cifra font-mono whitespace-pre-wrap leading-relaxed pt-2">
+    <div className="cifra font-mono whitespace-pre-wrap leading-relaxed pt-2 pb-4">
       {lines.map((line, i) => {
         // 🔹 Se for seção (ex: "(Refrão)", "(Intro)")
         if (/^\(.*\)$/.test(line.trim())) {
@@ -24,6 +24,17 @@ function formatCifraToJSX(rawHtml: string) {
             >
               {line.replace(/[()]/g, "")}
             </p>
+          );
+        }
+
+        if (/^\{.*\}$/.test(line.trim())) {
+          return (
+            <span
+              key={i}
+              className="text-sm font-sans italic flex text-wrap pb-3 text-gray-800 font-extralight"
+            >
+              {line.replace(/[{}]/g, "")}
+            </span>
           );
         }
 
@@ -79,7 +90,7 @@ const Cifra: React.FC<CifraProps> = ({ musicaId }) => {
     <div>
       <h2 className="text-2xl font-bold mb-2 text-black">{title}</h2>
       {artist && <h3 className="text-lg font-normal text-wrap text-[#ee7829ff] underline">{artist}</h3>}
-      <h4 className="mb-4 italic text-black">Tom: <span className="uppercase text-[#ee7829ff]">{key}</span></h4>
+      <h4 className=" italic text-black">Tom: <span className="uppercase text-[#ee7829ff]">{key}</span></h4>
       {formatCifraToJSX(rawText)}
     </div>
   );

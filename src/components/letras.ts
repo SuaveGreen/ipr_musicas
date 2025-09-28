@@ -114,36 +114,61 @@ Nos campos
   `,
 
   122: `
-(Intro)  
-[D]   [A/C#]     [G]     [Bm7]     [A/C#]  
+(Intro)
+[D] [A/C#] [G] [Bm7] [A/C#]
 
-(Primeira Parte)  
-[D] Te dou meu cora[A]ção  
-[G] E tudo que há em mim  
-[Bm7] Entrego meu vi[A/C#]ver  
-[D] Por amor a ti, meu rei!  
+(Verso 1)
+[D]Te dou meu cora[A]ção
+E tudo que há em [G]mim
+Entrego meu vi[Bm7]ver
+Por amor a [A/C#]ti, meu [D]rei!
+Meus sonhos rendo a [A]ti
+E meus direitos [G]dou
+O orgulho vou tro[Bm7]car
+Pela vida do se[A/C#]nhor [D] [A/C#]
 
-[A] Meus sonhos rendo a ti  
-[G] E meus direitos dou  
-[Bm7] O orgulho vou tro[A/C#]car  
-[D] Pela vida do sen[A/C#]hor  
+(Refrão)
+[Bm7]E eu [A/C#]entrego [D]tudo a [G]ti [D]
+[Bm7]Tudo a [A]ti [G]
 
-[Bm7] E eu en[A/C#]trego tudo a [D]ti  
-[G] Tudo a [D]ti  
-[Bm7] Tudo a [A]ti  
-[G] Tudo a ti  
-
-(Parte Final)  
-[D] Eu canto esta can[A]ção  
-[G] De entrega a ti, Jesus  
-[Bm7] E o que o mundo [A/C#]dá  
-[D] Eu deixo aos pés da cruz  
-
-[A] Por conhecer a ti  
-[G] A teu nome dar louvor  
-[Bm7] Sentir tua alegria  
-[A/C#] Partilhando tua [D]dor  
+(Verso 2)
+[D]Eu canto esta can[A]ção
+De entrega a ti, Je[G]sus
+E o que o mundo [Bm7]dá
+Eu deixo aos pés da [A/C#]cruz [D]
+Por conhecer a [A]ti
+A teu nome dar lou[G]vor
+Sentir tua ale[Bm7]gria
+Partilhando tua [A/C#]dor [D]
 `,
+
+  201: `
+{Capotraste 4° Casa}
+
+(Intro)
+[F]  [G]   [Am]   [G]  [F]  [G]  [D]
+
+(Verso 1)
+[C]Jesus em tua pre[F9]sença reu[G]nimo-nos a[C]qui
+[C]Contemplamos tua [Am7]face ren[Em7]demo-nos a [F9]ti
+[C]Pois um dia a tua [C]morte trouxe [F9]vida a todos [G]nós
+[C]E nos deu completo [C]acesso ao cora[F9]ção do [G]pai
+
+(Pré-Refrão)
+[Am7]O véu que sepa[Em7]rava já não [F9]separa [G]mais [Am7]
+[Am7]A luz que outrora a[Em7]pagada agora [F9]brilha
+[G]E cada dia [A4]brilha [A]mais
+
+(Refrão)
+[F9]Só pra te a[G]dorar [Am7]
+[F9]E fazer [G9]Teu nome [Am7]grande
+
+[F9]E te dar o [G]louvor que [Am]é de[G]vi[D]do
+[F9]Estamos [G]nós a[C]qui
+
+(Final)
+[C]   [F9]   [C]  [F9]
+  `,
 
   210: `
 Intro: 
@@ -187,6 +212,53 @@ Porque [D]sinto o Senhor me to[G]car
 Vou [Am]louvando o Teu [G/B]nome
 Porque [C]sinto o Senhor me to[D]car [G]
 
+  `,
+
+  214: `
+(Verso 1)
+[B9]Ainda que eu ande pelo vale
+Da sombra da morte
+[G#m]O Teu amor lança fora o medo
+[B9]Ainda que eu me encontre bem no meio
+Das tempestades da vida
+[G#m]Não voltarei pois perto estás
+
+(Refrão)
+[G#m]Eu não [F#]temerei [B9]o mal
+Pois o [G#m]meu Deus [F#/A#]comigo es[B]tá
+E se o [G#m]meu Deus [F#]comigo es[B9]tá
+A quem [F#]eu temerei?
+A quem [E]eu temerei?
+
+(Ponte)
+[B9]Oh não nunca me deixou
+Na tempestade ou na paz
+[G#m]Oh não nunca me deixou
+Quando bem ou quando mal
+[F#]Oh não nunca me deixou
+[E]Oh o Se[E]nhor nunca me dei[B9]xou [F#] [E]
+
+(Verso 2)
+[B9]Eu posso ver a Luz que está vindo
+Ao coração que espera
+[G#m]Incomparável gloriosa Luz
+[B9]E haverá um fim aos problemas
+Mas até este dia
+[G#m]Viverei sabendo que estás aqui
+
+(Refrão)
+[G#m]Eu não [F#]temerei [B9]o mal
+Pois o [G#m]meu Deus [F#/A#]comigo es[B]tá
+E se o [G#m]meu Deus [F#]comigo es[B9]tá
+A quem [F#]eu temerei?
+A quem [E]eu temerei?
+
+(Outro)
+[B9]Eu posso ver a Luz que está vindo
+Ao coração que espera
+[G#m]E haverá um fim aos problemas
+Mas até este dia chegar
+[F#]Te louvarei, [E]Te louva[B9]rei
   `,
 
   236: `
@@ -244,69 +316,6 @@ Porque [C]sinto o Senhor me to[D]car [G]
 
   `,
 
-237: `
-(forma dos acordes no tom de G) 
-(Capotraste na 4ª casa)
-
-
-(Intro)  
-[G]   [G5(9)]  
-
-Canto ao Senhor  
-[G] Que me perdoou  
-[G] Removeu a ira que estava sobre mim  
-[G] Eu confiarei  
-[G] Não há o que temer  
-[G] Esperança que traz força ao coração  
-
-(Pré-Refrão)  
-[Em7] E naquele dia en[C9]fim  
-[G] Toda terra então ve[Em7]rá  
-[C9] Toda terra então ve[C9]rá  
-
-(Refrão)  
-[G5(9)] Deus é a sal[C5(9)]vação  
-[G5(9)] O mal não irá tri[C5(9)]unfar  
-[G/B] Cantem: O nosso [D/F#]Rei  
-[G5(9)] é grande em po[Em7]der  
-[D/F#] é grande em po[G]der  
-
-[G5(9)] Verbo que encarnou  
-[G/B] O amor veio a [C5(9)]nós  
-[Em7] Em verdade e [C5(9)]graça  
-[D/F#] Vimos sua [G]luz  
-
-[G5(9)] O princípio e o fim  
-[G/B] O Filho de [C5(9)]Deus  
-[Em7] Que foi morto mas [C5(9)]agora  
-[D/F#] Vivo es[G]tá  
-
-(Pré-Refrão)  
-[Em7] E naquele dia en[C9]fim  
-[G] Toda terra então ve[Em7]rá  
-[C9] Toda terra então ve[C9]rá  
-
-(Refrão)  
-[G5(9)] Deus é a sal[C5(9)]vação  
-[G5(9)] O mal não irá tri[C5(9)]unfar  
-[G/B] Cantem: O nosso [D/F#]Rei  
-[G5(9)] é grande em po[D/F#]der  
-[G] é grande em poder  
-
-(Encerramento)  
-[Em] Graças ao Se[D/F#]nhor  
-[G] Que nos liberta[C9]ou  
-[Em] Com alegria, de co[D/F#]ração  
-[Em7] Nós celebramos o [C9]Rei  
-Que vive em nós  
-
-(Instrumental)  
-[G5(9)]      [G/B]      [C9]  
-[G]    [C9]     [G/B]     [D/F#]  
-[G5(9)]      [G/B]      [C9]  
-[G]    [C9]     [G/B]     [D/F#]  
-`,
-
   225: `
 Intro
 [C]  [G]  [Am7]    [F7M]    [C]  [G]
@@ -328,6 +337,63 @@ Intro
 [A]Manifesta o Teu perdão e [D]po__der
 [E]E assim vamos Te adorar para [A]sempre
 [A]Pra sempre, oh meu [D]Deus
-  `
+  `,
+
+  237: `
+{Forma dos acordes no tom de G | Capotraste na 4ª casa}
+
+(Intro)
+[G]
+
+[G5(9)]Canto ao Senhor
+[G5(9)]Que me perdoou
+[G5(9)]Removeu a ira que estava sobre mim
+[G5(9)]Eu confiarei
+[G5(9)]Não há o que temer
+[G5(9)]Esperança que traz força ao coração
+
+(Pré-Refrão)
+E [Em7]naquele [C9]dia en[G]fim
+Toda [Em7]terra en[C9]tão ve[C9]rá
+
+(Refrão)
+[G5(9)]Deus é a [C5(9)]salvação
+O [C5(9)]mal não irá [G/B]triun[D/F#]far
+[G5(9)]Cantem: [C5(9)]O nosso [G5(9)]Rei
+é [G5(9)]grande [Em7]em po[D/F#]der [G]
+
+[G5(9)]Verbo que encarnou
+O a[G/B]mor veio a [C5(9)]nós
+Em [Em7]verdade e [C5(9)]graça vimos [D/F#]sua lu[G]z
+
+[G5(9)]O princípio e o fim
+O Fi[G/B]lho de [C5(9)]Deus
+Que [Em7]foi morto mas a[C5(9)]gora vivo [D/F#]es[G]tá
+
+(Pré-Refrão)
+E [Em7]naquele [C9]dia en[G]fim
+Toda [Em7]terra en[C9]tão ve[C9]rá
+
+(Refrão)
+[G5(9)]Deus é a [C5(9)]salvação
+O [C5(9)]mal não irá [G/B]triun[D/F#]far
+[G5(9)]Cantem: [C5(9)]O nosso [G5(9)]Rei
+é [G5(9)]grande [D/F#]em po[G]der
+
+[Em]Graças ao [D/F#]Senhor
+Que [G]nos liber[C9]tou
+Com a[Em]legria, [D/F#]de coração
+Nós [Em7]celebramos o [C9]Rei
+Que vive em nós
+
+(Final)
+[G5(9)]      [G/B]    [C9]
+
+[G]   [C9]    [G/B]    [D/F#]
+
+[G5(9)]      [G/B]    [C9]
+
+[G]   [C9]    [G/B]    [D/F#]
+`,
 
 };
