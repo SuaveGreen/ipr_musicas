@@ -298,10 +298,10 @@ Canto ao Senhor
 Que vive em nós  
 
 (Instrumental)  
-[G5-9]      [G/B]      [C9]  
-[G]      [C9]      [G/B].     [D/F#]  
-[G5-9]      [G/B]      [C9]  
-[G]      [C9]      [G/B]      [D/F#]  
+[G5(9)]      [G/B]      [C9]  
+[G]    [C9]     [G/B]     [D/F#]  
+[G5(9)]      [G/B]      [C9]  
+[G]    [C9]     [G/B]     [D/F#]  
 `,
 
   225: `
