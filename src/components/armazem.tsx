@@ -27,7 +27,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 12, musica: 'Fogo de Deus', cantor: 'Adoração e Adoradores', linkYoutube: 'https://youtu.be/2uuni7Qlzdk'},
 
-{id: 13, musica: 'Deus enviou', cantor: 'Harpa Cristã', linkYoutube: 'https://youtu.be/Mwkb5To-4M0'},
+{id: 13, musica: 'Deus enviou', cantor: 'Harpa Cristã', linkYoutube: 'https://youtu.be/Mwkb5To-4M0', tom:"C"},
 
 {id: 14, musica: 'Diante de Ti', cantor: 'Quatro por um', linkYoutube: 'https://youtu.be/DYF1KjjjgGY'},
 
@@ -407,7 +407,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 202, musica: 'Ele vem', cantor: '', linkYoutube: ''},
 
-{id: 203, musica: 'Castelo forte', cantor: '', linkYoutube: ''},
+{id: 203, musica: 'Castelo forte', cantor: 'Harpa Cristã', linkYoutube: 'https://youtu.be/RGCzQjFKk2w', tom:"G"},
 
 {id: 204, musica: 'O nome de Jesus', cantor: '', linkYoutube: ''},
 
@@ -488,6 +488,8 @@ export const musicas: MusicaItem[] = [
 {id: 242, musica: 'Isaías 9', cantor: 'Rodolfo Abrantes', linkYoutube: 'https://youtu.be/XPxUfGfWtRA?si=7R60jSM9gUy2__A0'},
 
 {id: 243, musica: 'Eternamente Deus', cantor: 'Ipalpha', linkYoutube: 'https://youtu.be/p5Ve4V3AZyY?si=z1hZoHAPrxe90qkm'},
+
+{id: 244, musica: 'Gratidão', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/3SEz_SemHtk'},
 
 ];
 

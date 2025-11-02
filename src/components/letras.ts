@@ -60,6 +60,35 @@ Intro
 é um teste
 `,
 
+  13: `
+(Intro)
+[C] [F] [C] [F]
+
+Deus [C]enviou seu filho [F]amado
+Para [C]salvar, e per[G]doar
+Na [C]cruz morreu, por meus [F]pecados
+Mas [Am7]ressurgiu e [G]vivo com o Pai [F]está
+
+(Refrão)
+Porque [C]Ele vive, posso [F]crer no amanhã
+Porque [C]Ele vive, temor não [G]há
+Mas [C]eu bem sei, eu sei que a [F]minha vida
+Está nas [Am7]mãos de meu [G]Jesus, que viv[C]o e[F]stá[C]  [F]
+
+(Segunda Parte)
+E [C]quando enfim chegar a [F]hora
+Em [C]que a morte enfren[G]tarei
+Bem [C]sei então, terei [F]vitória
+Verei na [Am7]glória o meu [G]Jesus que vivo [F]está
+
+(Terceira Parte)
+Eu [C]sei que um dia o rio [F]cruzarei
+E [C]com ardor batalha[G]rei
+Verei a [C]vida triunfando [F]invicta
+Verei na [Am7]glória o meu [G]Jesus que vivo [F]está
+
+  `,
+
   48: `
 (Intro)
 [Em]   [G]   [D9]
@@ -168,6 +197,22 @@ Partilhando tua [A/C#]dor [D]
 
 (Final)
 [C]   [F9]   [C]  [F9]
+  `,
+
+  203: `
+(Intro) [G] [C] [G] [C]
+
+(Verso 1) [G]Caste[C]lo for[G]te é nosso [Em]Deus... [C]Espa[G]da e bom escudo [G]Com seu [C]poder de[G]fende os [Em]seus... [C]Em to[G]do o tran[D]se agudo [Em]Com fú[C]ria perti[G]naz... [Em]Perse[C]gue sa[Bm]tanás [G] [C] [G] [C] [Em]Com âni[C]mo cru[G]el... [Em]Astuto e [C]mui re[Bm]bel... [C]Igual [G]não há na terra
+
+(Verso 2) [G]A nossa [C]força [G]nada [Em]faz... [C]O ho[G]mem está perdido [G]Mas nosso [C]Deus so[G]corro [Em]traz... [C]No [G]Filho esco[D]lhido [Em]Sabeis [C]quem é [G]Jesus... [Em]O que [C]venceu na [Bm]cruz [G] [C] [G] [C] [Em]Senhor [C]dos altos [G]céus... [Em]E, sen[C]do o próprio [Bm]Deus... [C]Triunfa [G]na batalha
+
+(Verso 3) [G]Se nos qui[C]sessem de[G]vorar... [Em]Demô[C]nios não con[G]tados [G]Não nos po[C]diam derro[G]tar... [Em]Nem [C]ver-nos assus[D]tados [Em]O prín[C]cipe do [G]mal... [Em]Com [C]rosto in[Bm]fernal [G] [C] [G] [C] [Em]Já conde[C]nado [G]está... [Em]Venci[C]do cai[Bm]rá... [C]Por uma [G]só palavra
+
+(Verso 4) [G]Que a pa[C]lavra fi[G]cará... [Em]Sabe[C]mos com cer[G]teza [G]E nada [C]nos assus[G]tará... [Em]Com [C]Cristo por de[D]fesa [Em]Se te[C]mos de per[G]der... [Em]Os fi[C]lhos, bens, mu[Bm]lher [G] [C] [G] [C] [Em]Embora a [C]vida [G]vá... [Em]Por nós, [C]Jesus es[Bm]tá... [C]E dar-nos-[G]á seu reino
+
+(Refrão) 
+[G]Caste[C]lo for[G]te é nosso [Em]Deus... 
+[C]Caste[G]lo forte é nosso Deus [G]Caste[C]lo for[G]te é nosso [Em]Deus... [C]Caste[G]lo forte é nosso Deus
   `,
 
   210: `
@@ -434,5 +479,57 @@ Quem não temerá o Rei?
 (Final)
 [A#2]    [C]    [Dm7]    [F]
 `,
+
+  244: `
+(Intro) 
+[D] [Bm7] [A11] [G9]
+
+(Primeira Parte) 
+[D]Nada novo achei pra di[Bm7]zer então 
+Como ex[A11]pressar minha grati[G9]dão 
+[D]Posso até cantar alguma can[Bm7]ção 
+Que vai a[A11]cabar, mas a Tua [G9]não
+
+(Refrão) 
+[D]Então vou levantar 
+As [A11]minhas mãos e louvar [D/F#]
+Pois tudo o que tenho 
+É um [G9]a[Bm7]leluia, a[A11]le_luia
+
+[D]Sei que é simples pra um [A11]rei 
+Mas não tenho nada a[D/F#]lém 
+De um [G9]cora[Bm7]ção can[A11]tando 
+Ale[D]luia, ale_lu__ia
+
+(Segunda Parte) 
+[D]Em resposta a ti há uma a[Bm7]ção 
+Me render [A11]aqui em adora[G9]ção 
+[D]Em resposta a ti há uma a[Bm7]ção 
+Me render [A11]aqui em adora[G9]ção
+
+(Ponte) 
+[D]Ei, meu [A11]coração 
+Não se envergonhe, cante essa can[D/F#]ção [G9] 
+[Em7]Pois sei que [D]há fôlego nesses pulmões 
+[G]Vamos, louve ao [Bm7]Senhor [A]
+
+(Interlúdio) 
+[G] [Bm7] [A] 
+[G] [Bm7] [A] [G]
+
+(Refrão) 
+[D]Então vou levantar 
+As [Am]minhas mãos e louvar 
+[G9]Pois tudo o que [Gm]tenho 
+[D]É um aleluia, aleluia
+
+[D]Sei que é simples pra um [Am]rei 
+Mas não tenho nada a[D/F#]lém 
+De um coração can[G9]tando [Gm] 
+Aleluia, aleluia
+
+(Ponte Final) [D] [Am] [G] [Gm6] [D]Ei, meu [Am]coração Não se envergonhe, cante essa can[G]ção [Gm]Pois sei que há fôlego nesses pulmões [D]Vamos, louve ao [Am]Senhor
+
+  `,
 
 };
