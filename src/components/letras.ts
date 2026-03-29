@@ -532,4 +532,205 @@ Aleluia, aleluia
 
   `,
 
+  245: `
+(Tom: Dm)
+
+(Intro)
+[Dm] [F] [C] [Bb]
+[Dm] [F] [C] [Bb]
+
+(Primeira Parte)
+Eis-me aqui prostrado [Dm]outra vez [F]
+Pra tudo entregar, [C]pra tudo entregar [Bb]
+Le[Dm]va-me perto de ti se[F]nhor
+An[C]seio por ti, anseio por [Bb]ti
+E eu [Dm]me [F]ren[C]do [Bb]
+
+En[Dm]che-me da graça e do teu [F]amor
+Sa[C]cia meu ser, sacia meu [Bb]ser
+Ab[Dm]raça-me ouve o meu cla[F]mor
+Fa[C]la pra mim, fala pra [Bb]mim
+
+(Refrão)
+E eu me [Dm]rendo, eu me [F]rendo
+Pra co[Gm]nhecer-te mais, pra conhe[Bb]cer-te mais
+E eu me [Dm]rendo, eu me [F]rendo
+Pra co[Gm]nhecer-te mais, pra conhe[Bb]cer-te mais
+
+(Segunda Parte)
+
+[Bb]Vento de [F]poder
+[C]Sopra em meu viver
+[Gm]Faz teu querer, faz teu [Dm]querer em [C]mim
+[Bb]Como um [F]vendaval
+[C]Sobrenatural
+[Gm]Faz teu querer, faz teu [Dm]querer em [C]mim
+
+[Bb]Vento de [F]poder
+[C]Sopra em meu viver
+[Gm]Faz teu querer, faz teu [Dm]querer em [C]mim
+[Bb]Como um [F]vendaval
+[C]Sobrenatural
+[Gm]Faz teu querer, faz teu [Dm]querer em [C]mim
+
+(Solo)
+[Bb] [F] [C] [Gm] [Dm] [C]
+  `,
+
+  246: `
+O Gemini disse
+(Tom: C)
+
+(Verso 1)
+[C]Ele é a imagem do [F]Deus invisível
+[C]Ele é Senhor sobre a cri[F]ação
+
+(Pré-Refrão)
+Pois, [F]nele foram criadas
+Todas as [Am]coisas nos céus e na [G]terra
+[F]Sejam tronos, soberanias
+[Am]Poderes ou autori[G]dades
+[F]Ele é antes de tudo
+E a todos sus[Am]tenta pela Pa[G]lavra
+
+(Refrão)
+Pois, [F]foi do agrado de Deus
+Que em tudo Ele [Am]tenha
+Supre[G]macia
+
+(Interlúdio)
+[F] [Am] [F] [G]
+
+(Verso 2)
+[C]Ele é
+O resplendor da [F]glória do Pai
+[C]Ele é
+A exata ex[F]pressão do seu ser
+
+(Pré-Refrão)
+Pois, [F]nele foram criadas
+Todas as [Am]coisas nos céus e na [G]terra
+[F]Sejam tronos, soberanias
+[Am]Poderes ou autori[G]dades
+[F]Ele é antes de tudo
+E a todos sus[Am]tenta pela Pa[G]lavra
+
+(Refrão)
+Pois, [F]foi do agrado de Deus
+Que em tudo Ele [Am]tenha
+Supre[G]macia
+
+(Interlúdio)
+[F] [Am] [F] [G]
+
+(Ponte)
+[F]Já não há mais nada
+Que a [Am]Ele não pertença
+Em [F]tudo existe graça
+Can[G]temos, sim
+[F]Já não há mais nada
+Que a [Am]Ele não pertença
+Em [F]tudo existe graça
+Can[G]temos, sim
+
+(Final)
+[F] [Am] [F] [G]
+  `,
+
+  247: `
+(Tom: E)
+
+(Intro)
+[A] [E] [B/D#] [C#m]
+[A] [E] [B/D#] [C#m]
+[A] [E] [B/D#] [C#m]
+[A] [E] [B/D#] [C#m]
+
+(Verso 1)
+Para a [E]terra [B/D#]Ele volta[C#m]rá [A]
+Sobre [E]tudo, o [B/D#]filho reina[C#m]rá [A]
+Tudo [E]novo o [B/D#]noivo fa[C#m]rá [A]
+E co[E]nosco [B/D#]sempre esta[C#m]rá
+
+(Interlúdio)
+[E] [B/D#] [C#m] [A]
+[E] [B/D#] [C#m] [A]
+
+(Verso 2)
+Para a [E]terra [B/D#]Ele volta[C#m]rá [A]
+Sobre [E]tudo, o [B/D#]filho reina[C#m]rá [A]
+Tudo [E]novo o [B/D#]noivo fa[C#m]rá [A]
+E co[E]nosco [B/D#]sempre esta[C#m]rá [E] [B]
+
+(Refrão)
+[E]Jesus, her[B/D#]deiro de [C#m]tudo
+E do [A]meu cora[E]ção
+Salva[B/D#]dor sobe[C#m]rano
+Sobre [A]cada na[E]ção
+[B/D#]Tu és a i[C#m]magem do [A]Deus invi[E]sível
+[B/D#]A ex[C#m]pressão e[A]xata, teste[E]munha fi[B/D#]el [C#m]
+Ooh ooh [A]teste[E]munha [B/D#]fiel ooh [C#m]ooh
+
+(Interlúdio 2)
+[B] [C#m] [G#m]
+[A] [B] [C#m] [G#m]
+[A] [B] [C#m] [G#m]
+
+(Ponte 1)
+[A]Jesus, Filho de Deus
+[B]Jesus, Herdeiro de tudo
+[C#m]Jesus, Emanu[G#m]el
+
+(Solo)
+[A] [B] [C#m] [G#m]
+[A] [B] [C#m] [G#m]
+
+(Ponte 2)
+[F#m]Testemunha fiel
+[E]Primogênito dentre os mortos
+[C#m]Soberano dos reis da [B]terra
+[A]Jesus, Filho de Deus
+[B]Jesus, Herdeiro de tudo
+[C#m]Jesus, Emanu[G#m]el
+
+(Refrão Final)
+[B]Porque Ele [E9]vive [G#m]
+Posso [A]crer no amanhã
+Porque Ele [E9]vive [C#m]
+Temor não [D]há [B]
+Mas eu bem [E9]sei, [F#m]eu [E]sei
+Que a minha [A]vida [Am]
+Está nas [E]mãos do meu Je[B]sus
+Que vivo es[A]tá [E]
+  `,
+
+  248: `
+(Tom: A)
+
+(Intro)
+[A] [A4]
+
+(Primeira Parte)
+[A]Cantai ao Se[A4]nhor um [A]cântico [A4]novo
+[F#m7]Cantai ao Se[E]nhor [Ebm7(5-)]todas as [D7M]terras
+[C#m7]Cantai ao Se[D9]nhor, [C#m7]Bendizei o Seu [D9]nome
+[Bm7]Proclamai a [D/A]Sua sal[G]va[Em]ção
+
+[A]Anunciai [A4]entre as [A]nações [A4]as Suas obras
+[F#m]Entre todos os [E]povos as [Ebm7(5-)]Suas mara[D7M]vilhas
+[C#m7]Porque grande é o Se[D7M]nhor
+[C#m7]Mui Digno de ser lou[D7M]vado
+[Bm]Mais temível [D/A]do que falsos [G]deu[E/G#]ses
+
+(Refrão)
+[A]Glória e majes[D/A]tade es[A]tão diante [D/A]d'Ele
+[A]For[A9]ça e [E/G#]for[F#m7]mosu[G]ra no Seu san[Em]tuário
+
+(Interlúdio)
+[A] [F7M] [G9]
+
+(Final)
+[A] [A4] [A]
+  `,
+
 };
