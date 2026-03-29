@@ -491,13 +491,13 @@ export const musicas: MusicaItem[] = [
 
 {id: 244, musica: 'Gratidão', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/3SEz_SemHtk'},
 
-{id: 245, musica: 'Eu me rendo', cantor: 'Ministério Mergulhar', linkYoutube: 'https://youtu.be/_qDKrvstS9c?list=RD_qDKrvstS9c'},
+{id: 245, musica: 'Eu me rendo', cantor: 'Ministério Mergulhar', linkYoutube: 'https://youtu.be/_qDKrvstS9c?list=RD_qDKrvstS9c', tom: "Dm"},
 
-{id: 246, musica: 'Colossenses 1', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/gk7XWCMwO94?list=RDgk7XWCMwO94'},
+{id: 246, musica: 'Colossenses 1', cantor: 'Projeto Sola', linkYoutube: 'https://youtu.be/gk7XWCMwO94?list=RDgk7XWCMwO94', tom:"C"},
 
-{id: 247, musica: 'Herdeiro de Tudo', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/qpvH0VEiBxc?si=N9-Lgkux9rNrYKxR'},
+{id: 247, musica: 'Herdeiro de Tudo', cantor: 'Florianópolis House Of Prayer', linkYoutube: 'https://youtu.be/qpvH0VEiBxc?si=N9-Lgkux9rNrYKxR', tom: "E"},
 
-{id: 248, musica: 'Cantai Ao Senhor', cantor: 'Paulo César Baruk', linkYoutube: 'https://youtu.be/hCeI1mqTiEk?si=2gPRufqOFuFVQJC9'},
+{id: 248, musica: 'Cantai Ao Senhor', cantor: 'Paulo César Baruk', linkYoutube: 'https://youtu.be/hCeI1mqTiEk?si=2gPRufqOFuFVQJC9', tom: "A"},
 
 {id: 249, musica: 'Oração', cantor: 'Ministério Mergulhar', linkYoutube: 'https://youtu.be/_qDKrvstS9c?list=RD_qDKrvstS9c'},
 

@@ -533,11 +533,9 @@ Aleluia, aleluia
   `,
 
   245: `
-(Tom: Dm)
-
 (Intro)
-[Dm] [F] [C] [Bb]
-[Dm] [F] [C] [Bb]
+[Dm]   [F]  [C]  [Bb]
+[Dm]   [F]  [C]  [Bb]
 
 (Primeira Parte)
 Eis-me aqui prostrado [Dm]outra vez [F]
@@ -574,13 +572,10 @@ Pra co[Gm]nhecer-te mais, pra conhe[Bb]cer-te mais
 [Gm]Faz teu querer, faz teu [Dm]querer em [C]mim
 
 (Solo)
-[Bb] [F] [C] [Gm] [Dm] [C]
+[Bb]   [F]  [C]  [Gm]   [Dm]   [C]
   `,
 
   246: `
-O Gemini disse
-(Tom: C)
-
 (Verso 1)
 [C]Ele é a imagem do [F]Deus invisível
 [C]Ele é Senhor sobre a cri[F]ação
@@ -599,7 +594,7 @@ Que em tudo Ele [Am]tenha
 Supre[G]macia
 
 (Interlúdio)
-[F] [Am] [F] [G]
+[F]  [Am]   [F]  [G]
 
 (Verso 2)
 [C]Ele é
@@ -621,7 +616,7 @@ Que em tudo Ele [Am]tenha
 Supre[G]macia
 
 (Interlúdio)
-[F] [Am] [F] [G]
+[F]  [Am]   [F]  [G]
 
 (Ponte)
 [F]Já não há mais nada
@@ -634,17 +629,12 @@ Em [F]tudo existe graça
 Can[G]temos, sim
 
 (Final)
-[F] [Am] [F] [G]
+[F]  [Am]   [F]  [G]
   `,
 
   247: `
-(Tom: E)
-
 (Intro)
-[A] [E] [B/D#] [C#m]
-[A] [E] [B/D#] [C#m]
-[A] [E] [B/D#] [C#m]
-[A] [E] [B/D#] [C#m]
+[A]  [E]  [B/D#]     [C#m]
 
 (Verso 1)
 Para a [E]terra [B/D#]Ele volta[C#m]rá [A]
@@ -653,8 +643,8 @@ Tudo [E]novo o [B/D#]noivo fa[C#m]rá [A]
 E co[E]nosco [B/D#]sempre esta[C#m]rá
 
 (Interlúdio)
-[E] [B/D#] [C#m] [A]
-[E] [B/D#] [C#m] [A]
+[E]  [B/D#]     [C#m]    [A]
+[E]  [B/D#]     [C#m]    [A]
 
 (Verso 2)
 Para a [E]terra [B/D#]Ele volta[C#m]rá [A]
@@ -672,9 +662,9 @@ Sobre [A]cada na[E]ção
 Ooh ooh [A]teste[E]munha [B/D#]fiel ooh [C#m]ooh
 
 (Interlúdio 2)
-[B] [C#m] [G#m]
-[A] [B] [C#m] [G#m]
-[A] [B] [C#m] [G#m]
+[B]  [C#m]    [G#m]
+[A]  [B]  [C#m]    [G#m]
+[A]  [B]  [C#m]    [G#m]
 
 (Ponte 1)
 [A]Jesus, Filho de Deus
@@ -682,8 +672,8 @@ Ooh ooh [A]teste[E]munha [B/D#]fiel ooh [C#m]ooh
 [C#m]Jesus, Emanu[G#m]el
 
 (Solo)
-[A] [B] [C#m] [G#m]
-[A] [B] [C#m] [G#m]
+[A]  [B]  [C#m]    [G#m]
+[A]  [B]  [C#m]    [G#m]
 
 (Ponte 2)
 [F#m]Testemunha fiel
@@ -705,10 +695,8 @@ Que vivo es[A]tá [E]
   `,
 
   248: `
-(Tom: A)
-
 (Intro)
-[A] [A4]
+[A]  [A4]
 
 (Primeira Parte)
 [A]Cantai ao Se[A4]nhor um [A]cântico [A4]novo
@@ -724,13 +712,13 @@ Que vivo es[A]tá [E]
 
 (Refrão)
 [A]Glória e majes[D/A]tade es[A]tão diante [D/A]d'Ele
-[A]For[A9]ça e [E/G#]for[F#m7]mosu[G]ra no Seu san[Em]tuário
+[A]For[A9]ça e [E/G#]formos[F#m7]ura no [G]Seu san[Em]tuário
 
 (Interlúdio)
-[A] [F7M] [G9]
+[A]  [F7M]    [G9]
 
 (Final)
-[A] [A4] [A]
+[A]  [A4]   [A]
   `,
 
 };
