@@ -451,7 +451,7 @@ export const musicas: MusicaItem[] = [
 
 {id: 224, musica: 'Consagração', cantor: '', linkYoutube: ''},
 
-{id: 225, musica: 'Estrela do amanhã', cantor: 'Corinhos Evangélicos', linkYoutube: 'https://youtu.be/lqBCrF4Hb8U?si=_hZzGh7CQkbzpOfz', tom:"G"},
+{id: 225, musica: 'Estrela da Manhã', cantor: 'Corinhos Evangélicos', linkYoutube: 'https://youtu.be/lqBCrF4Hb8U?si=_hZzGh7CQkbzpOfz', tom:"G"},
 
 {id: 226, musica: 'O espirito de Deus está aqui', cantor: '', linkYoutube: ''},
 
