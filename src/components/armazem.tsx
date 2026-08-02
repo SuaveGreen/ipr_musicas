@@ -403,7 +403,7 @@ export const musicas: MusicaItem[] = [
 
   { id: 200, musica: 'Estamos de pé', cantor: 'Marcus Salles', linkYoutube: 'https://youtu.be/4x-yrCz1D9g?si=t7ZXd60PbsC9iRHK' },
 
-  { id: 201, musica: 'Jesus em tua presença', cantor: 'Morada', linkYoutube: 'https://youtu.be/aMpM68cb5MY', tom: "C" },
+  { id: 201, musica: 'Jesus em tua presença', cantor: 'Ministério Morada', linkYoutube: 'https://youtu.be/aMpM68cb5MY', tom: "C" },
 
   { id: 202, musica: 'Ele vem', cantor: '', linkYoutube: '' },
 
@@ -503,7 +503,7 @@ export const musicas: MusicaItem[] = [
 
   { id: 250, musica: 'Teu Povo', cantor: 'Ipalpha', linkYoutube: '' },
 
-  { id: 251, musica: 'Emaús', cantor: 'Morada', linkYoutube: '' },
+  { id: 251, musica: 'Emaús', cantor: 'Ministério Morada', linkYoutube: '' },
 
   { id: 252, musica: 'Digno é o Senhor', cantor: 'Felipe Rodrigues', linkYoutube: '' },
 
