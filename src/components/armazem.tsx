@@ -499,11 +499,11 @@ export const musicas: MusicaItem[] = [
 
   { id: 248, musica: 'Cantai Ao Senhor', cantor: 'Paulo César Baruk', linkYoutube: 'https://youtu.be/hCeI1mqTiEk?si=2gPRufqOFuFVQJC9', tom: "A" },
 
-  { id: 249, musica: 'Oração', cantor: 'Ministério Mergulhar', linkYoutube: 'https://youtu.be/_qDKrvstS9c?list=RD_qDKrvstS9c' },
+  { id: 249, musica: 'Oração, cantor: 'Ipalpha', linkYoutube: '' },
 
-  { id: 250, musica: 'Teu Povo', cantor: '', linkYoutube: '' },
+  { id: 250, musica: 'Teu Povo', cantor: 'Ipalpha', linkYoutube: '' },
 
-  { id: 251, musica: 'Emaús', cantor: '', linkYoutube: '' },
+  { id: 251, musica: 'Emaús', cantor: 'Morada', linkYoutube: '' },
 
   { id: 252, musica: 'Digno é o Senhor', cantor: 'Felipe Rodrigues', linkYoutube: '' },
 
