@@ -1,23 +1,32 @@
-import { Play, FileMusic, Save  } from 'lucide-react';
+import React from 'react';
+import { Play, FileMusic, Save } from 'lucide-react';
 import { useMusicContext } from './musicContext';
 import { MusicaProps } from "./types";
 import { useToast } from './ToastProvider';
-// CaseLower
 
-export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, linkYoutube }) => {
+export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, cifra, linkYoutube }) => {
   const { addMusic } = useMusicContext();
   const { showToast } = useToast();
 
   const handleSaveMusic = () => {
-    const isDuplicate = addMusic({ id: id.toString(), musica, cantor });
+    const isDuplicate = addMusic({
+      id: id.toString(),
+      musica: musica || '',
+      cantor: cantor || '',
+      cifra: cifra || ''
+    });
+
     if (isDuplicate) {
-      showToast("Falha", `A música "${musica}" já está salva.`);
+      showToast("Falha", `A música "${musica || 'Sem título'}" já está salva.`);
     } else {
-      showToast("Sucesso", `A música "${musica}" foi salva.`);
+      showToast("Sucesso", `A música "${musica || 'Sem título'}" foi salva.`);
     }
   };
 
-  function transformarString(input: string): string {
+  function transformarString(input: string | undefined | null): string {
+    // Proteção contra valores nulos/indefinidos
+    if (!input) return "";
+
     const stringSemEspacos = input.replace(/ /g, "-");
     const stringSemAcento = stringSemEspacos.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const stringSemSimbolos = stringSemAcento.replace(/[?!,.]/g, ""); // Remove ! e ?
@@ -28,8 +37,7 @@ export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, linkYoutube 
 
   const singer = transformarString(cantor);
   const musicName = transformarString(musica);
-  const cifraclub = `https://www.cifraclub.com.br/${singer}/${musicName}/`;
-  // const cifra = '';
+  const cifraclub = singer && musicName ? `https://www.cifraclub.com.br/${singer}/${musicName}/` : "#";
 
   return (
     <div className='mt-3 text-nowrap text-left '>
@@ -38,18 +46,18 @@ export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, linkYoutube 
           {id}
         </div>
         <div className='hidden tablet:block overflow-hidden hover:cursor-default'>
-          {musica}
+          {musica || "Sem Título"}
         </div>
         <div className='flex space-x-5 tablet:hidden overflow-hidden'>
           <div>
             {id}
           </div>
           <div>
-            {musica}
+            {musica || "Sem Título"}
           </div>
         </div>
         <div className="overflow-hidden hover:cursor-default">
-          {cantor}
+          {cantor || "Desconhecido"}
         </div>
         <div className='grid grid-cols-4 tablet:ml-[3vh] tablet:gap-[8vh] notebook:gap-[20vh]'>
           <div className="mt-[2px] w-4 h-4">
@@ -59,7 +67,7 @@ export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, linkYoutube 
           </div>
           <div className="mt-1 w-4 h-4">
             {linkYoutube ? (
-              <a href={linkYoutube} target="_blank" rel="noopener noreferrer" className=''>
+              <a href={linkYoutube} target="_blank" rel="noopener noreferrer">
                 <Play className='size-4 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
               </a>
             ) : (
@@ -69,7 +77,7 @@ export const Musica: React.FC<MusicaProps> = ({ id, musica, cantor, linkYoutube 
             )}
           </div>
           <div className="w-4 h-4">
-            {cantor ? (
+            {cantor && singer && musicName ? (
               <a href={cifraclub} target="_blank" rel="noopener noreferrer">
                 <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
               </a>

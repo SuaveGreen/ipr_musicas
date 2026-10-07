@@ -1,8 +1,9 @@
 // src/types.ts
 export interface MusicaItem {
-  id: number;
+  id: number | string;
   musica: string;
   cantor: string;
+  cifra?: string;        // 👈 Certifique-se de ter essa linha
   linkYoutube?: string;
   tom?: string;
 };
@@ -13,11 +14,12 @@ export interface Letra {
 
 // src/types.ts
 export interface MusicaProps {
-  id: number;
+  id: number | string;
   musica: string;
   cantor: string;
+  cifra?: string;        // 👈 Certifique-se de ter essa linha
   linkYoutube?: string;
-  letra?: string;
+  tom?: string;
 };
 
 export interface Music {

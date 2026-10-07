@@ -5,12 +5,7 @@ import { DragAndDrop, DndItem } from './dragAndDrop';
 import { X, Trash2, SendHorizontal, ListX, Music } from 'lucide-react';
 import Cifra from './cifra';
 import { letras } from './letras';
-// import { MusicaItem } from './types';
-// import Cifra from './cifra';
-// import { letras } from './letras';
-// import LetraDialog from './letraDialog';
-// import { musicas } from './armazem';
-// import { Musica } from './musica';
+import { MusicaItem } from './types';
 
 export function SaveMusic() {
   const { musicList, removeMusic, clearList } = useMusicContext();
@@ -21,19 +16,20 @@ export function SaveMusic() {
     setOrderedList(musicList);
   }, [musicList]);
 
-    function temLetra(musicId: number): boolean {
-      const letra = letras[musicId];
-      return letra !== undefined && letra.trim().length > 0;
-    }
+  // Atualizado para verificar se existe cifra no objeto do Supabase OU no ficheiro letras.ts
+  function temLetra(music: MusicaItem): boolean {
+    const temNoBanco = Boolean(music.cifra && music.cifra.trim().length > 0);
+    const temNoLocal = Boolean(letras[Number(music.id)] && letras[Number(music.id)].trim().length > 0);
+    return temNoBanco || temNoLocal;
+  }
 
   // Compartilha no WhatsApp com dia da semana e número do dia
-    const shareOnWhatsApp = () => {
+  const shareOnWhatsApp = () => {
     const hoje = new Date();
     const diasSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
     const nomeDia = diasSemana[hoje.getDay()];
     const numeroDia = hoje.getDate();
-    const header = `Hinos de hoje: *${nomeDia} ${numeroDia}*`
-    
+    const header = `Hinos de hoje: *${nomeDia} ${numeroDia}*`;
 
     const linhas = orderedList.map(
       (music) =>
@@ -67,7 +63,7 @@ export function SaveMusic() {
             <span className="text-lg text-slate-300">Músicas salvas</span>
           </div>
 
-          <div className="overflow-y-auto  scrollbar scrollbar-thumb-gray-800 flex-1">
+          <div className="overflow-y-auto scrollbar scrollbar-thumb-gray-800 flex-1">
             <DragAndDrop
               items={orderedList.map((music) => ({ id: music.id, data: music } as DndItem<typeof music>))}
               onReorder={(newItems) => setOrderedList(newItems.map((i) => i.data))}
@@ -79,14 +75,9 @@ export function SaveMusic() {
                   </div>
                   <div className='flex items-center justify-between space-x-3 tablet:space-x-7 notebook:space-x-12 '>
                     <div>
-                      <span
-                        className=" flex  justify-between space-x-4 tablet:space-x-9 notebook:space-x-14 "
-                      >
-                        {/* <div>
-                          <LetraDialog key={Number(music.id)} music={musicItem} />
-                        </div> */}
+                      <span className="flex justify-around space-x-4 tablet:space-x-9 notebook:space-x-14">
                         <div>
-                          { temLetra(Number(music.id)) ? (
+                          {temLetra(music) ? (
                             <Dialog.Root>
                               <Dialog.Trigger asChild>
                                 <Music
@@ -103,9 +94,9 @@ export function SaveMusic() {
                                   <Dialog.Close className="absolute right-0 top-0 p-1.5 text-black hover:text-opacity-60">
                                     <X className="m-3" />
                                   </Dialog.Close>
-                                    <div className='w-full colums-1 tablet:columns-2 notebook:columns-1 notebook:flex notebook:justify-center'>
-                                      <Cifra musicaId={Number(music.id)}/>
-                                    </div>
+                                  <div className='w-full columns-1 tablet:columns-2 notebook:columns-1 notebook:flex notebook:justify-center'>
+                                    <Cifra musicaId={Number(music.id)} />
+                                  </div>
                                 </Dialog.Content>
                               </Dialog.Portal>
                             </Dialog.Root>
@@ -113,17 +104,6 @@ export function SaveMusic() {
                             <Music className='hidden' />
                           )}
                         </div>
-                        {/* <div>
-                          { music.cantor ? (
-                            <a href={music.cantor} target="_blank" rel="noopener noreferrer">
-                              <FileMusic className='size-5 hover:scale-125 hover:cursor-pointer hover:animate-pulse duration-300' />
-                            </a>
-                          ) : (
-                            <a href={music.cantor} target="_blank">
-                              <FileMusic className='hidden' />
-                            </a>
-                          )}
-                        </div> */}
                       </span>
                     </div>
                     <div>
